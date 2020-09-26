@@ -38,13 +38,12 @@ p {
     overflow: hidden;
     border: 1px solid rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);
-}
-.tabtop{
     position: sticky;
     top: 0;
     width: 100%;
-    box-shadow: 0 0 16px black;
+    box-shadow: 0 0 4px black;
 }
+
 .active{
     background-color: rgb(220, 220, 220)
 }
