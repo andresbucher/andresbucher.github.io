@@ -1,0 +1,98 @@
+/* main style */
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;700&display=swap');
+html{
+    font-size: 18px;
+    font-family: 'Martel', serif;
+}
+body{
+    margin: 0;
+}
+.main {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+}
+h1 {
+    color: black; 
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+}
+h3 {
+    text-align: center;
+}
+p {
+    word-break: break-word;
+}   
+.tablinks {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(245, 245, 245);
+    color: black;
+    text-decoration: none;
+}
+.tablinks:hover {
+    background-color: rgb(220, 220, 220);
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+}
+.tabtop{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 16px black;
+}
+.active{
+    background-color: rgb(220, 220, 220)
+}
+
+/* mineral.html und mineralfilter.html style */
+
+.flex-container{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.mineralbox {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    text-align:left;
+    width: 400px;
+ }
+.tabelle-spalte {
+    vertical-align: top;
+    width: 50px;
+ }
+.tabelle-spalte img{
+    width: 100%;
+}
+table{
+    white-space: normal;
+    text-align: left;
+    height: 560px;
+    word-break: normal;
+    margin: auto;
+    border-collapse: collapse;
+}
+h2 input.search-input {
+    width: 200px;
+    float: right;
+}
+tr:nth-child(even){
+    background-color: rgb(220, 220, 220)
+}
+/* mineraltest.html style */
+
+.quizblock{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.quizquestion{
+    text-align: left;
+}
