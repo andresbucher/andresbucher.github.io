@@ -1,33 +1,88 @@
-/* main style */
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main */
+
 html{
     font-size: 18px;
     font-family: 'Martel', serif;
+    word-break: break-word;
 }
 body{
-    margin: 0;
+    line-height: 1.5;
+    background-color: rgb(250, 255, 255);
 }
 .main {
     text-align: center;
-    margin: 0 auto;
     width: 100%;
     display: inline-block;
 }
 h1 {
-    color: black; 
-    background-color: rgb(245, 245, 245);
-    margin: 0px;
+    background-color: rgb(243, 245, 245);
+    font-size: 35px;
 }
+h2 {
+    font-size: 25px;
+    padding-top: 18px;
+}
+
 h3 {
-    text-align: center;
-}
+    font-size: 20px;
+} 
 p {
     word-break: break-word;
 }   
 .tablinks {
     display: inline-block;
     padding: 8px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(243, 245, 245);
     color: black;
     text-decoration: none;
 }
@@ -36,63 +91,130 @@ p {
 }
 .tab {
     overflow: hidden;
-    border: 1px solid rgb(245, 245, 245);
-    background-color: rgb(245, 245, 245);
+    border: 1px solid lightgray;
+    background-color: rgb(243, 245, 245);
     position: sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 0 4px black;
 }
 
-.active{
-    background-color: rgb(220, 220, 220)
+.active {
+    background-color: rgb(220, 220, 220);
 }
 
-/* mineral.html und mineralfilter.html style */
+/* Index */
 
+.hidebuttonindex {
+    background-color: rgb(250, 253, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    font-size: 25px;
+    box-sizing: border-box;
+} 
+
+.härteskalahead{
+    padding-right: 10px;
+    font-weight: bold;
+}
+/* mineral.html und mineralfilter.html style */
+.content-wrapper {
+    max-width: 1200px;
+    overflow: auto;
+    margin: auto;
+}
 .flex-container{
     overflow-x: auto;
+    overflow-y: hidden;
     white-space: nowrap;
 }
 .mineralbox {
     display: inline-block;
     width: 20%;
-    padding: 10px;
     margin: 10px;
     border: 1px solid #aaa;
     text-align:left;
     width: 400px;
  }
-.tabelle-spalte {
+.tabelle-zeile {
     vertical-align: top;
-    width: 50px;
+    width: 100%;
  }
-.tabelle-spalte img{
+.tabelle-zeile img{
     width: 100%;
 }
 table{
     white-space: normal;
     text-align: left;
-    height: 560px;
     word-break: normal;
     margin: auto;
     border-collapse: collapse;
+    border: 1px solid black;
+    height: 500px;
 }
 h2 input.search-input {
     width: 200px;
-    float: right;
 }
-tr:nth-child(even){
-    background-color: rgb(220, 220, 220)
+tr {
+    border-bottom: 1px solid black;
 }
 
 /* mineraltest.html style */
+.quiz {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .quizblock{
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
+    padding: 5px;
 }
-.quizquestion{
-    text-align: left;
+
+.mineralfilter-table {
+    max-height: 560px;
+    height: auto;
+}
+
+.mineralfilter-table-wrapper {
+    overflow: scroll;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Handy style */
+@media only screen and (max-width: 600px){
+    html{
+        width: 100%;
+    }
+	h1 {
+		font-size: 25px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.hidebuttonindex {
+		font-size: 25px;
+		border-left: 0;
+		border-right: 0;
+    }
+    .hideinfoindex {
+        margin: 5%;
+    }
+	h3 {
+		font-size: 24px;
+	}
+	p {
+		font-size: 18px;
+	}
+	.tab {
+		font-size: 20px;
+    }
+    .mineralbox {
+        width: 350px;
+    }
+
 }
