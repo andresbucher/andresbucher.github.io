@@ -74,7 +74,6 @@ h2 {
     font-size: 25px;
     padding-top: 18px;
 }
-
 h3 {
     font-size: 20px;
 } 
@@ -82,7 +81,6 @@ p {
     word-break: break-word;
     color: #ccbfd8;
 }
-
 a {
     color: #ccbfd8;
 }
@@ -104,7 +102,6 @@ a {
     width: 100%;
     box-shadow: 0 0 4px black;
 }
-
 .active {
     text-decoration: underline;
     color: #dfdfdf;
@@ -123,7 +120,6 @@ a {
     font-size: 25px;
     box-sizing: border-box;
 } 
-
 .härteskalahead{
     padding-right: 10px;
     font-weight: bold;
@@ -146,11 +142,11 @@ a {
     border: 1px solid #aaa;
     text-align:left;
     width: 400px;
- }
+}
 .tabelle-zeile {
     vertical-align: top;
     width: 100%;
- }
+}
 .tabelle-zeile img{
     width: 100%;
 }
@@ -183,12 +179,10 @@ tr {
     text-align: left;
     padding: 5px;
 }
-
 .mineralfilter-table {
     max-height: 560px;
     height: auto;
 }
-
 .mineralfilter-table-wrapper {
     overflow: scroll;
     max-width: 1200px;
@@ -226,5 +220,4 @@ tr {
     .mineralbox {
         width: 350px;
     }
-
 }
