@@ -55,7 +55,7 @@ function mineraltest() {
             document.getElementById("AuswertungText").innerHTML ="Du hast einen Score von: " + sum + " bekommen, somit bist du ein Topas! Menschen wie du besitzen ein großes Einfühlvermögen, umgeben sich gerne mit Freunden, gelten als sensible Seelen und sind meist auch noch verträumt, gutmütig und verletzlich. Der Topas ist der perfekte Edelstein für dich, denn er gilt als Heilstein für das Herz. Romantik und Sensibilität werden in der Kraft des Steins vereint und helfen, damit Beziehungsängste, Unverständnis und negative Gefühle verschwinden. Zudem soll der rosafarbene Edelstein seinem Träger mehr Aufgeschlossenheit und Vertrauen verleihen.";
         }
         else if(sum < 100){
-            document.getElementById("AuswertungText").innerHTML ="Sie haben gecheatet, Resultat somit ungültig";
+            document.getElementById("AuswertungText").innerHTML ="Sie haben gecheatet, das Resultat ist somit ungültig";
         }
     }
     else{
