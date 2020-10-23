@@ -57,8 +57,8 @@ html{
 }
 body{
     line-height: 1.5;
-    background-color: #222;
-    color: #ccbfd8;
+    background-color: #343a40;
+    color: #FFFFFF;
 }
 .main {
     text-align: center;
@@ -66,9 +66,9 @@ body{
     display: inline-block;
 }
 h1 {
-    background-color: #18171a;
+    background-color: #2B77D4;
     font-size: 35px;
-    color: #b994da;;
+    color: #FFFFFF;
 }
 h2 {
     font-size: 25px;
@@ -79,15 +79,15 @@ h3 {
 } 
 p {
     word-break: break-word;
-    color: #ccbfd8;
+    color: #FFFFFF;
 }
 a {
-    color: #ccbfd8;
+    color: #FFFFFF;
 }
 .tablinks {
     display: inline-block;
     padding: 8px;
-    background-color: #502150;
+    background-color: #2B77D4;
     color: #ffffff;
     text-decoration: none;
 }
@@ -96,7 +96,7 @@ a {
 }
 .tab {
     overflow: hidden;
-    background-color: #502150;
+    background-color: #2B77D4;
     position: sticky;
     top: 0;
     width: 100%;
@@ -111,8 +111,8 @@ a {
 /* Index */
 
 .hidebuttonindex {
-    background-color: #18171a;
-    color: #b994da;
+    background-color: #343a40;
+    color: #FFFFFF;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -164,7 +164,7 @@ h2 input.search-input {
 }
 tr {
     border-bottom: 1px solid black;
-    color: #ccbfd8;
+    color: #FFFFFF;
 }
 
 /* mineraltest.html style */
