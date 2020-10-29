@@ -166,13 +166,19 @@ tr {
     border-bottom: 1px solid black;
     color: #FFFFFF;
 }
+tr:nth-child(even) {background: #40454b};
+td {
+    vertical-align: middle;
+}
+.tablehead {
+    background-color: #2B77D4;
+}
 
 /* mineraltest.html style */
 .quiz {
     max-width: 1000px;
     margin: 0 auto;
 }
-
 .quizblock{
     margin-left: 10%;
     margin-right: 10%;
@@ -187,6 +193,7 @@ tr {
     overflow: scroll;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 /* Handy style */
