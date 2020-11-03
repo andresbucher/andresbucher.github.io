@@ -49,7 +49,6 @@ table {
 }
 
 /* Main */
-
 html{
     font-size: 18px;
     font-family: 'Martel', serif;
@@ -105,11 +104,20 @@ a {
 .active {
     text-decoration: underline;
     color: #dfdfdf;
-
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.share img {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    margin: 0;
 }
 
 /* Index */
-
 .hidebuttonindex {
     background-color: #343a40;
     color: #FFFFFF;
