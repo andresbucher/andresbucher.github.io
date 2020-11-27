@@ -53,6 +53,8 @@ html{
     font-size: 18px;
     font-family: 'Martel', serif;
     word-break: break-word;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
 }
 body{
     line-height: 1.5;
@@ -83,23 +85,29 @@ p {
 a {
     color: #FFFFFF;
 }
+.tab {
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    white-space: nowrap;
+    box-shadow: 0 0 4px black ;
+    background-color: #2B77D4;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.tab::-webkit-scrollbar {
+    display: none;
+}
 .tablinks {
     display: inline-block;
     padding: 8px;
-    background-color: #2B77D4;
+    background: none;
     color: #ffffff;
     text-decoration: none;
 }
 .tablinks:hover {
     background-color: #53b8cc;
-}
-.tab {
-    overflow: hidden;
-    background-color: #2B77D4;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 0 4px black;
 }
 .active {
     text-decoration: underline;
@@ -140,9 +148,9 @@ a {
     margin: auto;
 }
 .flex-container{
-    overflow-x: auto;
+    overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+    white-space: nowrap; 
 }
 .mineralbox {
     display: inline-block;
@@ -215,7 +223,7 @@ td {
 	}
 	h2 {
 		font-size: 25px;
-	}
+    }
 	.hidebuttonindex {
 		font-size: 25px;
 		border-left: 0;
@@ -232,6 +240,10 @@ td {
 	}
 	.tab {
 		font-size: 20px;
+    }
+    .flex-container{    
+        -ms-overflow-style: none;
+        scrollbar-width: none;
     }
     .mineralbox {
         width: 350px;
