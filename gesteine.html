@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <meta name="content-language" content="de">
         <meta name="viewport" content="width=device-width, inital-scale=1">
+        <script src="./slideshow.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178996330-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -19,6 +20,7 @@
     <body>
         <div class="main">
             <h1>Mineralien & Gesteinssammlung</h1>
+            <div class="tab-wrapper">
                 <div class="tab">
                     <a class="tablinks" href="./index.html">Home</a>
                     <a class="tablinks" href="./mineralien.html">Mineralien</a>
@@ -26,6 +28,7 @@
                     <a class="tablinks" href="./mineraltest.html">Mineraltest</a>
                     <a class="tablinks" href="./mineralfilter.html">Mineralsuche</a>
                 </div>
+            </div>
             <div class="content-wrapper">
                 <details>
                     <summary class="hidebuttonindex">Was sind Gesteine?</summary>
@@ -38,457 +41,413 @@
                 </details>
                 <details>
                     <summary class="hidebuttonindex">Karbonatgesteine/silikatische Fossile</summary>
-                    <div class="flex-container">
-                        <div class="mineralbox">
+                    <div id="slideshow1" class="slideshow-container">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">1 / 9</div>
+                            <img src="./Gesteine/Amonit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Amonit.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>fossile Amonitschale</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td> versteinerte (kalkhaltige) Amonitschale</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">2 / 9</div>
+                            <img src="./Gesteine/Sandrose.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Sandrose.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Sandrose</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Kombination von Sandkörner und Gips/Baryt führt zu dieser Form</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">3 / 9</div>
+                            <img src="./Gesteine/Biomikrit1.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Biomikrit1.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Biomikrit (Glovelier, JU)</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Diverse Muscheln in Kalkschlammiger Matrix</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">4 / 9</div>
+                            <img src="./Gesteine/Holzfossil.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Holzfossil.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Holzfossil</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>verkieseltes Holzstück</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">5 / 9</div>
+                            <img src="./Gesteine/Koralle.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Koralle.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Biolitith</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Versteinerte Korallenrückstände</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">6 / 9</div>
+                            <img src="./Gesteine/Muschel.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Muschel.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Versteinerte Muschel</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Versteinerte Muschel mit deutlichem Schalenmuster und Form</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">7 / 9</div>
+                            <img src="./Gesteine/Muschelkern.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Muschelkern.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Versteinerter Muschelkern (Glovelier, JU)</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Versteinerte Muschelkern (Streng genommen silikatischer Natur)</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">8 / 9</div>
+                            <img src="./Gesteine/Kalkstein.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Kalkstein.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Kalkstein</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>-</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">9 / 9</div>
+                            <img src="./Gesteine/Perlmutt.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Perlmutt.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Perlmutt Muschelschale</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Schimmernde Farben wegen Interferenz des Lichtes auf Oberfläche</td>
                                 </tr>
                             </table> 
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,slideshow1)">&#10095;</a>
                     </div>
                 </details>
                 <details>
                     <summary class="hidebuttonindex">Gesteine vulkanischer Herkunft</summary>
-                    <div class="flex-container">
-                        <div class="mineralbox">
+                    <div id="slideshow2" class="slideshow-container">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="./Gesteine/BasaltLava.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/BasaltLava.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Basaltischer Pyroklast</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Blasenartige Struktur, dadurch sehr leicht</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="./Gesteine/RhyolithLava.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/RhyolithLava.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Rhyolitischer Pyroklast</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Blasige Struktur, dadurch sehr leicht</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="./Gesteine/Schneeflocken Obsidian.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Schneeflocken Obsidian.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Schneeflocken Obsidian</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Rekristallierte mikrokristalline Minerale bilden Schneeflockenmuster</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="./Gesteine/Obsidian.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Obsidian.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Obsidian</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Vulkanglas</td>
                                 </tr>
                             </table> 
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,slideshow2)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,slideshow2)">&#10095;</a>
                     </div>
                 </details>
                 <details>
                     <summary class="hidebuttonindex">Plutonite</summary>
-                    <div class="flex-container">
-                        <div class="mineralbox">
+                    <div id="slideshow3" class="slideshow-container">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="./Gesteine/Monzonit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Monzonit.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Monzonit</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Biotit, Plagioklas und Orthoklas</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="./Gesteine/Granit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Granit.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Granit</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Biotit, Plagioklas, Orthoklas und Quarz</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="./Gesteine/Syenit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Syenit.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Syenit</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Vorallem Orthoklas(Orange) und Plagioklas</td>
                                 </tr>
                             </table> 
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,slideshow3)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,slideshow3)">&#10095;</a>
                     </div>
                 </details>
                 <details>
                     <summary class="hidebuttonindex">Metamorphite</summary>
-                    <div class="flex-container">
-                        <div class="mineralbox">
+                    <div id="slideshow4" class="slideshow-container">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="./Gesteine/Unakit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Unakit.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Unakit</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Epidot(grün), Quarz und Orthoklas(Rot), durch Metasomatose umgewandelt. 
                                         Lieblingstein von Andi</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="./Mineralien/Almandin.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Mineralien/Almandin.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Granat-Schiefer (Val Bedretto, Ti)</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Almandin (Granat, Rot/Braun), Biotit (schwarz), Muskovit (Silber). Durch hochgradige Metamorphose umgewandelt</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="./Mineralien/Kyanit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Mineralien/Kyanit.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Kyanit-Schiefer (Pizzo Forno, Ti)</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Kyanit (Blau), Biotit (schwarz), Muskovit (Silber), Staurolith (Braun, Schwarz)</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="./Gesteine/MetaBiomikrit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/MetaBiomikrit.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Metamorpher Biomikrit (Wirzweli, NW)</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Kleine Muscheln, die metamorphisiert wurden durch Tektonische Prozesse</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="./Gesteine/SerpentinSchiefer.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/SerpentinSchiefer.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Serpentinschiefer / Serpentinit</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Peridotit, welcher umgewandelt wurde. Schieferartige Struktur</td>
                                 </tr>
                             </table> 
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,slideshow4)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,slideshow4)">&#10095;</a>
                     </div>
                 </details>
                 <details>
                     <summary class="hidebuttonindex">Diverse / Unbekannte</summary>
-                    <div class="flex-container">
-                        <div class="mineralbox">
+                    <div id="slideshow5" class="slideshow-container">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="./Gesteine/Nagelfluh.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Nagelfluh.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>Nagelfluh</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Kieselsteine in sandiger Matrix</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="./Gesteine/Unk1.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/Unk1.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>-</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Extraklasten in roter Matrix</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="./Gesteine/unk2.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/unk2.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>-</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Grünliche Farbe, wahrscheinlich Metasomatosierter Feldspat</td>
                                 </tr>
                             </table> 
                         </div>
-                        <div class="mineralbox">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="./Gesteine/unk3.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                             <table>
                                 <tr class="tabelle-zeile">
-                                    <th colspan="2">
-                                        <img src="./Gesteine/unk3.jpg">
-                                    </th>
-                                </tr> 
-                                <tr class="tabelle-zeile">
-                                    <th>Gesteinsname:</th>
+                                    <td>Gesteinsname:</td>
                                     <td>-</td>
                                 </tr>
                                 <tr class="tabelle-zeile">
-                                    <th>Erkennbare Dinge:</th>
+                                    <td>Erkennbare Dinge:</td>
                                     <td>Hellorange Extraklasten in schwarzer Matrix, wahrscheinlich toniger/siltiger Herkunft</td>
                                 </tr>
                             </table> 
                         </div>
+                        <a class="prev" onclick="plusSlides(-1,slideshow5)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,slideshow5)">&#10095;</a>
                     </div>
                 </details>
             </div>
         </div>
+        <script>
+            var slideshow1 = document.getElementById("slideshow1");
+            slideshow1.currentSlideIndex = 1;
+            showSlides(slideshow1.currentSlideIndex, slideshow1);
+    
+            var slideshow2 = document.getElementById("slideshow2");
+            slideshow2.currentSlideIndex = 1;
+            showSlides(slideshow2.currentSlideIndex, slideshow2);
+    
+            var slideshow3 = document.getElementById("slideshow3");
+            slideshow3.currentSlideIndex = 1;
+            showSlides(slideshow3.currentSlideIndex, slideshow3);
+    
+            var slideshow4 = document.getElementById("slideshow4");
+            slideshow4.currentSlideIndex = 1;
+            showSlides(slideshow4.currentSlideIndex, slideshow4);
+    
+            var slideshow5 = document.getElementById("slideshow5");
+            slideshow5.currentSlideIndex = 1;
+            showSlides(slideshow5.currentSlideIndex, slideshow5);
+        </script>
         <footer class="footer">
             <hr>
             <div class="share">

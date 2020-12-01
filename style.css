@@ -85,16 +85,25 @@ p {
 a {
     color: #FFFFFF;
 }
+.tab-wrapper {
+    width: 100%;
+    height: auto;
+    position: sticky;
+}
+
 .tab {
-    overflow-x: scroll;
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translateZ(0);
+    overflow-x: auto;
     -ms-overflow-style: none;
     scrollbar-width: none; 
     white-space: nowrap;
-    box-shadow: 0 0 4px black ;
-    background-color: #2B77D4;
-    position: sticky;
+    position: relative;
+    box-shadow: 0 0 2px black;
     top: 0;
     width: 100%;
+    background-color: #2B77D4;
 }
 .tab::-webkit-scrollbar {
     display: none;
@@ -137,10 +146,16 @@ a {
     font-size: 25px;
     box-sizing: border-box;
 } 
-.härteskalahead{
-    padding-right: 10px;
+.härteskalahead {
+    padding-left: 30px;
     font-weight: bold;
 }
+.wholetable {
+    padding-left: 10px;
+    margin: auto;
+    width: 500px;
+}
+
 /* mineral.html und mineralfilter.html style */
 .content-wrapper {
     max-width: 1200px;
@@ -148,46 +163,130 @@ a {
     margin: auto;
 }
 .flex-container{
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap; 
 }
-.mineralbox {
-    display: inline-block;
-    width: 20%;
-    margin: 10px;
-    border: 1px solid #aaa;
-    text-align:left;
-    width: 400px;
+.mineralbox{
+    display: none;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.616);
+    border: 1px solid black;
+    transition: 0.3s;
 }
+
+
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 200px;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 200px;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
 .tabelle-zeile {
     vertical-align: top;
-    width: 100%;
 }
-.tabelle-zeile img{
-    width: 100%;
-}
-table{
+table {
     white-space: normal;
     text-align: left;
     word-break: normal;
-    margin: auto;
     border-collapse: collapse;
     border: 1px solid black;
-}
-.wholetable {
-    height: 500px;
+    height: 200px;
+    width: 100%;
+
 }
 h2 input.search-input {
     width: 200px;
 }
 tr {
     border-bottom: 1px solid black;
-    color: #FFFFFF;
 }
 tr:nth-child(even) {background: #40454b};
+tr:last-child
+td:nth-child(1) { 
+    width: 40%; 
+}
+td:nth-child(2) { 
+    width: 60%; 
+} 
 td {
     vertical-align: middle;
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: solid black 1px;
+}
+th {
+    padding-left: 35px;
 }
 .tablehead {
     background-color: #2B77D4;
@@ -226,6 +325,29 @@ td {
 	h2 {
 		font-size: 25px;
     }
+
+    .tab-wrapper::before, .tab-wrapper::after {
+        content: '';
+        pointer-events: none;
+        z-index: 8;
+        width: 125px;
+        height: 52px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .tab-wrapper::before {
+        background: linear-gradient(to right, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 100%);
+        right: 0;
+    }
+    .tab-wrapper::after {
+        background: linear-gradient(to left, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 100%);
+        left: 0;
+    }
+    .tab {
+        box-shadow: 0 0 1px black;
+    }
+
 	.hidebuttonindex {
 		font-size: 25px;
 		border-left: 0;
@@ -243,11 +365,26 @@ td {
 	.tab {
 		font-size: 20px;
     }
+    .wholetable {
+        height: 500px;
+    }
     .flex-container{    
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
     .mineralbox {
-        width: 350px;
+        width: 90%;
+        height: 100%;
+    }
+    table{
+        height: 300px;
+    }
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev {
+        left: 0;
+        border-radius: 3px 0 0 3px;
     }
 }

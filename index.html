@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <meta name="content-language" content="de">
         <meta name="viewport" content="width=device-width, inital-scale=1">
+        <script src="./slideshow.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178996330-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -19,6 +20,7 @@
     <body>
         <div class="main">
             <h1>Mineralien & Gesteinssammlung</h1>
+            <div class="tab-wrapper">
                 <div class="tab">
                     <a class="tablinks active" href="./index.html">Home</a>
                     <a class="tablinks" href="./mineralien.html">Mineralien</a>
@@ -26,111 +28,100 @@
                     <a class="tablinks" href="./mineraltest.html">Mineraltest</a>
                     <a class="tablinks" href="./mineralfilter.html">Mineralsuche</a>
                 </div>
+            </div>
             <div class="content-wrapper">
-                <details class="dropinfoindex">
+                <details>
                     <summary class="hidebuttonindex">Zuletzt hinzugefügte Stücke</summary>
-                    <p class="hideinfoindex">
-                        <div class="flex-container">
-                            <div class="mineralbox">
-                                <table>
-                                    <tr class="tabelle-zeile">
-                                        <th colspan="2">
-                                            <img src="./Mineralien/Vanadinit.jpg">
-                                        </th>
-                                    </tr> 
-                                    <tr class="tabelle-zeile">
-                                        <th>Name:</th>
-                                        <td>Vanadinit</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Formel:</th>
-                                        <td>Pb5[Cl|(VO4)3]</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Härte:</th>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Allg. Info:</th>
-                                        <td>
-                                            Dient als Vanadiumquelle für Stahllegierungen
-                                        </td>
-                                    </tr>
-                                </table> 
-                            </div>
-                            <div class="mineralbox">
-                                <table>
-                                    <tr class="tabelle-zeile">
-                                        <th colspan="2">
-                                            <img src="./Mineralien/Purpurit.jpg">
-                                        </th>
-                                    </tr> 
-                                    <tr class="tabelle-zeile">
-                                        <th>Name:</th>
-                                        <td>Purpurit</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Formel:</th>
-                                        <td>Mn3+[PO4]</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Härte:</th>
-                                        <td>4 - 4.5</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Allg. Info:</th>
-                                        <td>
-                                            sehr schöne Strichfarbe (Purpurrot)
-                                        </td>
-                                    </tr>
-                                </table> 
-                            </div>
-                            <div class="mineralbox">
-                                <table>
-                                    <tr class="tabelle-zeile">
-                                        <th colspan="2">
-                                            <img src="./Mineralien/Beryll.jpg">
-                                        </th>
-                                    </tr> 
-                                    <tr class="tabelle-zeile">
-                                        <th>Name:</th>
-                                        <td>Beryll</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Formel:</th>
-                                        <td>Al2Be3[Si6O18]</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Härte:</th>
-                                        <td>7.5 - 8</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Allg. Info:</th>
-                                        <td>
-                                            Farbe wegen Chrom- und Vanadium-Einschlüsse. Edelstein (Smaragd/Aquamarin)
-                                        </td>
-                                    </tr>
-                                </table> 
-                            </div>
-                            <div class="mineralbox">
-                                <table>
-                                    <tr class="tabelle-zeile">
-                                        <th colspan="2">
-                                            <img src="./Gesteine/Amonit.jpg">
-                                        </th>
-                                    </tr> 
-                                    <tr class="tabelle-zeile">
-                                        <th>Gesteinsname:</th>
-                                        <td>fossile Amonitschale</td>
-                                    </tr>
-                                    <tr class="tabelle-zeile">
-                                        <th>Erkennbare Dinge:</th>
-                                        <td> versteinerte (kalkhaltige) Amonitschale</td>
-                                    </tr>
-                                </table> 
-                            </div>
+                    <div id="slideshow1" class="slideshow-container">
+                        <div class="mineralbox fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="./Mineralien/Vanadinit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
+                            <table>
+                                <tr class="tabelle-zeile">
+                                    <td>Name:</td>
+                                    <td>Vanadinit</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Formel:</td>
+                                    <td>Pb5[Cl|(VO4)3]</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Härte:</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Allg. Info:</td>
+                                    <td>
+                                        Dient als Vanadiumquelle für Stahllegierungen
+                                    </td>
+                                </tr>
+                            </table> 
                         </div>
-                    </p>
+                        <div class="mineralbox fade">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="./Mineralien/Purpurit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
+                            <table>
+                                <tr class="tabelle-zeile">
+                                    <td>Name:</td>
+                                    <td>Purpurit</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Formel:</td>
+                                    <td>Mn3+[PO4]</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Härte:</td>
+                                    <td>4 - 4.5</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Allg. Info:</td>
+                                    <td>
+                                        sehr schöne Strichfarbe (Purpurrot)
+                                    </td>
+                                </tr>
+                            </table> 
+                        </div>
+                        <div class="mineralbox fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="./Mineralien/Beryll.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
+                            <table>
+                                <tr class="tabelle-zeile">
+                                    <td>Name:</td>
+                                    <td>Beryll</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Formel:</td>
+                                    <td>Al2Be3[Si6O18]</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Härte:</td>
+                                    <td>7.5 - 8</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Allg. Info:</td>
+                                    <td>
+                                        Farbe wegen Chrom- und Vanadium-Einschlüsse. Edelstein (Smaragd/Aquamarin)
+                                    </td>
+                                </tr>
+                            </table> 
+                        </div>
+                        <div class="mineralbox fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="./Gesteine/Amonit.jpg", style="width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
+                            <table>
+                                <tr class="tabelle-zeile">
+                                    <td>Gesteinsname:</td>
+                                    <td>fossile Amonitschale</td>
+                                </tr>
+                                <tr class="tabelle-zeile">
+                                    <td>Erkennbare Dinge:</td>
+                                    <td> versteinerte (kalkhaltige) Amonitschale</td>
+                                </tr>
+                            </table> 
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1,slideshow1)">&#10095;</a>
+                    </div>
                 </details>
                 <details class="dropinfoindex">
                     <summary class="hidebuttonindex">Allgemeine Infos meiner Mineralien & Gesteinssammlung</summary>
@@ -229,6 +220,11 @@
                 </table>
             </div>
         </div>
+        <script>
+            var slideshow1 = document.getElementById("slideshow1");
+            slideshow1.currentSlideIndex = 1;
+            showSlides(slideshow1.currentSlideIndex, slideshow1);
+        </script>
         <footer class="footer">
             <hr>
             <div class="share">
