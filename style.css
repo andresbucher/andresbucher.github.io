@@ -270,24 +270,24 @@ h2 input.search-input {
 tr {
     border-bottom: 1px solid black;
 }
-tr:nth-child(even) {background: #40454b};
-tr:last-child
-td:nth-child(1) { 
-    width: 40%; 
-}
-td:nth-child(2) { 
-    width: 60%; 
-} 
 td {
     vertical-align: middle;
     text-align: left;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
     border: solid black 1px;
 }
 th {
-    padding-left: 35px;
+    padding-left: 25px;
 }
+tr:nth-child(even) {background: #40454b};
+td:nth-child(1) { 
+    width: 30%; 
+}
+td:nth-child(2) { 
+    width: 70%; 
+} 
+
 .tablehead {
     background-color: #2B77D4;
 }
