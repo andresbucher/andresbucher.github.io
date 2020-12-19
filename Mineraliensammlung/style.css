@@ -58,7 +58,7 @@ html{
 }
 body{
     line-height: 1.5;
-    background-color: #343a40;
+    background-color:#545457; 
     color: #FFFFFF;
 }
 .main {
@@ -67,7 +67,7 @@ body{
     display: inline-block;
 }
 h1 {
-    background-color: #2B77D4;
+    background-color: #04b3d5;
     font-size: 35px;
     color: #FFFFFF;
 }
@@ -103,7 +103,7 @@ a {
     box-shadow: 0 0 2px black;
     top: 0;
     width: 100%;
-    background-color: #2B77D4;
+    background-color: #04b3d5;
 }
 .tab::-webkit-scrollbar {
     display: none;
@@ -137,7 +137,7 @@ a {
 /* Index */
 
 .hidebuttonindex {
-    background-color: #343a40;
+    background-color: #545457;
     color: #FFFFFF;
     cursor: pointer;
     padding: 18px;
@@ -289,7 +289,7 @@ td:nth-child(2) {
 } 
 
 .tablehead {
-    background-color: #2B77D4;
+    background-color: #04b3d5;
 }
 
 /* mineraltest.html style */

@@ -2,10 +2,11 @@
 <html>
     <head>
         <title>Website von Andrés Bucher</title>
-        <link href="./css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>      
+        <link href="./css/bootstrap.min.css" rel="stylesheet">     
         <script src="/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script> 
+        <link href="./mainstyle.css" rel="stylesheet">
         <link rel="shortcut icon" type="image/jpg" href="Icons/favicon.ico">
         <meta charset="utf-8">
         <meta name="content-language" content="de">
@@ -19,13 +20,38 @@
             gtag('config', 'UA-178996330-1');
         </script>
     </head>
-    <body>
-        <div class="main">
-            <h1>Mineralien & Gesteinssammlung</h1>
-            <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe> 
+    <body style = "background-color: #FFFFF0">
+        <div class="main pt-2 pb-2" style="background-color: #92a2c6;">
+            <h1 class="display-5">Andrés Felipe Bucher</h1>
+        </div>
+        <div class="card-deck pt-4 pr-4 pl-4 pd-4">
+            <div class="card" style="background-color: #b2bac9">
+                <img class="card-img-top" src="./Icons/mineraliensammlung.JPG" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title" style="text-align: center;">Hier gehts zur Mineraliensammlung</h4>
+                  <a href="https://andresbucher.github.io/Mineraliensammlung/index.html" class="btn stretched-link"></a>
+                </div>
+            </div>
+
+            <div class="card" style="background-color: #b2bac9">
+                <img class="card-img-top" src="./Icons/worldofcooking.JPG" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">World of Cooking</h4>
+                  <p class="card-text">Hier gehts zur Kochinspiration</p>
+                  <a href="#" class="btn stretched-link"></a>
+                </div>
+            </div>
         </div>
     </body>
-    <footer>
-        
+    <footer class="footer">
+        <hr>
+        <div class="share">
+            <p>Teile diese Seite</p>
+            <a href="https://wa.me/?text=andresbucher.github.io/" target="_blank"><img src="./Icons/whatsapp.png" alt="WhatsApp"></a>
+            <a href="http://twitter.com/share?text=&amp;url=andresbucher.github.io/" target="_blank"><img src="./Icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://andresbucher.github.io//" target="_blank"><img src="./Icons/facebook.png" alt="Facebook"></a>
+        </div>
+        <p>Copyright © 2020 All rights reserved.</p>
+        <a href="mailto:andresbucher@gmx.net" target="_blank">Kontakt</a>
     </footer>
 </html>
