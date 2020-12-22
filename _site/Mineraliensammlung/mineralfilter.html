@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mineralien & Gesteinssammlung</title>
+        <link href="./style.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/jpg" href="../Icons/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="content-language" content="de">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178996330-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-178996330-1');
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Mineralien & Gesteinssammlung</h1>
+            <div class="tab-wrapper">
+                <div class="tab">
+                    <a class="tablinks" href="./index.html">Home</a>
+                    <a class="tablinks" href="./mineralien.html">Mineralien</a>
+                    <a class="tablinks" href="./gesteine.html">Gesteine</a>
+                    <a class="tablinks" href="./mineraltest.html">Mineraltest</a>
+                    <a class="tablinks active" href="./mineralfilter.html">Mineralsuche</a>
+                </div>
+            </div>
+            <div>
+                <h2>Datenbank meiner Minerale (unbestimmte nicht vorhanden)</h2>
+                <h2>
+                    <input type="search" placeholder="Search..." class="form-control search-input" data-table="mineralfilter-table"/>
+                </h2>
+                <div class="mineralfilter-table-wrapper">
+                    <table class="mineralfilter-table">
+                        <thead class="mineralfiltertab">
+                            <tr class="tablehead">
+                                <th>Name</th>
+                                <th>Farbe</th>
+                                <th>Härte</th>
+                                <th>Strichfarbe</th>
+                                <th>Glanz</th>
+                                <th>Weiteres</th>
+                            </tr>
+                        </thead>
+                        <tbody class="mineralfiltertab">
+                            <tr>
+                                <td>Talk</td>
+                                <td>Weiss, Grün</td>
+                                <td>1</td>
+                                <td>Weiss</td>
+                                <td>Fettglanz</td>
+                                <td>"Speckstein"</td>
+                            </tr>
+                            <tr>
+                                <td>Graphit</td>
+                                <td>Grau bis Schwarz</td>
+                                <td>1-2</td>
+                                <td>grauschwarz</td>
+                                <td>Metallglanz, Mattglanz</td>
+                                <td>reines Element</td>
+                            </tr>
+                            <tr>
+                                <td>Covellin</td>
+                                <td>Blau</td>
+                                <td>1.5-2</td>
+                                <td>Schwarz</td>
+                                <td>Metallglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Selenit</td>
+                                <td>Weiss, Gelb, Grau</td>
+                                <td>2</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Fettglanz, Seidenglanz</td>
+                                <td>Faserige Gipsvariation</td>
+                            </tr>
+                            <tr>
+                                <td>Schwefel</td>
+                                <td>Gelb</td>
+                                <td>2</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Reines Element</td>
+                            </tr>
+                            <tr>
+                                <td>Seraphinit</td>
+                                <td>Blau, Weiss</td>
+                                <td>2-2.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Federstruktur</td>
+                            </tr>
+                            <tr>
+                                <td>Bernstein</td>
+                                <td>Hellorange bis Braun</td>
+                                <td>2-2.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Fettglanz</td>
+                                <td>organisches Mineral</td>
+                            </tr>
+                            <tr>
+                                <td>Alaun</td>
+                                <td>Weiss</td>
+                                <td>2-2.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>künstliches Mineral</td>
+                            </tr>
+                            <tr>
+                                <td>Chrysokoll</td>
+                                <td>Türkis</td>
+                                <td>2-4</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Fettglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Muskovit</td>
+                                <td>Weiss, Silber</td>
+                                <td>2.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Perlmuttglanz</td>
+                                <td>Glimmer</td>
+                            </tr>
+                            <tr>
+                                <td>Fuchsit</td>
+                                <td>Grün</td>
+                                <td>2.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Perlmuttglanz</td>
+                                <td>Muskovitvariation mit Chrom</td>
+                            </tr>
+                            <tr>
+                                <td>Galenit</td>
+                                <td>Silber, Grau</td>
+                                <td>2.5-3</td>
+                                <td>Grau</td>
+                                <td>Metallglanz</td>
+                                <td>Blei-erz</td>
+                            </tr>
+                            <tr>
+                                <td>Serpentin</td>
+                                <td>Grün</td>
+                                <td>2.5-4</td>
+                                <td>Weiss</td>
+                                <td>Fettglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Kalzit</td>
+                                <td>Weiss bis gelblich</td>
+                                <td>3</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Vanadinit</td>
+                                <td>Rot, Orange, Braun</td>
+                                <td>3</td>
+                                <td>Weiss, Blassgelb, </td>
+                                <td>Diamantglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Howlith</td>
+                                <td>Weiss</td>
+                                <td>3 - 3.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Schmuckstein</td>
+                            </tr>
+                            <tr>
+                                <td>Malachit</td>
+                                <td>Grün</td>
+                                <td>3.5-4</td>
+                                <td>Grün</td>
+                                <td>Diamantglanz, Glasglanz, Seidenglanz</td>
+                                <td>Erz</td>
+                            </tr>
+                            <tr>
+                                <td>Azurit</td>
+                                <td>Blau</td>
+                                <td>3.5-4</td>
+                                <td>Blau</td>
+                                <td>Glasglanz, Fettglanz</td>
+                                <td>Erz</td>
+                            </tr>
+                            <tr>
+                                <td>Sphalerit</td>
+                                <td>farblos, rot, grün, gelb, braun, schwarz</td>
+                                <td>3.5-4</td>
+                                <td>gelblich bis dunkelbraun</td>
+                                <td>Diamantglanz</td>
+                                <td>Erz</td>
+                            </tr>
+                            <tr>
+                                <td>Aragonit</td>
+                                <td>Braun, Orange, Gelb</td>
+                                <td>3.5-4</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Fettglanz</td>
+                                <td>Kalzit-Variation</td>
+                            </tr>
+                            <tr>
+                                <td>Chalkopyrit</td>
+                                <td>Gold</td>
+                                <td>3.5-4</td>
+                                <td>Grün-schwarz</td>
+                                <td>Metallglanz</td>
+                                <td>Erz</td>
+                            </tr>
+                            <tr>
+                                <td>Magnesit</td>
+                                <td>gelblich</td>
+                                <td>3.5-4.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Karbonat</td>
+                            </tr>
+                            <tr>
+                                <td>Fluorit</td>
+                                <td>Gelb, Orange, Rot, Grün, Blau, Violett, Schwarz, Diverse, Farblos</td>
+                                <td>4</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td>Purpurit</td>
+                                <td>Purpur, Violett</td>
+                                <td>4 - 4.5</td>
+                                <td>Purpur, Violett</td>
+                                <td>Seidenglanz</td>
+                                <td>Eignet sich als Farbstoff</td>
+                            </tr>
+                            <tr>
+                                <td>Kyanit</td>
+                                <td>Blau, Weiss</td>
+                                <td>4.5 oder 6.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Matt</td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td>Siderit</td>
+                                <td>Rotbraun</td>
+                                <td>4-4.5</td>
+                                <td>Weissgelb</td>
+                                <td>Glasglanz, Matt</td>
+                                <td>Karbonat</td>
+                            </tr>
+                            <tr>
+                                <td>Hämatit</td>
+                                <td>Grau, Schwarz, Rot, Braun</td>
+                                <td>5.0-6</td>
+                                <td>Grau, Rot, Braun</td>
+                                <td>Metallglanz</td>
+                                <td>Erz</td>
+                            </tr>
+                            <tr>
+                                <td>Aktinolith</td>
+                                <td>Grün, Schwarz</td>
+                                <td>5.0-6</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Amphibol</td>
+                            </tr>
+                            <tr>
+                                <td>Smaragdit</td>
+                                <td>Grün, Schwarz</td>
+                                <td>5.0-6</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Amphibol</td>
+                            </tr>
+                            <tr>
+                                <td>Sodalith</td>
+                                <td>Blau</td>
+                                <td>5.5-6</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Fettglanz</td>
+                                <td>Teil von Lapislazuli</td>
+                            </tr>
+                            <tr>
+                                <td>Rhodonit</td>
+                                <td>rosa bis rot</td>
+                                <td>5.5-6.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Perlmuttglanz</td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td>Hedenbergit</td>
+                                <td>dunkelgrün, braungrün</td>
+                                <td>5.5-6.5</td>
+                                <td>Weiss, Grau</td>
+                                <td>Glasglanz</td>
+                                <td>Pyroxen</td>
+                            </tr>
+                            <tr>
+                                <td>Magnetit</td>
+                                <td>Schwarz</td>
+                                <td>5.5-6.5</td>
+                                <td>Schwarz</td>
+                                <td>Metallglanz</td>
+                                <td>Erz, Magnetisch</td>
+                            </tr>
+                            <tr>
+                                <td>Tigereisen</td>
+                                <td>Silber, Braun, Rot</td>
+                                <td>5.5-7</td>
+                                <td>divers</td>
+                                <td>Metallglanz, Glasglanz</td>
+                                <td>streng genommen ein Gestein</td>
+                            </tr>
+                            <tr>
+                                <td>Sodalith</td>
+                                <td>Blau</td>
+                                <td>5.5-6</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Fettglanz</td>
+                                <td>Teil von Lapislazuli</td>
+                            </tr>
+                            <tr>
+                                <td>Pyrit</td>
+                                <td>Gold-Silber</td>
+                                <td>6-6.5</td>
+                                <td>Schwarz</td>
+                                <td>Metallglanz</td>
+                                <td>Erz</td>
+                            </tr>
+                            <tr>
+                                <td>Piemontit</td>
+                                <td>Rötlichbraun bis tiefrot</td>
+                                <td>6-6.5</td>
+                                <td>rötlich</td>
+                                <td>Glasglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Labradorit</td>
+                                <td>Blau, Grün</td>
+                                <td>6-6.5</td>
+                                <td>Weiss</td>
+                                <td>Metallglanz</td>
+                                <td>schimmernd</td>
+                            </tr>
+                            <tr>
+                                <td>Mangandendrit</td>
+                                <td>Rotbraun</td>
+                                <td>6</td>
+                                <td>Schwarz</td>
+                                <td>Metallglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Orthoklas</td>
+                                <td>Weiss</td>
+                                <td>6-6.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Adular</td>
+                                <td>Weiss, Farblos</td>
+                                <td>6-6.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Hoch-T Variante von Orthoklas</td>
+                            </tr>
+                            <tr>
+                                <td>Jade</td>
+                                <td>Gelb, Orange, Rot, Grün, Blau, Violett, Schwarz, Diverse, Farblos</td>
+                                <td>6-6.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Schmuckstein</td>
+                            </tr>
+                            <tr>
+                                <td>Karneol</td>
+                                <td>Braun</td>
+                                <td>6.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Feuerstein</td>
+                                <td>Grau, Braun</td>
+                                <td>6.5</td>
+                                <td>Weiss</td>
+                                <td>Mattglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Andradit</td>
+                                <td>Grün, Silber, Braun</td>
+                                <td>6.5-7</td>
+                                <td>Weiss</td>
+                                <td>Diamantglanz</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Jaspis</td>
+                                <td>Schwarz, Weiss, Violett, Rosa, Gelb, Orange, Rot, Braun, Diverse</td>
+                                <td>6.5-7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Aventurin</td>
+                                <td>Grün</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Quarz</td>
+                                <td>Weiss, Farblos</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Rauchquarz</td>
+                                <td>Grau bis Schwarz</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Onyx</td>
+                                <td>Schwarz</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Matt</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Achat</td>
+                                <td>Gelb, Orange, Rot, Grün, Blau, Violett, Schwarz, Weiss, Diverse, Farblos</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Tigerauge</td>
+                                <td>Gold, Braun</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Fettglanz, Seidenglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Rosenquarz</td>
+                                <td>Rosa</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Blauquarz</td>
+                                <td>himmerblau</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Amethyst</td>
+                                <td>Violett</td>
+                                <td>7</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Fettglanz</td>
+                                <td>Quarzvarität</td>
+                            </tr>
+                            <tr>
+                                <td>Almandin</td>
+                                <td>Rot, Braun</td>
+                                <td>7-7.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Granat</td>
+                            </tr>
+                            <tr>
+                                <td>Schörl</td>
+                                <td>Schwarz</td>
+                                <td>7-7.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Turmalinvaration</td>
+                            </tr>
+                            <tr>
+                                <td>Beryll</td>
+                                <td>Grün, Blau, Farblos, Rosa</td>
+                                <td>7-7.5</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Edelstein (Smaragd/Aquamarin)</td>
+                            </tr>
+                            <tr>
+                                <td>Spinell</td>
+                                <td>Farblos, Rot, Orange, Gelb, Grün, Blau, Violett, Braun, Schwarz </td>
+                                <td>8</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz</td>
+                                <td>Edelstein</td>
+                            </tr>
+                            <tr>
+                                <td>Korund (Rubin)</td>
+                                <td>Blau, Rot, Orange, Gelb, Grün, Violett, Schwarz</td>
+                                <td>9</td>
+                                <td>Weiss</td>
+                                <td>Glasglanz, Diamantglanz</td>
+                                <td>Edelstein</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script>
+            (function(document) {
+                'use strict';
+            
+                var TableFilter = (function(myArray) {
+                    var search_input;
+            
+                    function _onInputSearch(e) {
+                        search_input = e.target;
+                        var tables = document.getElementsByClassName(search_input.getAttribute('data-table'));
+                        myArray.forEach.call(tables, function(table) {
+                            myArray.forEach.call(table.tBodies, function(tbody) {
+                                myArray.forEach.call(tbody.rows, function(row) {
+                                    var text_content = row.textContent.toLowerCase();
+                                    var search_val = search_input.value.toLowerCase();
+                                    row.style.display = text_content.indexOf(search_val) > -1 ? '' : 'none';
+                                });
+                            });
+                        });
+                    }
+            
+                    return {
+                        init: function() {
+                            var inputs = document.getElementsByClassName('search-input');
+                            myArray.forEach.call(inputs, function(input) {
+                                input.oninput = _onInputSearch;
+                            });
+                        }
+                    };
+                })(Array.prototype);
+            
+                document.addEventListener('readystatechange', function() {
+                    if (document.readyState === 'complete') {
+                        TableFilter.init();
+                    }
+                });
+            
+            })(document);
+        </script>
+        <footer class="footer">
+            <hr>
+            <div class="share">
+                <p>Teile diese Seite</p>
+                <a href="https://wa.me/?text=andresbucher.github.io/" target="_blank"><img src="../Icons/whatsapp.png" alt="WhatsApp"></a>
+                <a href="http://twitter.com/share?text=&amp;url=andresbucher.github.io/" target="_blank"><img src="../Icons/twitter.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://andresbucher.github.io//" target="_blank"><img src="../Icons/facebook.png" alt="Facebook"></a>
+            </div>
+            <p>Copyright © 2020 All rights reserved.</p>
+            <a href="mailto:andresbucher@gmx.net" target="_blank">Kontakt</a>
+        </footer>
+    </body>
+</html>

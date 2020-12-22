@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.share img {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    margin: 0;
+}

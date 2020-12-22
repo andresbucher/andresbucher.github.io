@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main */
+html{
+    font-size: 18px;
+    font-family: 'Martel', serif;
+    word-break: break-word;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+body{
+    line-height: 1.5;
+    background-color:#545457; 
+    color: #FFFFFF;
+}
+.main {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+h1 {
+    background-color: #04b3d5;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+h2 {
+    font-size: 25px;
+    padding-top: 18px;
+}
+h3 {
+    font-size: 20px;
+} 
+p {
+    word-break: break-word;
+    color: #FFFFFF;
+}
+a {
+    color: #FFFFFF;
+}
+.tab-wrapper {
+    width: 100%;
+    height: auto;
+    position: sticky;
+}
+
+.tab {
+    padding-left: 50px;
+    padding-right: 50px;
+    transform: translateZ(0);
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    white-space: nowrap;
+    position: relative;
+    box-shadow: 0 0 2px black;
+    top: 0;
+    width: 100%;
+    background-color: #04b3d5;
+}
+.tab::-webkit-scrollbar {
+    display: none;
+}
+.tablinks {
+    display: inline-block;
+    padding: 8px;
+    background: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+.tablinks:hover {
+    background-color: #53b8cc;
+}
+.active {
+    text-decoration: underline;
+    color: #dfdfdf;
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.share img {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    margin: 0;
+}
+
+/* Index */
+
+.hidebuttonindex {
+    background-color: #545457;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    font-size: 25px;
+    box-sizing: border-box;
+} 
+.härteskalahead {
+    padding-left: 30px;
+    font-weight: bold;
+}
+.wholetable {
+    padding-left: 10px;
+    margin: auto;
+    width: 500px;
+}
+
+/* mineral.html und mineralfilter.html style */
+.content-wrapper {
+    max-width: 1200px;
+    overflow: auto;
+    margin: auto;
+}
+.flex-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap; 
+}
+.mineralbox{
+    display: none;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.616);
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 200px;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 200px;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.tabelle-zeile {
+    vertical-align: top;
+}
+table {
+    white-space: normal;
+    text-align: left;
+    word-break: normal;
+    border-collapse: collapse;
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+
+}
+h2 input.search-input {
+    width: 200px;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+td {
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid black 1px;
+}
+th {
+    padding-left: 25px;
+}
+tr:nth-child(even) {background: #40454b};
+td:nth-child(1) { 
+    width: 30%; 
+}
+td:nth-child(2) { 
+    width: 70%; 
+} 
+
+.tablehead {
+    background-color: #04b3d5;
+}
+
+/* mineraltest.html style */
+.quiz {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.quizblock{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    padding: 5px;
+}
+.mineralfilter-table {
+    max-height: 560px;
+    height: auto;
+}
+.mineralfilter-table-wrapper {
+    overflow: scroll;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Handy style */
+@media only screen and (max-width: 600px){
+    html{
+        width: 100%;
+    }
+	h1 {
+		font-size: 25px;
+	}
+	h2 {
+		font-size: 25px;
+    }
+
+    .tab-wrapper::before, .tab-wrapper::after {
+        content: '';
+        pointer-events: none;
+        z-index: 8;
+        width: 125px;
+        height: 52px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .tab-wrapper::before {
+        background: linear-gradient(to right, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 100%);
+        right: 0;
+    }
+    .tab-wrapper::after {
+        background: linear-gradient(to left, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 100%);
+        left: 0;
+    }
+    .tab {
+        box-shadow: 0 0 1px black;
+    }
+
+	.hidebuttonindex {
+		font-size: 25px;
+		border-left: 0;
+		border-right: 0;
+    }
+    .hideinfoindex {
+        margin: 5%;
+    }
+	h3 {
+		font-size: 24px;
+	}
+	p {
+		font-size: 18px;
+	}
+	.tab {
+		font-size: 20px;
+    }
+    .wholetable {
+        height: 500px;
+    }
+    .flex-container{    
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .mineralbox {
+        width: 90%;
+        height: 100%;
+    }
+    table{
+        height: 300px;
+    }
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev {
+        left: 0;
+        border-radius: 3px 0 0 3px;
+    }
+}
