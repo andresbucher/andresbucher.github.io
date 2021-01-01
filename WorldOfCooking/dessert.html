@@ -59,61 +59,107 @@
             </div>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleTags">
-                <img src="../Icons/menuicon.png">
+                <img src="../Icons/menuicon.png"> Kategorien
             </button>
             <div class="collapse navbar-collapse" id="collapsibleTags">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <span class="badge badge-primary">Kuchen</span>
-                        <span class="badge badge-primary">Cupcakes</span>
-                        <span class="badge badge-primary">Cookies</span>
-                        <span class="badge badge-primary">Brownies</span>
-                        <span class="badge badge-success">Vegan</span>
-                        <span class="badge badge-danger">Fleisch</span>
-                        <span class="badge badge-warning">Fleischersatz</span>
-                        <span class="badge badge-secondary">Secondary</span>
-                        <span class="badge badge-info">Info</span>
-                        <span class="badge badge-light">Kokos</span>
-                        <span class="badge badge-dark">Schokolade</span>
+                        <span id="tag0" class="badge badge-primary btn" onclick="searchtags(0)">Kuchen</span>
+                        <span id="tag1" class="badge badge-secondary btn" onclick="searchtags(1)">Cupcakes</span>
+                        <span id="tag2" class="badge badge-warning btn" onclick="searchtags(2)">Cookies</span>
+                        <span id="tag3" class="badge badge-danger btn" onclick="searchtags(3)">Brownies</span>
+                        <span id="tag4" class="badge badge-success btn" onclick="searchtags(4)">Vegan</span>
+                        <span id="tag5" class="badge badge-light btn" onclick="searchtags(5)">Kokos</span>
+                        <span id="tag6" class="badge badge-dark btn" onclick="searchtags(6)">Schokolade</span>
+                        <span id="tag7" class="badge badge-info btn" onclick="searchtags(7)">Nüsse</span>
                     </li>
                 </ul>
             </div>
 
             <div class="container">
                 <ul class="row" id="recipecontainer" style="padding-left: 0;">
-                    <li class="card mb-4 mt-1 mr-1 ml-1 md-1">
+                    
+                    <li class="card mb-4 mt-1 mr-1 ml-1 md-1" style="width: 100%;">
                         <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                         <div class="card-body">
-                            <h2 class="card-title">Rezept</h2>
-                            <p class="card-text">Hallo ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a class="btn btn-primary" data-toggle="popover" title="Rezept" data-placement="bottom" data-content="Some content inside the popover">Rezept &darr;</a>
+                            <h2 class="card-title">Christmas Cookies</h2>
+                            <p class="card-text">Tags: 
+                                <span class="badge badge-warning">Cookies</span>
+                                <span class="badge badge-dark">Schokolade</span>
+                                <span class="badge badge-info">Nüsse</span>
+                            </p>
+                            <a tabindex="0"
+                                class="btn btn-primary" 
+                                role="button" 
+                                data-html="true" 
+                                data-toggle="popover" 
+                                data-trigger="click"
+                                data-placement="bottom"
+                                title="Rezept für 50 Cookies" 
+                                data-content="
+                                    <ul>
+                                        <li>150g weiche Butter</li>
+                                        <li>100g Zucker</li>
+                                        <li>80g brauner Zucker</li>
+                                        <li>2 Pck. Vanillezucker</li>
+                                        <li>1 Ei</li>
+                                        <li>180g Mehl</li>
+                                        <li>1/2 TL Backpulver</li>
+                                        <li>1 Prise Salz</li>
+                                        <li>100g gehackte Haselnüsse</li>
+                                        <li>150g gehackte Schokolade</li>
+                                    </ul>
+                                    <p>
+                                        Butter + Zucker schaumig schlagen. Nach und nach braunen Zucker und Vanillezucker dazugeben. 
+                                        Ei darunterrühren. Mehl + Backpulver + Salz mischen und unterheben. Schokolade + Haselnüsse dazugeben. Auf Blech verteilen
+                                        12-14 min bei 180° im vorgeheizten Ofen.
+                                    </p>">
+                                Rezept &darr;</a>
                         </div>
                         <div class="card-footer text-muted">
-                            Posted on January 1, 2020
+                            Posted on January 1, 2021
                         </div>
                     </li>
 
-                    <li class="card mb-4 mt-1 mr-1 ml-1 md-1">
+                    <li class="card mb-4 mt-1 mr-1 ml-1 md-1" style="width: 100%;">
                         <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                         <div class="card-body">
-                            <h2 class="card-title">Rezept</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a class="btn btn-primary" data-toggle="popover" title="Rezept" data-placement="bottom" data-content="Some content inside the popover">Rezept &darr;</a>
+                            <h2 class="card-title">Macadamia Cookies</h2>
+                            <p class="card-text">Tags: 
+                                <span class="badge badge-warning">Cookies</span>
+                                <span class="badge badge-dark">Schokolade</span>
+                                <span class="badge badge-info">Nüsse</span> 
+                            </p>
+                            <a tabindex="0"
+                                class="btn btn-primary" 
+                                role="button" 
+                                data-html="true" 
+                                data-toggle="popover" 
+                                data-trigger="click"
+                                data-placement="bottom"
+                                title="Rezept für 45 Cookies" 
+                                data-content="
+                                    <ul>
+                                        <li>275g weiche Butter</li>
+                                        <li>2 Pck. Vanillezucker</li
+                                        <li>150g brauner Zucker</li>
+                                        <li>1 Ei</li>
+                                        <li>350g Mehl</li>
+                                        <li>1 TL Backpulver</li>
+                                        <li>1 Prise Salz</li>
+                                        <li>200g grobgehackte Macadamianüsse ungesalzen</li>
+                                        <li>200g gehackte Vollmilchschokolade</li>
+                                        <li>50g grobgehackte Nüsse zum bestreuen</li>
+                                    </ul>
+                                    <p>
+                                        Butter schaumig schlagen. Vanillezucker + braunen Zucker + Ei unterrühren. Mehl + Backpulver + Salz mischen und hinzugeben. 
+                                        Schokolade + Nüsse (200g) mitmischen. Cookies auf Blech verteilen und mit Nüssen (50g) bestreuen und andrücken. 
+                                        Bei 170° vorgeheizten Ofen für 13 - 15min backen lassen.
+                                    </p>">
+                                Rezept &darr;</a>
                         </div>
                         <div class="card-footer text-muted">
-                            Posted on January 1, 2020
-                        </div>
-                    </li>
-
-                    <li class="card mb-4 mt-1 mr-1 ml-1 md-1">
-                        <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-                        <div class="card-body">
-                            <h2 class="card-title">Rezept</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a class="btn btn-primary" data-toggle="popover" title="Rezept" data-placement="bottom" data-content="Some content inside the popover">Rezept &darr;</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                            Posted on January 1, 2020
+                            Posted on January 1, 2021
                         </div>
                     </li>
                 </ul>
@@ -122,8 +168,9 @@
 
 
         <script>
-            $(document).ready(function(){
-              $('[data-toggle="popover"]').popover();
+            $(function(){
+            // Enables popover
+                $("[data-toggle=popover]").popover();
             });
         </script>
 
@@ -146,6 +193,13 @@
                     li[i].style.display = "none";
                     }
                 }
+            }
+
+            function searchtags(x) {
+                f = "tag" + x
+                text = document.getElementById(f).innerHTML
+                document.getElementById("mySearch").value = text
+                myFunction()
             }
         </script>
     </body>
