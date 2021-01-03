@@ -13,9 +13,44 @@
     max-width: 80%;
     
 }
+.backgroundimgdiv {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.backgroundimg {
+    display: none;
+}
+.backgroundimg.mobile {
+    display: block;
+}
 
 @media only screen and (max-width: 600px){
     .popover {
         max-width: 90%;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .backgroundimg.mobile {
+        display: none;
+    }
+    .backgroundimg {
+        display: block;
+    }
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hyperlink {
+        font-size: 80px;
     }
 }
