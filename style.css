@@ -32,9 +32,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -314,6 +311,24 @@ td:nth-child(2) {
     padding: 20px;
 }
 
+img.profile-pic {
+    max-width: 20%;
+    border-radius: 100%;
+}
+
+ul.aboutme{
+    list-style:none;
+}
+.titleaboutme {
+    font-size: 25px;
+}
+.textaboutme {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 /* Handy style */
 @media only screen and (max-width: 600px){
     html{
@@ -371,6 +386,16 @@ td:nth-child(2) {
     .flex-container{    
         -ms-overflow-style: none;
         scrollbar-width: none;
+    }
+    img.profile-pic {
+        max-width: 50%;
+        border-radius: 100%;
+    }
+    .textaboutme {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .mineralbox {
         width: 90%;
