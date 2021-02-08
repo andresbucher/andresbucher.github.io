@@ -58,8 +58,8 @@ html{
 }
 body{
     line-height: 1.5;
-    background-color:#545457; 
-    color: #FFFFFF;
+    background-color:#eeecec; 
+    color: black;
 }
 .main {
     text-align: center;
@@ -67,9 +67,9 @@ body{
     display: inline-block;
 }
 h1 {
-    background-color: #04b3d5;
+    background-color: #dcffdc;
     font-size: 35px;
-    color: #FFFFFF;
+    color: black;
 }
 h2 {
     font-size: 25px;
@@ -80,10 +80,10 @@ h3 {
 } 
 p {
     word-break: break-word;
-    color: #FFFFFF;
+    color: black;
 }
 a {
-    color: #FFFFFF;
+    color: black;
 }
 .tab-wrapper {
     width: 100%;
@@ -103,7 +103,7 @@ a {
     box-shadow: 0 0 2px black;
     top: 0;
     width: 100%;
-    background-color: #04b3d5;
+    background-color: #dcffdc;
 }
 .tab::-webkit-scrollbar {
     display: none;
@@ -112,15 +112,15 @@ a {
     display: inline-block;
     padding: 8px;
     background: none;
-    color: #ffffff;
+    color: black;
     text-decoration: none;
 }
 .tablinks:hover {
-    background-color: #53b8cc;
+    background-color: #dcffdc;
 }
 .active {
     text-decoration: underline;
-    color: #dfdfdf;
+    color: black;
 }
 .footer {
     text-align: center;
@@ -137,8 +137,8 @@ a {
 /* Index */
 
 .hidebuttonindex {
-    background-color: #545457;
-    color: #FFFFFF;
+    background-color: #eeecec;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -205,7 +205,7 @@ a {
     width: auto;
     margin-top: auto;
     padding: 16px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -280,7 +280,7 @@ td {
 th {
     padding-left: 25px;
 }
-tr:nth-child(even) {background: #40454b};
+tr:nth-child(even) {background: #e4e4e4};
 td:nth-child(1) { 
     width: 30%; 
 }
@@ -289,7 +289,7 @@ td:nth-child(2) {
 } 
 
 .tablehead {
-    background-color: #04b3d5;
+    background-color: #dcffdc;
 }
 
 /* mineraltest.html style */
@@ -337,11 +337,11 @@ td:nth-child(2) {
         bottom: 0;
     }
     .tab-wrapper::before {
-        background: linear-gradient(to right, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 100%);
+        background: linear-gradient(to right, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 500%);
         right: 0;
     }
     .tab-wrapper::after {
-        background: linear-gradient(to left, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 100%);
+        background: linear-gradient(to left, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 500%);
         left: 0;
     }
     .tab {
