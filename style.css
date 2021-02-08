@@ -315,18 +315,23 @@ img.profile-pic {
     max-width: 20%;
     border-radius: 100%;
 }
+.profile-pic {
+    box-shadow: 0 1px 1px 0 black, 0 1px 1px 0 black;
+}
 
 ul.aboutme{
     list-style:none;
 }
 .titleaboutme {
     font-size: 25px;
+    font-weight: bold;
 }
 .textaboutme {
     font-size: 20px;
     text-align: left;
     margin-left: 30%;
     margin-right: 30%;
+    font-weight: normal;
 }
 
 /* Handy style */
@@ -346,7 +351,7 @@ ul.aboutme{
         pointer-events: none;
         z-index: 8;
         width: 125px;
-        height: 52px;
+        height: 48px;
         position: absolute;
         top: 0;
         bottom: 0;
