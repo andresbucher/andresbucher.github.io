@@ -1,11 +1,10 @@
 import requests
 from lxml import html
 
-url = input("Pls copy paste the wiki-link here: ")
+url = input('Bitte kopiere die Website inkl. Https hier hinein: ')
 
 res = requests.get(url)
 doc = res.text
-
 
 namekey = "wiki/"
 formulakey = '<td style="width:60%;">'
