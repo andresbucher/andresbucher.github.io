@@ -1,45 +1,45 @@
 import requests
 from lxml import html
 
-url = input('Bitte kopiere die Website inkl. Https hier hinein: ')
-
-res = requests.get(url)
-doc = res.text
-
-namekey = "wiki/"
-formulakey = '<td style="width:60%;">'
-hardnesskey = 'title="Härte">Mohshärte</a>\n</td>\n<td>'
-colorkey = 'title="Farbe">Farbe</a>\n</td>\n<td>'
-strokekey = 'title="Strichfarbe">Strichfarbe</a>\n</td>\n<td>'
-shinekey = 'title="Glanz">Glanz</a>\n</td>\n<td>'
-
-
-keys = [namekey, formulakey, hardnesskey, colorkey, strokekey, shinekey]
-endkeys = ['"/>', "</td>", "</td>", "</td>", "</td>", "</td>"]
-
-
-with open("websitetext.txt", "w", encoding="utf-8") as f:
-    f.write(doc)
-
-values = []
-for i in range(len(keys)):
-    with open("websitetext.txt", "r", encoding="utf-8") as f:
-        r = f.read()
-        start = r.find(keys[i])
-        x = r[start + len(keys[i]):]
-        end = x.find(endkeys[i])
-        values.append(x[0:end])
-
-for i, j in enumerate(values):
-    values[i] = j.replace("\n", "")
-    values[i] = j.replace("bis", " - ")
-
-
-
 
 boxtype = input("What type is your box? mineral (m) or rock (r)? ")
 
 if boxtype == "m":
+
+    url = input('Bitte kopiere die Website inkl. Https hier hinein: ')
+
+    res = requests.get(url)
+    doc = res.text
+
+    namekey = "wiki/"
+    formulakey = '<td style="width:60%;">'
+    hardnesskey = 'title="Härte">Mohshärte</a>\n</td>\n<td>'
+    colorkey = 'title="Farbe">Farbe</a>\n</td>\n<td>'
+    strokekey = 'title="Strichfarbe">Strichfarbe</a>\n</td>\n<td>'
+    shinekey = 'title="Glanz">Glanz</a>\n</td>\n<td>'
+
+
+    keys = [namekey, formulakey, hardnesskey, colorkey, strokekey, shinekey]
+    endkeys = ['"/>', "</td>", "</td>", "</td>", "</td>", "</td>"]
+
+
+    with open("websitetext.txt", "w", encoding="utf-8") as f:
+        f.write(doc)
+
+    values = []
+    for i in range(len(keys)):
+        with open("websitetext.txt", "r", encoding="utf-8") as f:
+            r = f.read()
+            start = r.find(keys[i])
+            x = r[start + len(keys[i]):]
+            end = x.find(endkeys[i])
+            values.append(x[0:end])
+
+    for i, j in enumerate(values):
+        values[i] = j.replace("\n", "")
+        values[i] = j.replace("bis", " - ")
+
+
     number = input("Whats the number of the mineral? e.g. 4 / 50? " )
     info = input("Please write a description: " )
 

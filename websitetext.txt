@@ -1,208 +1,466 @@
 <!DOCTYPE html>
-<html class="client-nojs" lang="en" dir="ltr">
+<html class="client-nojs" lang="de" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-<title>Gneiss - Wikipedia</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6aae0df8-2698-4b33-9219-eff24e677431","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Gneiss","wgTitle":"Gneiss","wgCurRevisionId":1017140619,"wgRevisionId":1017140619,"wgArticleId":13169,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","Articles containing Middle High German (ca. 1050-1500)-language text","Articles containing German-language text","Commons category link is on Wikidata",
-"Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference","Wikipedia articles incorporating a citation from the New International Encyclopedia","Wikipedia articles with GND identifiers","Wikipedia articles with LCCN identifiers","Wikipedia articles with MA identifiers","Wikipedia articles with NDL identifiers","Gneiss","Metamorphic petrology","Metamorphic rocks","Industrial minerals"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Gneiss","wgRelevantArticleId":13169,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsFlags":10,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,
-"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgWikibaseItemId":"Q166409"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init",
-"ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+<title>Sillimanit – Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgRequestId":"25d61a3b-d006-4a4d-9e08-d1d14bfca61a","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Sillimanit","wgTitle":"Sillimanit","wgCurRevisionId":211858085,"wgRevisionId":211858085,"wgArticleId":117674,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Mineral","Inselsilikate (Strunz)","Orthorhombisches Kristallsystem","Aluminiummineral","Siliciummineral"],"wgPageContentLanguage":"de","wgPageContentModel":"wikitext","wgRelevantPageName":"Sillimanit","wgRelevantArticleId":117674,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,
+"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"accuracy":{"levels":1}}},"wgStableRevisionId":211858085,"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"de","pageLanguageDir":"ltr","pageVariantFallbacks":"de"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"Deutsch","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgWikibaseItemId":"Q119632"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.flaggedRevs.icons":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready",
+"ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.flaggedRevs.basic":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","ext.flaggedRevs.advanced","ext.gadget.editMenus","ext.gadget.WikiMiniAtlas","ext.gadget.OpenStreetMap","ext.gadget.CommonsDirekt","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"variant":"de"});
 });});</script>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
-<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=ext.cite.styles%7Cext.flaggedRevs.basic%2Cicons%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=de&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
 <meta name="ResourceLoaderDynamicStyles" content=""/>
-<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
-<meta name="generator" content="MediaWiki 1.36.0-wmf.38"/>
+<link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.37.0-wmf.7"/>
 <meta name="referrer" content="origin"/>
 <meta name="referrer" content="origin-when-crossorigin"/>
 <meta name="referrer" content="origin-when-cross-origin"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/60/Gneiss.jpg"/>
-<meta property="og:title" content="Gneiss - Wikipedia"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/dc/Sillimanite-k302a.jpg"/>
+<meta property="og:title" content="Sillimanit – Wikipedia"/>
 <meta property="og:type" content="website"/>
 <link rel="preconnect" href="//upload.wikimedia.org"/>
-<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Gneiss"/>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Gneiss&amp;action=edit"/>
-<link rel="edit" title="Edit this page" href="/w/index.php?title=Gneiss&amp;action=edit"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//de.m.wikipedia.org/wiki/Sillimanit"/>
+<link rel="alternate" type="application/x-wiki" title="Seite bearbeiten" href="/w/index.php?title=Sillimanit&amp;action=edit"/>
+<link rel="edit" title="Seite bearbeiten" href="/w/index.php?title=Sillimanit&amp;action=edit"/>
 <link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
 <link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (de)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//de.wikipedia.org/w/api.php?action=rsd"/>
 <link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Gneiss"/>
+<link rel="canonical" href="https://de.wikipedia.org/wiki/Sillimanit"/>
 <link rel="dns-prefetch" href="//login.wikimedia.org"/>
 <link rel="dns-prefetch" href="//meta.wikimedia.org" />
 </head>
-<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Gneiss rootpage-Gneiss skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns mw-hide-empty-elt ns-0 ns-subject mw-editable page-Sillimanit rootpage-Sillimanit skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
 <div id="mw-head-base" class="noprint"></div>
 <div id="content" class="mw-body" role="main">
 	<a id="top"></a>
-	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
-	<div class="mw-indicators mw-body-content">
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
 	</div>
-	<h1 id="firstHeading" class="firstHeading" >Gneiss</h1>
-	<div id="bodyContent" class="mw-body-content">
-		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+	<h1 id="firstHeading" class="firstHeading" >Sillimanit</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">aus Wikipedia, der freien Enzyklopädie</div>
 		<div id="contentSub"></div>
 		<div id="contentSub2"></div>
 		
 		<div id="jump-to-nav"></div>
-		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
-		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
-		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div role="note" class="hatnote navigation-not-searchable">For other uses, see <a href="/wiki/Gneiss_(disambiguation)" class="mw-disambig" title="Gneiss (disambiguation)">Gneiss (disambiguation)</a>.</div>
-<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">A common high-grade metamorphic rock</div>
-<table class="infobox"><caption class="infobox-title">Gneiss</caption><tbody><tr><td colspan="2" class="infobox-subheader" style="background-color: #cddeff"><a href="/wiki/Metamorphic" class="mw-redirect" title="Metamorphic">Metamorphic rock</a></td></tr><tr><td colspan="2" class="infobox-image"><a href="/wiki/File:Gneiss.jpg" class="image"><img alt="Gneiss.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gneiss.jpg/220px-Gneiss.jpg" decoding="async" width="220" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gneiss.jpg/330px-Gneiss.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gneiss.jpg/440px-Gneiss.jpg 2x" data-file-width="600" data-file-height="361" /></a><div class="infobox-caption">Sample of gneiss exhibiting "gneissic banding".</div></td></tr></tbody></table>
-<p><b>Gneiss</b> (<span class="rt-commentedText nowrap"><span class="IPA nopopups noexcerpt"><a href="/wiki/Help:IPA/English" title="Help:IPA/English">/<span style="border-bottom:1px dotted"><span title="/ˈ/: primary stress follows">ˈ</span><span title="&#39;n&#39; in &#39;nigh&#39;">n</span><span title="/aɪ/: &#39;i&#39; in &#39;tide&#39;">aɪ</span><span title="&#39;s&#39; in &#39;sigh&#39;">s</span></span>/</a></span></span>) is a common and widely distributed type of <a href="/wiki/Metamorphic_rock" title="Metamorphic rock">metamorphic rock</a>. Gneiss is formed by high-temperature and high-pressure <a href="/wiki/Metamorphic_rock" title="Metamorphic rock">metamorphic</a> processes acting on formations composed of <a href="/wiki/Igneous_rock" title="Igneous rock">igneous</a> or <a href="/wiki/Sedimentary_rock" title="Sedimentary rock">sedimentary rocks</a>. Orthogneiss is gneiss derived from <a href="/wiki/Igneous_rock" title="Igneous rock">igneous rock</a> (such as granite). Paragneiss is gneiss derived from <a href="/wiki/Sedimentary_rock" title="Sedimentary rock">sedimentary rock</a> (such as sandstone). Gneiss forms at higher temperatures and pressures than <a href="/wiki/Schist" title="Schist">schist</a>. Gneiss nearly always shows a banded texture characterized by alternating darker and lighter colored bands and without a distinct foliation.
+		<a class="mw-jump-link" href="#mw-head">Zur Navigation springen</a>
+		<a class="mw-jump-link" href="#searchInput">Zur Suche springen</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="de" dir="ltr"><div class="mw-parser-output"><table class="float-right toccolours infobox toptextcells" style="margin:0 0 1em 1em; padding:0.2em; width:400px; font-size:90%; text-align:left; empty-cells:collapse;" cellspacing="2">
+<tbody><tr>
+<th colspan="2" style="background:#C1CDD9; text-align:center; font-size:115%;">Sillimanit
+</th></tr>
+<tr>
+<td colspan="2" align="center"><div class="floatnone"><a href="/wiki/Datei:Sillimanite-k302a.jpg" class="image"><img alt="Sillimanite-k302a.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sillimanite-k302a.jpg/333px-Sillimanite-k302a.jpg" decoding="async" width="333" height="400" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sillimanite-k302a.jpg/499px-Sillimanite-k302a.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/d/dc/Sillimanite-k302a.jpg 2x" data-file-width="666" data-file-height="800" /></a></div><small>Sillimanit aus Orissa, Indien</small>
+</td></tr>
+<tr>
+<th colspan="2" style="background:#C1CDD9; text-align:center;">Allgemeines und Klassifikation
+</th></tr>
+
+
+<tr>
+<td style="width:40%; padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Chemische_Formel" title="Chemische Formel">Chemische Formel</a>
+</td>
+<td style="width:60%;">Al<sub>2</sub>[O&#124;SiO<sub>4</sub>]
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Systematik_der_Minerale" title="Systematik der Minerale">Mineralklasse</a><br />(und ggf. Abteilung)
+</td>
+<td>Inselsilikate (Nesosilikate) mit zusätzlichen Anionen; Kationen in [4]-, [5]- und/oder nur [6]-Koordination
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Systematik_der_Minerale_nach_Strunz_(9._Auflage)" title="Systematik der Minerale nach Strunz (9. Auflage)">System-Nr. nach Strunz</a> <br />und nach <a href="/wiki/Systematik_der_Minerale_nach_Dana" title="Systematik der Minerale nach Dana">Dana</a>
+</td>
+<td>9.AF.05 (<a href="/wiki/Systematik_der_Minerale_nach_Strunz_(8._Auflage)" title="Systematik der Minerale nach Strunz (8. Auflage)">8. Auflage</a>: VIII/B.02)<br />52.02.02a.01
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE">Ähnliche Minerale
+</td>
+<td><a href="/wiki/Andalusit" title="Andalusit">Andalusit</a>, <a href="/wiki/Kyanit" title="Kyanit">Kyanit</a>
+</td></tr>
+<tr>
+<th colspan="2" style="background:#C1CDD9; text-align:center;"><a href="/wiki/Kristallographie" title="Kristallographie">Kristallographische Daten</a>
+</th></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Kristallsystem" title="Kristallsystem">Kristallsystem</a>
+</td>
+<td>orthorhombisch
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Punktgruppe#Punktgruppen_in_der_Kristallographie" title="Punktgruppe">Kristallklasse</a>; <a href="/wiki/Hermann-Mauguin-Symbolik" title="Hermann-Mauguin-Symbolik">Symbol</a>
+</td>
+<td>orthorhombisch-dipyramidal 2/<i>m</i> 2/<i>m</i> 2/<i>m</i><sup id="cite_ref-Webmineral_1-0" class="reference"><a href="#cite_note-Webmineral-1">&#91;1&#93;</a></sup>
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Raumgruppe" title="Raumgruppe">Raumgruppe</a>
+</td>
+<td><i>Pnma</i><sup id="cite_ref-Webmineral_1-1" class="reference"><a href="#cite_note-Webmineral-1">&#91;1&#93;</a></sup>
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Gitterparameter" title="Gitterparameter">Gitterparameter</a>
+</td>
+<td><i>a</i>&#160;=&#160;7,484&#160;<a href="/wiki/%C3%85ngstr%C3%B6m_(Einheit)" title="Ångström (Einheit)">Å</a>; <i>b</i>&#160;=&#160;7,672&#160;Å; <i>c</i>&#160;=&#160;5,77&#160;Å<sup id="cite_ref-Webmineral_1-2" class="reference"><a href="#cite_note-Webmineral-1">&#91;1&#93;</a></sup>
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Formeleinheit" title="Formeleinheit">Formeleinheiten</a>
+</td>
+<td><i>Z</i>&#160;=&#160;4<sup id="cite_ref-Webmineral_1-2" class="reference"><a href="#cite_note-Webmineral-1">&#91;1&#93;</a></sup>
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE">Häufige <a href="/wiki/Kristallmorphologie" title="Kristallmorphologie">Kristallflächen</a>
+</td>
+<td>{010}, {110}
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Kristallzwilling" title="Kristallzwilling">Zwillingsbildung</a>
+</td>
+<td>keine
+</td></tr>
+<tr>
+<th colspan="2" style="background:#C1CDD9; text-align:center;">Physikalische Eigenschaften
+</th></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/H%C3%A4rte#Härteprüfung_nach_Mohs" title="Härte">Mohshärte</a>
+</td>
+<td>6,5 bis 7,5
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Dichte" title="Dichte">Dichte</a> (g/cm<sup>3</sup>)
+</td>
+<td>3,24
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Spaltbarkeit" title="Spaltbarkeit">Spaltbarkeit</a>
+</td>
+<td>vollkommen nach {010}
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Bruch_(Mineral)" title="Bruch (Mineral)">Bruch</a>; <a href="/wiki/Z%C3%A4higkeit#Tenazität_von_Mineralen" title="Zähigkeit">Tenazität</a>
+</td>
+<td>uneben, spröd
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Farbe" title="Farbe">Farbe</a>
+</td>
+<td>farblos, weiß, gelblichgrau, graugrün, hellbraun
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Strichfarbe" title="Strichfarbe">Strichfarbe</a>
+</td>
+<td>weiß
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Transparenz_(Physik)" title="Transparenz (Physik)">Transparenz</a>
+</td>
+<td>durchsichtig bis durchscheinend
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Glanz#Minerale" title="Glanz">Glanz</a>
+</td>
+<td>Glasglanz, seidig
+</td></tr>
+
+
+
+
+<tr>
+<th colspan="2" style="background:#C1CDD9; text-align:center;"><a href="/wiki/Kristalloptik" title="Kristalloptik">Kristalloptik</a>
+</th></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Brechungsindex" title="Brechungsindex">Brechungsindizes</a>
+</td>
+<td><i>n</i><sub>α</sub>&#160;=&#160;1,653 bis 1,661<br /><i>n</i><sub>β</sub>&#160;=&#160;1,654 bis 1,670<br /><i>n</i><sub>γ</sub>&#160;=&#160;1,669 bis 1,684<sup id="cite_ref-MinDat_2-2" class="reference"><a href="#cite_note-MinDat-2">&#91;2&#93;</a></sup>
+</td></tr>
+
+
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Doppelbrechung" title="Doppelbrechung">Doppelbrechung</a>
+</td>
+<td>δ&#160;=&#160;0,016 bis 0,023<sup id="cite_ref-MinDat_2-0" class="reference"><a href="#cite_note-MinDat-2">&#91;2&#93;</a></sup>
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Indexellipsoid#Lichtausbreitung_in_dielektrischen_Medien" title="Indexellipsoid">Optischer Charakter</a>
+</td>
+<td>zweiachsig positiv<sup id="cite_ref-MinDat_2-1" class="reference"><a href="#cite_note-MinDat-2">&#91;2&#93;</a></sup>
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Optische_Achse_(Kristalloptik)" title="Optische Achse (Kristalloptik)">Achsenwinkel</a>
+</td>
+<td>2V&#160;= 21 bis 30°<sup id="cite_ref-Tröger_3-0" class="reference"><a href="#cite_note-Tröger-3">&#91;3&#93;</a></sup>
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE"><a href="/wiki/Pleochroismus" class="mw-redirect" title="Pleochroismus">Pleochroismus</a>
+</td>
+<td>schwach (meist farblos); ansonst X: zartbraun oder gelblich Y: braun oder graugrün Z: dunkelbraun oder blau
+</td></tr>
+<tr>
+<th colspan="2" style="background:#C1CDD9; text-align:center;">Weitere Eigenschaften
+</th></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE">Chemisches Verhalten
+</td>
+<td>durch HF nicht zersetzbar
+</td></tr>
+<tr>
+<td style="padding:0 0.4em; background:#EEEEEE">Besondere Merkmale
+</td>
+<td>nicht körnig oder derb; subparallel in Quarz eingewachsen: <i>Faserkiesel</i>
+</td></tr></tbody></table>
+<p>Das <a href="/wiki/Mineral" title="Mineral">Mineral</a> <b>Sillimanit</b> ist ein sehr häufig vorkommendes <a href="/wiki/Inselsilikate" title="Inselsilikate">Inselsilikat</a> aus der Gruppe der <a href="/wiki/Alumosilikat" class="mw-redirect" title="Alumosilikat">Alumosilikate</a> und hat die <a href="/wiki/Chemische_Struktur" title="Chemische Struktur">chemischen Zusammensetzung</a> Al<sub>2</sub>SiO<sub>5</sub> bzw. Al<sub>2</sub>[O&#124;SiO<sub>4</sub>]. Es kristallisiert im <a href="/wiki/Orthorhombisches_Kristallsystem" title="Orthorhombisches Kristallsystem">orthorhombischen Kristallsystem</a> und bildet prismatische bis faserige Kristalle geringer Größe. Nicht selten kann man im Sillimanit einen geringen Anteil an Fe<sub>2</sub>O<sub>3</sub> vorfinden.
+</p><p>Sillimanit hat eine hohe <a href="/wiki/H%C3%A4rte" title="Härte">Härte</a> von 6,5 bis 7,5 und eine weißgraue bis grüngraue Farbe, ist manchmal aber auch farblos. Die <a href="/wiki/Strichfarbe" title="Strichfarbe">Strichfarbe</a> ist weiß. Ähnliche Minerale mit der gleichen oder ähnlichen chemischen Zusammensetzung sind <a href="/wiki/Andalusit" title="Andalusit">Andalusit</a>, <a href="/wiki/Kyanit" title="Kyanit">Kyanit</a> und <a href="/wiki/Mullit" title="Mullit">Mullit</a>, die ebenfalls zu den Alumosilikaten zählen.
 </p>
-<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="de" dir="ltr"><h2 id="mw-toc-heading">Inhaltsverzeichnis</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
 <ul>
-<li class="toclevel-1 tocsection-1"><a href="#Etymology"><span class="tocnumber">1</span> <span class="toctext">Etymology</span></a></li>
-<li class="toclevel-1 tocsection-2"><a href="#Formation"><span class="tocnumber">2</span> <span class="toctext">Formation</span></a></li>
-<li class="toclevel-1 tocsection-3"><a href="#Composition"><span class="tocnumber">3</span> <span class="toctext">Composition</span></a>
+<li class="toclevel-1 tocsection-1"><a href="#Etymologie_und_Geschichte"><span class="tocnumber">1</span> <span class="toctext">Etymologie und Geschichte</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Klassifikation"><span class="tocnumber">2</span> <span class="toctext">Klassifikation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Kristallstruktur"><span class="tocnumber">3</span> <span class="toctext">Kristallstruktur</span></a>
 <ul>
-<li class="toclevel-2 tocsection-4"><a href="#Gneissic_banding"><span class="tocnumber">3.1</span> <span class="toctext">Gneissic banding</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Die_Elementarzelle_von_Sillimanit"><span class="tocnumber">3.1</span> <span class="toctext">Die Elementarzelle von Sillimanit</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Röntgendiffraktometrie"><span class="tocnumber">3.2</span> <span class="toctext">Röntgendiffraktometrie</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-5"><a href="#Types"><span class="tocnumber">4</span> <span class="toctext">Types</span></a>
-<ul>
-<li class="toclevel-2 tocsection-6"><a href="#Augen_gneiss"><span class="tocnumber">4.1</span> <span class="toctext">Augen gneiss</span></a></li>
-<li class="toclevel-2 tocsection-7"><a href="#Henderson_gneiss"><span class="tocnumber">4.2</span> <span class="toctext">Henderson gneiss</span></a></li>
-<li class="toclevel-2 tocsection-8"><a href="#Lewisian_gneiss"><span class="tocnumber">4.3</span> <span class="toctext">Lewisian gneiss</span></a></li>
-<li class="toclevel-2 tocsection-9"><a href="#Archean_and_Proterozoic_gneiss"><span class="tocnumber">4.4</span> <span class="toctext">Archean and Proterozoic gneiss</span></a></li>
-</ul>
-</li>
-<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
-<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a>
-<ul>
-<li class="toclevel-2 tocsection-12"><a href="#Citations"><span class="tocnumber">6.1</span> <span class="toctext">Citations</span></a></li>
-<li class="toclevel-2 tocsection-13"><a href="#Bibliography"><span class="tocnumber">6.2</span> <span class="toctext">Bibliography</span></a></li>
-</ul>
-</li>
-<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Eigenschaften"><span class="tocnumber">4</span> <span class="toctext">Eigenschaften</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Modifikationen_und_Varietäten"><span class="tocnumber">5</span> <span class="toctext">Modifikationen und Varietäten</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Bildung_und_Fundorte"><span class="tocnumber">6</span> <span class="toctext">Bildung und Fundorte</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Verwendung"><span class="tocnumber">7</span> <span class="toctext">Verwendung</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Siehe_auch"><span class="tocnumber">8</span> <span class="toctext">Siehe auch</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Einzelnachweise"><span class="tocnumber">9</span> <span class="toctext">Einzelnachweise</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Literatur"><span class="tocnumber">10</span> <span class="toctext">Literatur</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Weblinks"><span class="tocnumber">11</span> <span class="toctext">Weblinks</span></a></li>
 </ul>
 </div>
 
-<h2><span class="mw-headline" id="Etymology">Etymology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=1" title="Edit section: Etymology">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>The word <i>gneiss</i> has been used in English since at least 1757. It is <a href="/wiki/Loanword" title="Loanword">borrowed</a> from the German word <i>Gneis</i>, formerly also spelled <i>Gneiss</i>, which is probably derived from the <a href="/wiki/Middle_High_German" title="Middle High German">Middle High German</a> noun <i lang="gmh" title="Middle High German (ca. 1050-1500)-language text">gneist</i> "spark" (so called because the rock glitters).<sup id="cite_ref-etymonline_1-0" class="reference"><a href="#cite_note-etymonline-1">&#91;1&#93;</a></sup>
+<h2><span class="mw-headline" id="Etymologie_und_Geschichte">Etymologie und Geschichte</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Etymologie und Geschichte">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=1" title="Abschnitt bearbeiten: Etymologie und Geschichte">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Sillimanit wurde nach dem US-amerikanischen Chemiker <a href="/wiki/Benjamin_Silliman" title="Benjamin Silliman">Benjamin Silliman</a> benannt. Ein Sillimanitmineral mit Fundort in <a href="/wiki/Chester_(Connecticut)" title="Chester (Connecticut)">Chester</a>, <a href="/wiki/Connecticut" title="Connecticut">Connecticut</a>, war 1824 zum ersten Mal wissenschaftlich von George T. Bowen beschrieben worden.
+Sillimanit wird manchmal auch als <i>Bucholzit</i> bezeichnet – nach dem deutschen Pharmazeuten und Chemiker W.H.S. Bucholz. Er ist auch als <i>Glanzspat</i> bekannt.
 </p>
-<h2><span class="mw-headline" id="Formation">Formation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=2" title="Edit section: Formation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>Gneiss is formed from <a href="/wiki/Sedimentary" class="mw-redirect" title="Sedimentary">sedimentary</a> or <a href="/wiki/Igneous" class="mw-redirect" title="Igneous">igneous</a> rock exposed to temperatures greater than 320&#160;°C and relatively high pressure.
+<h2><span class="mw-headline" id="Klassifikation">Klassifikation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Klassifikation">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=2" title="Abschnitt bearbeiten: Klassifikation">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In der <a href="/wiki/Systematik_der_Minerale_nach_Strunz_(8._Auflage)#VIII/B._Inselsilikate_mit_tetraederfremden_Anionen_(Neso-Subsilikate)" title="Systematik der Minerale nach Strunz (8. Auflage)">alten (8. Auflage)</a> und <a href="/wiki/Systematik_der_Minerale_nach_Strunz_(9._Auflage)#F._Inselsilikate_mit_zusätzlichen_Anionen;_Kationen_in_[4]er-,_[5]er-_und/oder_nur_[6]er-Koordination" title="Systematik der Minerale nach Strunz (9. Auflage)">neuen Systematik der Minerale (9. Auflage)</a> nach <a href="/wiki/Karl_Hugo_Strunz" title="Karl Hugo Strunz">Strunz</a> gehört Sillimanit zur Abteilung der „Inselsilikate mit tetraederfremden <a href="/wiki/Anion" title="Anion">Anionen</a> (Neso-Subsilikate)“. Die neue Strunz’sche Mineralsystematik unterteilt hier allerdings präziser nach der Position der <a href="/wiki/Kation" title="Kation">Kationen</a> im Kristall, so dass das Mineral jetzt der Unterabteilung der „Inselsilikate mit zusätzlichen Anionen und Kationen in [4]-, [5]- und/oder nur [6]-Koordination“ zugeordnet ist, wo er als einziges Mitglied die unbenannte Gruppe <i>9.AF.05</i> bildet.
+</p><p>Die im englischen Sprachraum gebräuchliche <a href="/wiki/Systematik_der_Minerale_nach_Dana" title="Systematik der Minerale nach Dana">Systematik der Minerale nach Dana</a> ordnet den Sillimanit ebenfalls in die Klasse der Silikate, dort allerdings in die Abteilung der „<a href="/wiki/Systematik_der_Minerale_nach_Dana/Silikate#52.02_Inselsilikate:_SiO4-Gruppen_und_O,_OH,_F_und_H2O_mit_Kationen_in_[4]_und_&gt;[4]-Koordination" title="Systematik der Minerale nach Dana/Silikate">Inselsilikate mit SiO<sub>4</sub>-Gruppen und O, OH, F und H<sub>2</sub>O mit Kationen in [4] und &gt;[4]-Koordination</a>“, wo er als namensgebendes Mineral zusammen mit <a href="/wiki/Mullit" title="Mullit">Mullit</a> die „Al2SiO5  (Sillimanit-Untergruppe)“ mit der System-Nr. <i>52.2.2a</i> bildet.
 </p>
-<h2><span class="mw-headline" id="Composition">Composition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=3" title="Edit section: Composition">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>Gneissic rocks are usually medium- to coarse-<a href="/wiki/Foliation_(geology)" title="Foliation (geology)">foliated</a>; they are largely <a href="/wiki/Recrystallization_(geology)" title="Recrystallization (geology)">recrystallized</a> but do not carry large quantities of <a href="/wiki/Mica" title="Mica">micas</a>, <a href="/wiki/Chlorite_group" title="Chlorite group">chlorite</a> or other platy <a href="/wiki/Mineral" title="Mineral">minerals</a>. Gneisses that are metamorphosed igneous rocks or their equivalent are termed <a href="/wiki/Granite" title="Granite">granite</a> gneisses, <a href="/wiki/Diorite" title="Diorite">diorite</a> gneisses, and so forth. Gneiss rocks may also be named after a characteristic component such as <a href="/wiki/Garnet" title="Garnet">garnet</a> gneiss, <a href="/wiki/Biotite" title="Biotite">biotite</a> gneiss, <a href="/wiki/Albite" title="Albite">albite</a> gneiss, and so forth.  <i>Orthogneiss</i> designates a gneiss derived from an <a href="/wiki/Igneous_rock" title="Igneous rock">igneous rock</a>, and <i>paragneiss</i> is one from a <a href="/wiki/Sedimentary_rock" title="Sedimentary rock">sedimentary rock</a>.
+<h2><span class="mw-headline" id="Kristallstruktur">Kristallstruktur</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Kristallstruktur">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=3" title="Abschnitt bearbeiten: Kristallstruktur">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:222px;"><a href="/wiki/Datei:Sillimanite_Structure.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sillimanite_Structure.jpg/220px-Sillimanite_Structure.jpg" decoding="async" width="220" height="124" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sillimanite_Structure.jpg/330px-Sillimanite_Structure.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sillimanite_Structure.jpg/440px-Sillimanite_Structure.jpg 2x" data-file-width="1147" data-file-height="648" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Datei:Sillimanite_Structure.jpg" class="internal" title="vergrößern und Informationen zum Bild anzeigen"></a></div>Grundriss der Einheitszelle von Sillimanit. Projiziert wurde eine halbe Einheitszelle auf die ab-Ebene. In Rot die Einheitszelle</div></div></div>
+<div class="thumb tleft"><div class="thumbinner" style="width:222px;"><a href="/wiki/Datei:Sillimanite_Section.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sillimanite_Section.jpg/220px-Sillimanite_Section.jpg" decoding="async" width="220" height="124" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sillimanite_Section.jpg/330px-Sillimanite_Section.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sillimanite_Section.jpg/440px-Sillimanite_Section.jpg 2x" data-file-width="1147" data-file-height="648" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Datei:Sillimanite_Section.jpg" class="internal" title="vergrößern und Informationen zum Bild anzeigen"></a></div>Verknüpfung der Oktaeder- und Tetraederketten, parallel zur c-Achse</div></div></div>
+<p>Sillimanit kristallisiert im <a href="/wiki/Orthorhombisch" class="mw-redirect" title="Orthorhombisch">orthorhombisch</a>-dipyramidalen <a href="/wiki/Kristallsystem" title="Kristallsystem">Kristallsystem</a> in der <a href="/wiki/Raumgruppe" title="Raumgruppe">Raumgruppe</a> <i>Pnma</i>&#32;(Raumgruppen-Nr. 62)<span style="display:none;"><a href="/w/index.php?title=Vorlage:Raumgruppe/62&amp;action=edit&amp;redlink=1" class="new" title="Vorlage:Raumgruppe/62 (Seite nicht vorhanden)">Vorlage:Raumgruppe/62</a></span><span class="editoronly" style="display:none;"></span> mit den <a href="/wiki/Gitterparameter" title="Gitterparameter">Gitterparametern</a> <i>a</i>&#160;=&#160;7,484&#160;<a href="/wiki/%C3%85ngstr%C3%B6m_(Einheit)" title="Ångström (Einheit)">Å</a>; <i>b</i>&#160;=&#160;7,672&#160;Å und <i>c</i>&#160;=&#160;5,77&#160;Å sowie vier <a href="/wiki/Formeleinheit" title="Formeleinheit">Formeleinheiten</a> pro <a href="/wiki/Elementarzelle" title="Elementarzelle">Elementarzelle</a>.<sup id="cite_ref-Webmineral_1-3" class="reference"><a href="#cite_note-Webmineral-1">&#91;1&#93;</a></sup>
+</p><p>Die grundlegenden Baueinheiten der Sillimanitstruktur sind:
 </p>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Orthogneiss_Geopark.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Orthogneiss_Geopark.jpg/220px-Orthogneiss_Geopark.jpg" decoding="async" width="220" height="150" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Orthogneiss_Geopark.jpg/330px-Orthogneiss_Geopark.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/af/Orthogneiss_Geopark.jpg/440px-Orthogneiss_Geopark.jpg 2x" data-file-width="3648" data-file-height="2485" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Orthogneiss_Geopark.jpg" class="internal" title="Enlarge"></a></div>Orthogneiss from the Czech Republic</div></div></div>
-<p><i>Gneissose</i> rocks have properties similar to gneiss.
+<ul><li>[SiO<sub>4</sub>]- und [AlO<sub>4</sub>]-Tetraeder in Viererkoordination und</li>
+<li>[AlO<sub>6</sub>]-Oktaeder in Sechserkoordination.</li></ul>
+<p>Aluminium tritt folglich in einer Doppelrolle, d.&#160;h. in zwei verschiedenen Koordinationsstufen auf, als Al<sup>[4]</sup> und als Al<sup>[6]</sup>, eine genauere Formel für Sillimanit lautet daher auch: Al<sup>[6]</sup>[O|Al<sup>[4]</sup>Si<sup>[4]</sup>O<sub>4</sub>].
+</p><p>Die Oktaeder sind über ihre parallelen Seitenkanten miteinander verknüpft, in Endlosketten aufgereiht und verlaufen parallel zur c-Achse. Ein Strang liegt im Zentrum der Elementarzelle, vier weitere bilden die zur c-Achse parallelen Seitenkanten. Auch die Tetraeder bilden vier Endlosketten in c-Richtung, wobei sich die Zentralatome Si und Al regelmäßig miteinander abwechseln. Diese Si-Al-Si-Al....-tetraederketten liegen zwischen den Oktaederketten und verknüpfen sich über ihre Sauerstoffatome (O<sub>D</sub>-Atome) mit den Oktaederketten. Die Tetraederketten sind jedoch keine <i>Einereinfachketten</i>, sondern <i>Einerdoppelketten</i>, d.&#160;h., sie verknüpfen sich zusätzlich über ihre freien Spitzen (O<sub>C</sub>-Atome) nochmals mit der gegenüberliegenden Tetraederkette der benachbarten Elementarzelle.
+</p><p>Aufgrund dieser Anordnung kann Sillimanit auch als ein <a href="/wiki/Kettensilikate" title="Kettensilikate">Kettensilikat</a> (Inosilikat) betrachtet werden; dies erklärt auch sehr gut seinen langgestreckten, nadeligen, faserigen Habitus.
+</p><p>Zur Veranschaulichung der Sillimanitstruktur nebenstehende Abbildung<sup id="cite_ref-Burnham_4-0" class="reference"><a href="#cite_note-Burnham-4">&#91;4&#93;</a></sup>:
+</p><p>Dargestellt ist die Projektion einer halben Elementarzelle (von Z = 0 bis Z = 1/2) entlang der c-Achse auf die ab- bzw. (001)-Ebene. Die Elementarzelle ist rot umrandet. Die [AlO<sub>6</sub>]-Oktaeder sind hellgrün, die der [SiO<sub>4</sub>]- und [AlO<sub>4</sub>]-Tetraeder beige markiert. Diese Form der Darstellung wurde aus Übersichtlichkeitsgründen gewählt, da nur die Zentralatome der Oktaeder (Al<sub>1</sub>-Atome) sowie die O<sub>D</sub>-Atome strikt ihre Parallelität zur c-Achse beibehalten; alle anderen Atome sind in der oberen Hälfte der Elementarzelle in ihrer Position leicht verschoben.
+</p><p>Die linksstehende Abbildung<sup id="cite_ref-Burnham_4-1" class="reference"><a href="#cite_note-Burnham-4">&#91;4&#93;</a></sup> ist ein vereinfachter Aufriss der Elementarzelle parallel zur c-Achse. Sie zeigt sehr schön die Verknüpfung der Tetraeder-Einerdoppelketten mit der Oktaederkette sowie die Parallelität der Atompositionen Al<sub>1</sub> und O<sub>D</sub>. Beachtenswert der Dimensionsunterschied der Siliziumtetraeder und der Aluminiumtetraeder (2,696 bzw. 3,074 Å), die aufsummiert die Dimension der c-Achse in der Elementarzelle ergeben (5,77 Å).
 </p>
-<h3><span class="mw-headline" id="Gneissic_banding">Gneissic banding</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=4" title="Edit section: Gneissic banding">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>Gneiss appears to be striped in bands like parallel lines in shape, called gneissic banding.<sup id="cite_ref-Marshak_2009_2-0" class="reference"><a href="#cite_note-Marshak_2009-2">&#91;2&#93;</a></sup> The banding is developed under high temperature and pressure conditions.
-</p><p>The minerals are arranged into layers that appear as bands in cross section.<sup id="cite_ref-Marshak_2009_2-1" class="reference"><a href="#cite_note-Marshak_2009-2">&#91;2&#93;</a></sup> The appearance of layers, called 'compositional banding', occurs because the layers, or bands, are of different composition. The darker bands have relatively more <a href="/wiki/Mafic" title="Mafic">mafic</a> minerals (those containing more <a href="/wiki/Magnesium" title="Magnesium">magnesium</a> and <a href="/wiki/Iron" title="Iron">iron</a>). The lighter bands contain relatively more <a href="/wiki/Felsic" title="Felsic">felsic</a> minerals (<a href="/wiki/Silicate_minerals" class="mw-redirect" title="Silicate minerals">silicate minerals</a>, containing more of the lighter elements, such as silicon, oxygen, aluminium, sodium, and potassium).
-</p><p>A common cause of the banding is the subjection of the <a href="/wiki/Protolith" title="Protolith">protolith</a> (the original rock material that undergoes metamorphism) to extreme shearing force, a sliding force similar to the pushing of the top of a deck of cards in one direction, and the bottom of the deck in the other direction.<sup id="cite_ref-Marshak_2009_2-2" class="reference"><a href="#cite_note-Marshak_2009-2">&#91;2&#93;</a></sup> These forces stretch out the rock like a <a href="/wiki/Plasticity_(physics)" title="Plasticity (physics)">plastic</a>, and the original material is spread out into sheets.
-</p><p>Some banding is formed from original rock material (protolith) that is subjected to extreme temperature and pressure and is composed of alternating layers of <a href="/wiki/Sandstone" title="Sandstone">sandstone</a> (lighter) and <a href="/wiki/Shale" title="Shale">shale</a> (darker), which is metamorphosed into bands of <a href="/wiki/Quartzite" title="Quartzite">quartzite</a> and <a href="/wiki/Mica" title="Mica">mica</a>.<sup id="cite_ref-Marshak_2009_2-3" class="reference"><a href="#cite_note-Marshak_2009-2">&#91;2&#93;</a></sup>
-</p><p>Another cause of banding is "metamorphic differentiation", which separates different materials into different layers through chemical reactions, a process not fully understood.<sup id="cite_ref-Marshak_2009_2-4" class="reference"><a href="#cite_note-Marshak_2009-2">&#91;2&#93;</a></sup>
-</p><p>Not all gneiss rocks have detectable banding. In kyanite gneiss, crystals of <a href="/wiki/Kyanite" title="Kyanite">kyanite</a> appear as random clumps in what is mainly a plagioclase (<a href="/wiki/Albite" title="Albite">albite</a>) <a href="/wiki/Matrix_(geology)" title="Matrix (geology)">matrix</a>.
+<h3><span class="mw-headline" id="Die_Elementarzelle_von_Sillimanit">Die Elementarzelle von Sillimanit</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Die Elementarzelle von Sillimanit">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=4" title="Abschnitt bearbeiten: Die Elementarzelle von Sillimanit">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable float-left">
+
+<tbody><tr class="hintergrundfarbe3">
+<th>Atomposition</th>
+<th>a-Achse</th>
+<th>b-Achse</th>
+<th>c-Achse
+</th></tr>
+<tr>
+<td>Al<sub>1</sub></td>
+<td>0,0000</td>
+<td>0,0000</td>
+<td>0,0000
+</td></tr>
+<tr>
+<td>Al<sub>2</sub></td>
+<td>0,1418</td>
+<td>0,3449</td>
+<td>0,2500
+</td></tr>
+<tr>
+<td>Si</td>
+<td>0,1535</td>
+<td>0,3402</td>
+<td>0,7500
+</td></tr>
+<tr>
+<td>O<sub>A</sub></td>
+<td>0,3600</td>
+<td>0,4088</td>
+<td>0,7500
+</td></tr>
+<tr>
+<td>O<sub>B</sub></td>
+<td>0,3563</td>
+<td>0,4340</td>
+<td>0,2500
+</td></tr>
+<tr>
+<td>O<sub>C</sub></td>
+<td>0,4765</td>
+<td>0,0017</td>
+<td>0,7500
+</td></tr>
+<tr>
+<td>O<sub>D</sub></td>
+<td>0,1256</td>
+<td>0,2232</td>
+<td>0,5144
+</td></tr></tbody></table>
+<p>Die Atompositionen der Elementarzelle von Sillimanit sind wie folgt<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup>:
+</p><p>Diese Angaben sowie 13 daran anschließende Symmetrieoperationen sind hinreichend, um die Elementarzelle vollständig zu definieren.
+</p><p>Bemerkenswert die nahezu identische Dimension der a- und der b-Achse, Sillimanit verfehlt eine tetragonale Symmetrie somit nur geringfügig.
 </p>
-<h2><span class="mw-headline" id="Types">Types</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=5" title="Edit section: Types">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<h3><span class="mw-headline" id="Augen_gneiss">Augen gneiss</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=6" title="Edit section: Augen gneiss">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Henderson_Augen_Gneiss.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Henderson_Augen_Gneiss.jpg/220px-Henderson_Augen_Gneiss.jpg" decoding="async" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Henderson_Augen_Gneiss.jpg/330px-Henderson_Augen_Gneiss.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Henderson_Augen_Gneiss.jpg/440px-Henderson_Augen_Gneiss.jpg 2x" data-file-width="2592" data-file-height="1944" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Henderson_Augen_Gneiss.jpg" class="internal" title="Enlarge"></a></div>Henderson augen gneiss</div></div></div>
-<p><a href="/wiki/Augen" title="Augen">Augen</a> gneiss, from the <a href="/wiki/German_language" title="German language">German</a>: <i lang="de">Augen</i> <small></small><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="/wiki/Help:IPA/Standard_German" title="Help:IPA/Standard German">[ˈaʊɡən]</a></span>, meaning "eyes", is a coarse-grained gneiss resulting from metamorphism of granite, which contains characteristic elliptic or <a href="/wiki/Lens_(geology)" title="Lens (geology)">lenticular</a> shear-bound feldspar <a href="/wiki/Porphyroclast" title="Porphyroclast">porphyroclasts</a>, normally <a href="/wiki/Microcline" title="Microcline">microcline</a>, within the layering of the quartz, biotite and magnetite bands.
+<div style="clear:left;"></div>
+<h3><span id="R.C3.B6ntgendiffraktometrie"></span><span class="mw-headline" id="Röntgendiffraktometrie">Röntgendiffraktometrie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Röntgendiffraktometrie">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=5" title="Abschnitt bearbeiten: Röntgendiffraktometrie">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable float-left">
+
+<tbody><tr class="hintergrundfarbe3">
+<th>Intensität (I/I<sub>0</sub>)</th>
+<th>Gitterabstand (d) in Å</th>
+<th>Winkel (2-Theta)</th>
+<th>Fläche (hkl)
+</th></tr>
+<tr>
+<td>100  (auch 65)</td>
+<td>3,365</td>
+<td>26,48°</td>
+<td>(210)
+</td></tr>
+<tr>
+<td>79,65 (auch 100)</td>
+<td>3,417</td>
+<td>26,08°</td>
+<td>(120)
+</td></tr>
+<tr>
+<td>67,37</td>
+<td>2,206</td>
+<td>40,91°</td>
+<td>(122)
+</td></tr>
+<tr>
+<td>49,66</td>
+<td>2,543</td>
+<td>35,29°</td>
+<td>(112)
+</td></tr>
+<tr>
+<td>41,88</td>
+<td>1,519</td>
+<td>60,96°</td>
+<td>(332)
+</td></tr></tbody></table>
+<p><a href="/wiki/Einkristalldiffraktometer" title="Einkristalldiffraktometer">Röntgendiffraktometrische</a> Untersuchungen an Sillimanit-Kristallen haben folgende Ergebnisse geliefert<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>:
+</p><p>Die beiden ersten Maximalwerte liegen recht eng zusammen und werden oft miteinander vertauscht. Der Beugungswinkel (2-Theta) ist für Cu K-alpha Strahlung angegeben.
 </p>
-<h3><span class="mw-headline" id="Henderson_gneiss">Henderson gneiss</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=7" title="Edit section: Henderson gneiss">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>Henderson gneiss is found in <a href="/wiki/North_Carolina" title="North Carolina">North Carolina</a> and <a href="/wiki/South_Carolina" title="South Carolina">South Carolina</a>, US, east of the <a href="/w/index.php?title=Brevard_Shear_Zone&amp;action=edit&amp;redlink=1" class="new" title="Brevard Shear Zone (page does not exist)">Brevard Shear Zone</a>. It has deformed into two sequential forms. The second, more warped, form is associated with the Brevard Fault, and the first deformation results from displacement to the southwest.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup>
+<div style="clear:left;"></div>
+<h2><span class="mw-headline" id="Eigenschaften">Eigenschaften</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Eigenschaften">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=6" title="Abschnitt bearbeiten: Eigenschaften">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:222px;"><a href="/wiki/Datei:Sillimanitestability.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sillimanitestability.png/220px-Sillimanitestability.png" decoding="async" width="220" height="219" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sillimanitestability.png/330px-Sillimanitestability.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sillimanitestability.png/440px-Sillimanitestability.png 2x" data-file-width="800" data-file-height="795" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Datei:Sillimanitestability.png" class="internal" title="vergrößern und Informationen zum Bild anzeigen"></a></div>Stabilitätsbereich von Sillimanit mit leicht abgeändertem Alumosilikat-Tripelpunkt (540 °C, 0,45 GPa)</div></div></div>
+<p>In der <a href="/wiki/Petrologie" title="Petrologie">Petrologie</a> der metamorphen Gesteine nimmt Sillimanit als Gradmesser für die Stärke der Umwandlungen eine wichtige Stellung ein. Als so genanntes <i>Indexmineral</i> definiert sein Erstauftreten die <i>Sillimanitzone</i> oder den <i>Sillimanit-Isograd</i>, sein Stabilitätsbereich wird hierbei durch die <a href="/wiki/Thermodynamik" title="Thermodynamik">thermodynamischen</a> Transformationen Andalusit ⇔ Sillimanit und Kyanit ⇔ Sillimanit eingegrenzt. Dieser Bereich liegt bei relativ hohen Temperaturen (&gt; 540&#160;°C) und kann mittlere Drucke (bis ~ 1 GPa, entsprechend einer Tiefe von 36,5 Kilometer) erreichen.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> Er umspannt größtenteils die <a href="/wiki/Metamorphe_Fazies#Amphibolit-Fazies_(MP/MT-HT)" title="Metamorphe Fazies">Amphibolit-</a> und <a href="/wiki/Metamorphe_Fazies#Granulit-Fazies_(MP/HT)" title="Metamorphe Fazies">Granulitfazies</a> sowie die hochtemperierte <a href="/wiki/Kontaktmetamorphose" class="mw-redirect" title="Kontaktmetamorphose">Kontaktmetamorphose</a>.
+</p><p>Im Verlauf der Metamorphose kommt es zur Neubildung von Sillimanit durch polymorphe Transformation aus Andalusit oder Kyanit bzw. durch Umwandlungsreaktionen von Biotit und Muskovit. Als Beispiel hierfür sei die folgende Reaktion angeführt:
 </p>
-<h3><span class="mw-headline" id="Lewisian_gneiss">Lewisian gneiss</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=8" title="Edit section: Lewisian gneiss">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Road_Cutting_-_geograph.org.uk_-_820828.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Road_Cutting_-_geograph.org.uk_-_820828.jpg/220px-Road_Cutting_-_geograph.org.uk_-_820828.jpg" decoding="async" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Road_Cutting_-_geograph.org.uk_-_820828.jpg/330px-Road_Cutting_-_geograph.org.uk_-_820828.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Road_Cutting_-_geograph.org.uk_-_820828.jpg/440px-Road_Cutting_-_geograph.org.uk_-_820828.jpg 2x" data-file-width="640" data-file-height="427" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Road_Cutting_-_geograph.org.uk_-_820828.jpg" class="internal" title="Enlarge"></a></div>Dark dikes (now <a href="/wiki/Foliation_(geology)" title="Foliation (geology)">foliated</a> <a href="/wiki/Amphibolite" title="Amphibolite">amphibolites</a>) cutting light grey Lewisian gneiss of the Scourie complex, both deformed and cut by later (unfoliated) pink granite dikes</div></div></div>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg/220px-Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg" decoding="async" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg/330px-Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg/440px-Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg 2x" data-file-width="2816" data-file-height="2112" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Yttre_Ursholmen_Kontakt_Kosterdiabas_i_Nebulitisk-migmatitisk_sedimentgnejs.jpg" class="internal" title="Enlarge"></a></div>Contact between a dark-colored <a href="/wiki/Diabase" title="Diabase">diabase</a> dike (about 1100 million years old)<sup id="cite_ref-hageskov_4-0" class="reference"><a href="#cite_note-hageskov-4">&#91;4&#93;</a></sup> and light-colored <a href="/wiki/Migmatite" title="Migmatite">migmatitic</a> paragneiss in the <a href="/wiki/Kosterhavet_National_Park" title="Kosterhavet National Park">Kosterhavet National Park</a> in the <a href="/wiki/Koster_Islands" title="Koster Islands">Koster Islands</a> off the western coast of Sweden.</div></div></div>
-<p>Most of the <a href="/wiki/Outer_Hebrides" title="Outer Hebrides">Outer Hebrides</a> of Scotland have a bedrock formed from <a href="/wiki/Lewisian_complex" title="Lewisian complex">Lewisian gneiss</a>.  In addition to the Outer Hebrides, they form basement deposits on the Scottish mainland west of the <a href="/wiki/Moine_Thrust_Belt" title="Moine Thrust Belt">Moine Thrust</a> and on the islands of <a href="/wiki/Coll" title="Coll">Coll</a> and <a href="/wiki/Tiree" title="Tiree">Tiree</a>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> These rocks are largely igneous in origin, mixed with metamorphosed <a href="/wiki/Marble" title="Marble">marble</a>, <a href="/wiki/Quartzite" title="Quartzite">quartzite</a> and <a href="/wiki/Mica_schist" class="mw-redirect" title="Mica schist">mica schist</a> with later intrusions of basaltic <a href="/wiki/Dike_(geology)" title="Dike (geology)">dikes</a> and granite magma.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+<ul><li>1 Muskovit + 1Quarz ⇒ 1 Sillimanit + 1 Alkalifeldspat + 1 Wasser</li>
+<li>1 KAl<sub>2</sub>[(OH)<sub>2</sub>&#124;AlSi<sub>3</sub>O<sub>10</sub>] + 1 SiO<sub>2</sub> ⇒ 1 Al<sub>2</sub>SiO<sub>5</sub> + 1 KAlSi<sub>3</sub>O<sub>8</sub> + 1 H<sub>2</sub>O</li></ul>
+<p>Diese Reaktion ist sehr wichtig, da sie das Stabilitätsfeld von Sillimanit in zwei Bereiche aufteilt – die Sillimanitzone wird deswegen auch in zwei <i>Subzonen</i> untergliedert, in die etwas niedriger temperierte und druckbetonte <i>Sillimanit-Muskovit-Subzone</i> sowie in die höhertemperierte <i>Sillimanit-Alkalifeldspat-Subzone</i>. Die Reaktion beginnt ab 630&#160;°C wirksam zu werden und bedingt das völlige Verschwinden von Muskovit.
+</p><p>Reaktionen zwischen <a href="/wiki/Staurolith" title="Staurolith">Staurolith</a> und Biotit bzw. zwischen Staurolith und Quarz.
+</p><p>Mit Erreichen und Überschreiten anatektischer Temperaturen erfolgen Reaktionen, in denen Sillimanit wieder abgebaut wird. Als Beispiele die Biotit-Dehydratationen:
+</p><p>Sillimanit + Biotit ⇒ Granat + Alkalifeldspat + Flüssigkeit oder
+</p><p>Sillimanit + Biotit ⇒ Granat + Cordierit ± Flüssigkeit
+</p><p>Aber auch im Verfauf der <a href="/wiki/Retromorphose" class="mw-redirect" title="Retromorphose">Retromorphose</a> verschwindet Sillimanit allmählich wieder, bei sinkenden Temperaturen und Druckabfall wird z.&#160;B. Andalusit polymorph rückgebildet.
+</p><p>Sillimanit ist ein recht verwitterungsbeständiges Mineral, zersetzt sich aber dennoch unter Bildung von <a href="/wiki/Kaolinit" title="Kaolinit">Kaolinit</a> und Muskowit bzw. <a href="/wiki/Serizit" class="mw-redirect" title="Serizit">Serizit</a> (epizonale Serizitisierung).
 </p>
-<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/File:Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg/220px-Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg" decoding="async" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg/330px-Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg/440px-Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg 2x" data-file-width="3653" data-file-height="2740" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:Gnaisse_Sete_Voltas_-_Bahia_-_Brasil.jpg" class="internal" title="Enlarge"></a></div>Sample of Sete Voltas gneiss from Bahia in Brazil, the oldest rock outcropping in the crust of South America, <abbr title="circa">c.</abbr> 3.4 billion years old (Archean)</div></div></div>
-<h3><span class="mw-headline" id="Archean_and_Proterozoic_gneiss">Archean and Proterozoic gneiss</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=9" title="Edit section: Archean and Proterozoic gneiss">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<p>Gneisses of <a href="/wiki/Archean" title="Archean">Archean</a> and <a href="/wiki/Proterozoic" title="Proterozoic">Proterozoic</a> age occur in the <a href="/wiki/Baltic_Shield" title="Baltic Shield">Baltic Shield</a>.
+<h2><span id="Modifikationen_und_Variet.C3.A4ten"></span><span class="mw-headline" id="Modifikationen_und_Varietäten">Modifikationen und Varietäten</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Modifikationen und Varietäten">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=7" title="Abschnitt bearbeiten: Modifikationen und Varietäten">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Sillimanit ist die Hochtemperatur-Niederdruck-Modifikation der Al<sub>2</sub>SiO<sub>5</sub>-Gruppe und <a href="/wiki/Polymorphie_(Materialwissenschaft)" title="Polymorphie (Materialwissenschaft)">trimorph</a> mit den weiteren Mitgliedern <a href="/wiki/Andalusit" title="Andalusit">Andalusit</a> und <a href="/wiki/Kyanit" title="Kyanit">Kyanit</a>.
+</p><p><b>Fibrolith</b> ist ein büscheliges Aggregat langgezogener Sillimanitkristalle (Comte de Bournon, 1802). <i>Faserkiesel</i> sind hingegen subparallele, nadelige Schwärme und Strähnen von Sillimanit in <a href="/wiki/Quarz" title="Quarz">Quarz</a> oder <a href="/wiki/Cordierit" title="Cordierit">Cordierit</a> (beschrieben 1792 von Lindacker in Böhmen). Weitere lokale Varietäten sind <i>Monrolit</i> (nach der Stadt Monroe im Bundesstaat <a href="/wiki/New_York_(Bundesstaat)" title="New York (Bundesstaat)">New York</a>) und <i>Bamlit</i> (nach Bamle bei Brevik in <a href="/wiki/Norwegen" title="Norwegen">Norwegen</a>).
 </p>
-<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<ul><li><a href="/wiki/List_of_rock_types" title="List of rock types">List of rock types</a></li>
-<li><a href="/wiki/Acasta_Gneiss" title="Acasta Gneiss">Acasta Gneiss</a></li>
-<li><a href="/wiki/The_Bronx#Fordham_gneiss" title="The Bronx">Fordham gneiss</a></li>
-<li><a href="/wiki/Morton_Gneiss" title="Morton Gneiss">Morton Gneiss</a></li>
-<li><a href="/wiki/Peninsular_Gneiss" title="Peninsular Gneiss">Peninsular Gneiss</a></li></ul>
-<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<h3><span class="mw-headline" id="Citations">Citations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=12" title="Edit section: Citations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
-<div class="mw-references-wrap"><ol class="references">
-<li id="cite_note-etymonline-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-etymonline_1-0">^</a></b></span> <span class="reference-text">Harper, <i>Online Etym. Dict.</i>, <a rel="nofollow" class="external text" href="http://www.etymonline.com/index.php?search=gneiss&amp;searchmode=none">"gneiss"</a></span>
+<h2><span class="mw-headline" id="Bildung_und_Fundorte">Bildung und Fundorte</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=8" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Bildung und Fundorte">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=8" title="Abschnitt bearbeiten: Bildung und Fundorte">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Sillimanit findet sich in Form stängelig-faseriger oder säuliger <a href="/wiki/Kristall" title="Kristall">Kristalle</a> oder auch massiv in <a href="/wiki/Aluminium" title="Aluminium">aluminiumreichen</a>, pelitischen, <a href="/wiki/Metamorphes_Gestein" title="Metamorphes Gestein">regionalmetamorphen Gesteinen</a>. Er tritt meist in zwei Metamorphosetypen auf:
+</p>
+<ul><li>Im Abukuma-Typ bei relativ niedrigen Drucken in Glimmerschiefern.<br />Begleitmineral ist meist <a href="/wiki/Andalusit" title="Andalusit">Andalusit</a>.</li>
+<li>Im Barrow-Typ bei mittleren Drucken in Gneisen.<br />Begleitminerale sind <a href="/wiki/Kyanit" title="Kyanit">Kyanit</a> und <a href="/wiki/Cordierit" title="Cordierit">Cordierit</a>.</li></ul>
+<p>Kontaktmetamorph kommt Sillimanit in der höchsttemperierten Sanidinit-Fazies vor.
+</p><p>Als Mineral magmatischen Ursprungs ist er Bestandteil von peraluminosen Granitoiden. Nur recht selten findet man Sillimanit in <a href="/wiki/Amphibolit" title="Amphibolit">Amphiboliten</a> und <a href="/wiki/Eklogit" title="Eklogit">Eklogiten</a>, relativ selten in <a href="/wiki/Pegmatit" title="Pegmatit">Pegmatiten</a>, recht häufig jedoch in <a href="/wiki/Granulit" title="Granulit">Granuliten</a>. Man trifft ihn auch gelegentlich als Detritus in Sedimenten.
+</p><p><a href="/wiki/Paragenese" title="Paragenese">Begleitminerale</a> sind <a href="/wiki/Alkalifeldspat" class="mw-redirect" title="Alkalifeldspat">Alkalifeldspat</a>, <a href="/wiki/Almandin" title="Almandin">Almandin</a>, <a href="/wiki/Andalusit" title="Andalusit">Andalusit</a>, <a href="/wiki/Biotit" title="Biotit">Biotit</a>, <a href="/wiki/Cordierit" title="Cordierit">Cordierit</a>, <a href="/wiki/Enstatit" title="Enstatit">Enstatit</a> (bei höheren Temperaturen) <a href="/wiki/Korund" title="Korund">Korund</a>, <a href="/wiki/Kyanit" title="Kyanit">Kyanit</a>, <a href="/wiki/Muskovit" title="Muskovit">Muskovit</a>, <a href="/wiki/Plagioklas" class="mw-redirect" title="Plagioklas">Plagioklas</a>, <a href="/wiki/Quarz" title="Quarz">Quarz</a> und/oder <a href="/wiki/Spinell" title="Spinell">Spinell</a>.
+</p><p>Die Typlokalität für Sillimanit ist <a href="/wiki/Su%C5%A1ice" title="Sušice">Sušice</a> in <a href="/wiki/Tschechien" title="Tschechien">Tschechien</a>. Fundorte in Deutschland sind der <a href="/wiki/Laacher_See" title="Laacher See">Laacher See</a>, der <a href="/wiki/Spessart" title="Spessart">Spessart</a> und <a href="/wiki/Bodenmais" title="Bodenmais">Bodenmais</a> im <a href="/wiki/Bayerischer_Wald" title="Bayerischer Wald">Bayerischen Wald</a>. Weltweit: <a href="/wiki/Sellrain" title="Sellrain">Sellrain</a> (Österreich), <a href="/wiki/Auvergne" title="Auvergne">Auvergne</a> (Frankreich), <a href="/wiki/Meghalaya" title="Meghalaya">Meghalaya</a> (<a href="/wiki/Nordostindien" title="Nordostindien">Nordostindien</a>),<sup id="cite_ref-wii-2017-28_8-0" class="reference"><a href="#cite_note-wii-2017-28-8">&#91;8&#93;</a></sup> <a href="/wiki/Myanmar" title="Myanmar">Myanmar</a>, <a href="/wiki/Sri_Lanka" title="Sri Lanka">Sri Lanka</a>, <a href="/wiki/Enderbyland" title="Enderbyland">Enderbyland</a> (<a href="/wiki/Antarktis" title="Antarktis">Antarktis</a>) und Brandywine Springs (<a href="/wiki/Delaware" title="Delaware">Delaware</a>, USA).
+</p>
+<h2><span class="mw-headline" id="Verwendung">Verwendung</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=9" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Verwendung">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=9" title="Abschnitt bearbeiten: Verwendung">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Datei:Sillimanite_taill%C3%A9e.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sillimanite_taill%C3%A9e.jpg/220px-Sillimanite_taill%C3%A9e.jpg" decoding="async" width="220" height="143" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sillimanite_taill%C3%A9e.jpg/330px-Sillimanite_taill%C3%A9e.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sillimanite_taill%C3%A9e.jpg/440px-Sillimanite_taill%C3%A9e.jpg 2x" data-file-width="4794" data-file-height="3114" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Datei:Sillimanite_taill%C3%A9e.jpg" class="internal" title="vergrößern und Informationen zum Bild anzeigen"></a></div>Sillimanit im ovalen Facettenschliff</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a href="/wiki/Datei:Sillimanite_cut.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sillimanite_cut.jpg/220px-Sillimanite_cut.jpg" decoding="async" width="220" height="124" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sillimanite_cut.jpg/330px-Sillimanite_cut.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sillimanite_cut.jpg/440px-Sillimanite_cut.jpg 2x" data-file-width="792" data-file-height="445" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/Datei:Sillimanite_cut.jpg" class="internal" title="vergrößern und Informationen zum Bild anzeigen"></a></div>Mehrere undurchsichtige Sillimanite im achteckigen Facettenschliff</div></div></div>
+<p>Sillimanit findet bei guter Qualität als <a href="/wiki/Schmuckstein" title="Schmuckstein">Schmuckstein</a> Verwendung, ist allerdings bisher wenig bekannt. Klare Varietäten werden meist in verschiedenen <a href="/wiki/Schliff_(Schmuckstein)" title="Schliff (Schmuckstein)">Facettenschliffen</a> wie im <a href="/wiki/Brillant" title="Brillant">Brillant</a>- oder facettierten <a href="/wiki/Oval_(Geometrie)" class="mw-redirect" title="Oval (Geometrie)">Ovalschliff</a> angeboten. Undurchsichtige Steine und solche mit optischen Effekten wie <a href="/wiki/Chatoyance" title="Chatoyance">Chatoyance</a> (<i>Katzenaugeneffekt</i>) oder <a href="/wiki/Asterismus_(Mineralogie)" title="Asterismus (Mineralogie)">Asterismus</a> (<i>Sterneffekt</i>) erhalten dagegen einen <a href="/wiki/Cabochon" title="Cabochon">cabochonförmigen</a> Glattschliff.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;9&#93;</a></sup>
+</p><p>Industriell dient Sillimanit zur Herstellung feuerfester Werkstoffe (Tragrohre für Heizwendeln im Elektro-Ofenbau, Zündkerzen usw.).
+</p>
+<h2><span class="mw-headline" id="Siehe_auch">Siehe auch</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=10" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Siehe auch">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=10" title="Abschnitt bearbeiten: Siehe auch">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Liste_der_Minerale" title="Liste der Minerale">Liste der Minerale</a></li></ul>
+<h2><span class="mw-headline" id="Einzelnachweise">Einzelnachweise</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=11" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Einzelnachweise">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=11" title="Abschnitt bearbeiten: Einzelnachweise">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-Webmineral-1"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-Webmineral_1-0">a</a></sup> <sup><a href="#cite_ref-Webmineral_1-1">b</a></sup> <sup><a href="#cite_ref-Webmineral_1-2">c</a></sup> <sup><a href="#cite_ref-Webmineral_1-3">d</a></sup></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://webmineral.com/data/Sillimanite.shtml">Webmineral – Sillimanite</a> (engl.)</span>
 </li>
-<li id="cite_note-Marshak_2009-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-Marshak_2009_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Marshak_2009_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Marshak_2009_2-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-Marshak_2009_2-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-Marshak_2009_2-4"><sup><i><b>e</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFMarshak2013">Marshak 2013</a>, pp.&#160;194–95; Figs. 7.6a–c</span>
+<li id="cite_note-MinDat-2"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-MinDat_2-0">a</a></sup> <sup><a href="#cite_ref-MinDat_2-1">b</a></sup> <sup><a href="#cite_ref-MinDat_2-2">c</a></sup></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.mindat.org/min-3662.html">Sillimanite bei mindat.org (engl.)</a></span>
 </li>
-<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Sacks &amp; Secor (1990).</span>
+<li id="cite_note-Tröger-3"><span class="mw-cite-backlink"><a href="#cite_ref-Tröger_3-0">↑</a></span> <span class="reference-text">W.E. Tröger: <i>Optische Bestimmung der gesteinsbildenden Minerale</i>.4. neubearbeitete Auflage. E. Schweizerbart’sche Verlagsbuchhandlung, 1971, <a href="/wiki/Spezial:ISBN-Suche/3510650115" class="internal mw-magiclink-isbn">ISBN 3-510-65011-5</a> (S. 51)</span>
 </li>
-<li id="cite_note-hageskov-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-hageskov_4-0">^</a></b></span> <span class="reference-text">Bjørn Hageskov (1985): <a rel="nofollow" class="external text" href="http://2dgf.dk/xpdf/bull34-03-04-151-197.pdf"><i>Constrictional deformation of the Koster dyke swarm in a ductile sinistral shear zone, Koster islands, SW Sweden.</i></a> Bulletin of the Geological Society of Denmark 34(3–4): 151–97</span>
+<li id="cite_note-Burnham-4"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-Burnham_4-0">a</a></sup> <sup><a href="#cite_ref-Burnham_4-1">b</a></sup></span> <span class="reference-text">Burnham,C.W. (1963a). Refinement of the crystal structure of
+sillimanite. Z. Kristallogr., 118, 127-148</span>
 </li>
-<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Gillen (2003), p. 44.</span>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text">Peterson, R.C. &amp; McMullan, R.K. (1986). Neutron diffraction studies of sillimanite. Am. Min., Vol.71, p742-745</span>
 </li>
-<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">McKirdy et al. (2007), p. 95.</span>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://rruff.info/sillimanite/names/asc/R050601">Database-of-Raman-spectroscopy – Sillimanite</a></span>
 </li>
-</ol></div></div>
-<h3><span class="mw-headline" id="Bibliography">Bibliography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=13" title="Edit section: Bibliography">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
-<ul><li>Blatt, Harvey and Robert J. Tracy (1996). <i>Petrology: Igneous, Sedimentary and Metamorphic</i>, 2nd ed. Freeman, pp.&#160;359–65. <style data-mw-deduplicate="TemplateStyles:r999302996">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-7167-2438-3" title="Special:BookSources/0-7167-2438-3">0-7167-2438-3</a>.</li>
-<li>Gillen, Con (2003). <i>Geology and landscapes of Scotland</i>. Harpenden. Terra Publishing. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r999302996"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-903544-09-2" title="Special:BookSources/1-903544-09-2">1-903544-09-2</a>.</li>
-<li>Harper, Douglas (ed.). <a rel="nofollow" class="external text" href="http://www.etymonline.com/index.php?search=gneiss&amp;searchmode=none">"gneiss"</a>, <i>Online Etymological Dictionary</i>.  Retrieved 2015-03-01.</li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r999302996"/><cite id="CITEREFMarshak2013" class="citation book cs1">Marshak, Stephen (2013). <i>Essentials of Geology</i> (4th&#160;ed.). W.W. Norton. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-393-91939-4" title="Special:BookSources/978-0-393-91939-4"><bdi>978-0-393-91939-4</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Essentials+of+Geology&amp;rft.edition=4th&amp;rft.pub=W.W.+Norton&amp;rft.date=2013&amp;rft.isbn=978-0-393-91939-4&amp;rft.aulast=Marshak&amp;rft.aufirst=Stephen&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGneiss" class="Z3988"></span></li>
-<li>McKirdy, Alan, Roger Crofts and John Gordon (2007). <i>Land of Mountain and Flood: The Geology and Landforms of Scotland</i>. Edinburgh. Birlinn.  <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r999302996"/><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-84158-357-0" title="Special:BookSources/978-1-84158-357-0">978-1-84158-357-0</a>.</li>
-<li><a href="/wiki/W._H._Murray" title="W. H. Murray">Murray, W.H.</a> (1966). <i>The Hebrides</i>. London. Heinemann.</li>
-<li>Sacks, Paul E. and Donald T. Secor (1990). "Kinematics of Late Paleozoic continental collision between Laurentia and Gondwana". <i>Science</i>, <b>250</b> (4988): 1702–05. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1126%2Fscience.250.4988.1702">10.1126/science.250.4988.1702</a>.</li></ul>
-<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Gneiss&amp;action=edit&amp;section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
-<tbody><tr>
-<td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></td>
-<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a href="https://commons.wikimedia.org/wiki/Category:Gneiss" class="extiw" title="commons:Category:Gneiss"><span style="">Gneiss</span></a></b></i>.</td></tr>
-</tbody></table>
-<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r999302996"/><cite class="citation encyclopaedia cs1"><span class="cs1-ws-icon" title="s:1911 Encyclopædia Britannica/Gneiss"><a class="external text" href="https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Gneiss">"Gneiss"&#160;</a></span>. <i><a href="/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition" title="Encyclopædia Britannica Eleventh Edition">Encyclopædia Britannica</a></i> (11th&#160;ed.). 1911.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Gneiss&amp;rft.btitle=Encyclop%C3%A6dia+Britannica&amp;rft.edition=11th&amp;rft.date=1911&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGneiss" class="Z3988"></span></li>
-<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r999302996"/><cite class="citation encyclopaedia cs1"><span class="cs1-ws-icon" title="s:The New International Encyclopædia/Gneiss"><a class="external text" href="https://en.wikisource.org/wiki/The_New_International_Encyclop%C3%A6dia/Gneiss">"Gneiss"&#160;</a></span>. <i><a href="/wiki/New_International_Encyclopedia" class="mw-redirect" title="New International Encyclopedia">New International Encyclopedia</a></i>. 1906.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Gneiss&amp;rft.btitle=New+International+Encyclopedia&amp;rft.date=1906&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AGneiss" class="Z3988"></span></li></ul>
-<div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control_frameless_&amp;#124;text-top_&amp;#124;10px_&amp;#124;alt=Edit_this_at_Wikidata_&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q166409#identifiers&amp;#124;Edit_this_at_Wikidata" style="padding:3px"><table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th id="Authority_control_frameless_&amp;#124;text-top_&amp;#124;10px_&amp;#124;alt=Edit_this_at_Wikidata_&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q166409#identifiers&amp;#124;Edit_this_at_Wikidata" scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control</a> <a href="https://www.wikidata.org/wiki/Q166409#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20" /></a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
-<ul><li><span class="nowrap"><a href="/wiki/GND_(identifier)" class="mw-redirect" title="GND (identifier)">GND</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4130378-7">4130378-7</a></span></span></li>
-<li><span class="nowrap"><a href="/wiki/LCCN_(identifier)" class="mw-redirect" title="LCCN (identifier)">LCCN</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/subjects/sh85055450">sh85055450</a></span></span></li>
-<li><span class="nowrap"><a href="/wiki/MA_(identifier)" class="mw-redirect" title="MA (identifier)">MA</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://academic.microsoft.com/v2/detail/171701179">171701179</a></span></span></li>
-<li><span class="nowrap"><a href="/wiki/NDL_(identifier)" class="mw-redirect" title="NDL (identifier)">NDL</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://id.ndl.go.jp/auth/ndlna/00563106">00563106</a></span></span></li></ul>
-</div></td></tr></tbody></table></div>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text">Spear, F.S., Kohn, M.J., and Cheney, J.T., 1999, P-T paths from
+anatectic pelites: Contributions to Mineralogy and Petrology,
+v. 134, p. 17–32, <a href="//doi.org/10.1007/s004100050466" class="extiw" title="doi:10.1007/s004100050466">doi:10.1007/s004100050466</a>. Enthält Daten zur Lage des Alumosilikat-Tripelpunktes.</span>
+</li>
+<li id="cite_note-wii-2017-28-8"><span class="mw-cite-backlink"><a href="#cite_ref-wii-2017-28_8-0">↑</a></span> <span class="reference-text">Wildlife Institute of India: <i>Table 2.2: Minerals of Meghalaya</i> und <i>Fig 2.3: Mineral Map of Meghalaya</i> In: <i>The Meghalaya State Biodiversity Strategy and Action Plan (2016–2026; Draft).</i> Ministry of Environment Forest and Climate change, Government of India 2017 (englisch, ohne Seitenzahlen; hier PDF-Seiten 28/29; Volltext: <a rel="nofollow" class="external text" href="http://megbiodiversity.nic.in/sites/default/files/mbsap-6th-march-2017.pdf">PDF: 15,4 MB, 350 Seiten</a> auf megbiodiversity.nic.in); Zitat: „The Sonapahar sillimanite area of West Khasi Hills District is the only area in the state [Meghalaya] where lensoid bodies of massive sillimanite mineral are found. Total reserve of 55 MTs (GSI, 2009), which is about 95&#160;% of India’s total reserve.“</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.realgems.org/edelsteine_liste/sillimanit.html">realgems.org – Sillimanit</a> (mit Darstellungen verschiedener Roh- und facettierter Steine)</span>
+</li>
+</ol>
+<h2><span class="mw-headline" id="Literatur">Literatur</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=12" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Literatur">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=12" title="Abschnitt bearbeiten: Literatur">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Petr Korbel, Milan Novák&#58; <cite style="font-style:italic">Mineralien Enzyklopädie</cite>. Nebel Verlag GmbH, Eggolsheim 2002, <a href="/wiki/Spezial:ISBN-Suche/3895550760" class="internal mw-magiclink-isbn">ISBN 3-89555-076-0</a>, <span style="white-space:nowrap">S.<span style="display:inline-block;width:.2em">&#160;</span>201</span>.<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Sillimanit&amp;rft.au=Petr+Korbel%2C+Milan+Nov%C3%A1k&amp;rft.btitle=Mineralien+Enzyklop%C3%A4die&amp;rft.date=2002&amp;rft.genre=book&amp;rft.isbn=3895550760&amp;rft.pages=201&amp;rft.place=Eggolsheim&amp;rft.pub=Nebel+Verlag+GmbH" style="display:none">&#160;</span></li>
+<li>Martin Okrusch, Siegfried Matthes&#58; <cite style="font-style:italic">Mineralogie: Eine Einführung in die spezielle Mineralogie, Petrologie und Lagerstättenkunde</cite>. 7. Auflage. Springer Verlag, Berlin, Heidelberg, New York 2005, <a href="/wiki/Spezial:ISBN-Suche/3540238123" class="internal mw-magiclink-isbn">ISBN 3-540-23812-3</a>, <span style="white-space:nowrap">S.<span style="display:inline-block;width:.2em">&#160;</span>84</span>.<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Sillimanit&amp;rft.au=Martin+Okrusch%2C+Siegfried+Matthes&amp;rft.btitle=Mineralogie%3A+Eine+Einf%C3%BChrung+in+die+spezielle+Mineralogie%2C+Petrologie+und+Lagerst%C3%A4ttenkunde&amp;rft.date=2005&amp;rft.edition=7.&amp;rft.genre=book&amp;rft.isbn=3540238123&amp;rft.pages=84&amp;rft.place=Berlin%2C+Heidelberg%2C+New+York&amp;rft.pub=Springer+Verlag" style="display:none">&#160;</span></li>
+<li>Walter Schumann&#58; <cite style="font-style:italic">Edelsteine und Schmucksteine. Alle Arten und Varietäten der Welt. 1600 Einzelstücke</cite>. 13. überarbeitete und erweiterte Auflage. BLV Verlags GmbH, München u.&#160;a. 2002, <a href="/wiki/Spezial:ISBN-Suche/3405163323" class="internal mw-magiclink-isbn">ISBN 3-405-16332-3</a>, <span style="white-space:nowrap">S.<span style="display:inline-block;width:.2em">&#160;</span>234</span>.<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info:sid/de.wikipedia.org:Sillimanit&amp;rft.au=Walter+Schumann&amp;rft.btitle=Edelsteine+und+Schmucksteine.+Alle+Arten+und+Variet%C3%A4ten+der+Welt.+1600+Einzelst%C3%BCcke&amp;rft.date=2002&amp;rft.edition=13.+%C3%BCberarbeitete+und+erweiterte&amp;rft.genre=book&amp;rft.isbn=3405163323&amp;rft.pages=234&amp;rft.place=M%C3%BCnchen+u.+a.&amp;rft.pub=BLV+Verlags+GmbH" style="display:none">&#160;</span></li></ul>
+<h2><span class="mw-headline" id="Weblinks">Weblinks</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Sillimanit&amp;veaction=edit&amp;section=13" class="mw-editsection-visualeditor" title="Abschnitt bearbeiten: Weblinks">Bearbeiten</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Sillimanit&amp;action=edit&amp;section=13" title="Abschnitt bearbeiten: Weblinks">Quelltext bearbeiten</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="sisterproject" style="margin:0.1em 0 0 0;"><div class="noviewer" style="display:inline-block; line-height:10px; min-width:1.6em; text-align:center;" aria-hidden="true" role="presentation"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" title="Commons" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></div><b><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Sillimanite?uselang=de"><span lang="en">Commons</span>: Sillimanite</a></span></b>&#160;– Sammlung von Bildern, Videos und Audiodateien</div>
+<ul><li><a href="https://www.mineralienatlas.de/lexikon/index.php/Sillimanit" class="extiw" title="mineralienatlas:Sillimanit">Mineralienatlas:Sillimanit</a> (Wiki)</li></ul>
 <!-- 
 NewPP limit report
-Parsed by mw1395
-Cached time: 20210412151535
+Parsed by mw1367
+Cached time: 20210525054731
 Cache expiry: 2592000
-Dynamic content: false
-Complications: [vary‐revision‐sha1]
-CPU time usage: 0.590 seconds
-Real time usage: 0.786 seconds
-Preprocessor visited node count: 1830/1000000
-Post‐expand include size: 20090/2097152 bytes
-Template argument size: 2744/2097152 bytes
-Highest expansion depth: 14/40
-Expensive parser function count: 4/500
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.278 seconds
+Real time usage: 0.385 seconds
+Preprocessor visited node count: 1561/1000000
+Post‐expand include size: 17777/2097152 bytes
+Template argument size: 5698/2097152 bytes
+Highest expansion depth: 12/40
+Expensive parser function count: 0/500
 Unstrip recursion depth: 0/20
-Unstrip post‐expand size: 15761/5000000 bytes
-Lua time usage: 0.332/10.000 seconds
-Lua memory usage: 19864952/52428800 bytes
+Unstrip post‐expand size: 5312/5000000 bytes
+Lua time usage: 0.076/10.000 seconds
+Lua memory usage: 2448907/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  712.190      1 -total
- 24.28%  172.911      1 Template:Lang
- 14.21%  101.210      3 Template:ISBN
-  8.92%   63.519      1 Template:Cite_book
-  8.53%   60.763      3 Template:Catalog_lookup_link
-  8.13%   57.884      1 Template:Reflist
-  7.86%   55.994      1 Template:Commons_category
-  7.08%   50.439      1 Template:Short_description
-  6.63%   47.249      1 Template:Sister_project
-  6.50%   46.263      1 Template:Authority_control
+100.00%  306.609      1 -total
+ 25.93%   79.491      1 Vorlage:Infobox_Mineral
+ 24.06%   73.760      1 Vorlage:Commonscat
+ 23.71%   72.700      3 Vorlage:Literatur
+ 22.44%   68.795      1 Vorlage:Wikidata-Registrierung
+ 18.73%   57.435      1 Vorlage:Raumgruppe
+  7.04%   21.600     17 Vorlage:Str_find
+  4.72%   14.457      1 Vorlage:Raumgruppe/Anzeige
+  2.76%    8.476      1 Vorlage:&quot;
+  1.16%    3.549      2 Vorlage:Str_trim
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:13169-0!canonical and timestamp 20210412151535 and revision id 1017140619. Serialized with JSON.
+<!-- Saved in parser cache with key dewiki:stable-pcache:idhash:117674-0!canonical and timestamp 20210525054731 and revision id 211858085. Serialized with JSON.
  -->
-</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Gneiss&amp;oldid=1017140619">https://en.wikipedia.org/w/index.php?title=Gneiss&amp;oldid=1017140619</a>"</div></div>
-		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Gneiss" title="Category:Gneiss">Gneiss</a></li><li><a href="/wiki/Category:Metamorphic_petrology" title="Category:Metamorphic petrology">Metamorphic petrology</a></li><li><a href="/wiki/Category:Metamorphic_rocks" title="Category:Metamorphic rocks">Metamorphic rocks</a></li><li><a href="/wiki/Category:Industrial_minerals" title="Category:Industrial minerals">Industrial minerals</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Articles_containing_Middle_High_German_(ca._1050-1500)-language_text" title="Category:Articles containing Middle High German (ca. 1050-1500)-language text">Articles containing Middle High German (ca. 1050-1500)-language text</a></li><li><a href="/wiki/Category:Articles_containing_German-language_text" title="Category:Articles containing German-language text">Articles containing German-language text</a></li><li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li><li><a href="/wiki/Category:Wikipedia_articles_incorporating_a_citation_from_the_1911_Encyclopaedia_Britannica_with_Wikisource_reference" title="Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference">Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference</a></li><li><a href="/wiki/Category:Wikipedia_articles_incorporating_a_citation_from_the_New_International_Encyclopedia" title="Category:Wikipedia articles incorporating a citation from the New International Encyclopedia">Wikipedia articles incorporating a citation from the New International Encyclopedia</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers">Wikipedia articles with GND identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_LCCN_identifiers" title="Category:Wikipedia articles with LCCN identifiers">Wikipedia articles with LCCN identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_MA_identifiers" title="Category:Wikipedia articles with MA identifiers">Wikipedia articles with MA identifiers</a></li><li><a href="/wiki/Category:Wikipedia_articles_with_NDL_identifiers" title="Category:Wikipedia articles with NDL identifiers">Wikipedia articles with NDL identifiers</a></li></ul></div></div>
+</div><noscript><img src="//de.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Abgerufen von „<a dir="ltr" href="https://de.wikipedia.org/w/index.php?title=Sillimanit&amp;oldid=211858085">https://de.wikipedia.org/w/index.php?title=Sillimanit&amp;oldid=211858085</a>“</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Wikipedia:Kategorien" title="Wikipedia:Kategorien">Kategorien</a>: <ul><li><a href="/wiki/Kategorie:Mineral" title="Kategorie:Mineral">Mineral</a></li><li><a href="/wiki/Kategorie:Inselsilikate_(Strunz)" title="Kategorie:Inselsilikate (Strunz)">Inselsilikate (Strunz)</a></li><li><a href="/wiki/Kategorie:Orthorhombisches_Kristallsystem" title="Kategorie:Orthorhombisches Kristallsystem">Orthorhombisches Kristallsystem</a></li><li><a href="/wiki/Kategorie:Aluminiummineral" title="Kategorie:Aluminiummineral">Aluminiummineral</a></li><li><a href="/wiki/Kategorie:Siliciummineral" title="Kategorie:Siliciummineral">Siliciummineral</a></li></ul></div></div>
 	</div>
 </div>
 <div id='mw-data-after-content'>
@@ -210,39 +468,36 @@ Transclusion expansion time report (%,ms,calls,template)
 </div>
 
 <div id="mw-navigation">
-	<h2>Navigation menu</h2>
+	<h2>Navigationsmenü</h2>
 	<div id="mw-head">
-		<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-menu" aria-labelledby="p-personal-label" role="navigation" 
+		<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label" role="navigation" 
 	 >
 	<h3 id="p-personal-label" class="vector-menu-heading">
-		<span>Personal tools</span>
+		<span>Meine Werkzeuge</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Gneiss" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Gneiss" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Nicht angemeldet</li><li id="pt-anontalk"><a href="/wiki/Spezial:Meine_Diskussionsseite" title="Diskussion über Änderungen von dieser IP-Adresse [n]" accesskey="n">Diskussionsseite</a></li><li id="pt-anoncontribs"><a href="/wiki/Spezial:Meine_Beitr%C3%A4ge" title="Eine Liste der Bearbeitungen, die von dieser IP-Adresse gemacht wurden [y]" accesskey="y">Beiträge</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Spezial:Benutzerkonto_anlegen&amp;returnto=Sillimanit" title="Wir ermutigen dich dazu, ein Benutzerkonto zu erstellen und dich anzumelden. Es ist jedoch nicht zwingend erforderlich.">Benutzerkonto erstellen</a></li><li id="pt-login"><a href="/w/index.php?title=Spezial:Anmelden&amp;returnto=Sillimanit" title="Anmelden ist zwar keine Pflicht, wird aber gerne gesehen. [o]" accesskey="o">Anmelden</a></li></ul>
 		
 	</div>
 </nav>
 
 		<div id="left-navigation">
-			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu vector-menu-tabs" aria-labelledby="p-namespaces-label" role="navigation" 
+			<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu vector-menu-tabs" aria-labelledby="p-namespaces-label" role="navigation" 
 	 >
 	<h3 id="p-namespaces-label" class="vector-menu-heading">
-		<span>Namespaces</span>
+		<span>Namensräume</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="/wiki/Gneiss" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="/wiki/Talk:Gneiss" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="/wiki/Sillimanit" title="Seiteninhalt anzeigen [c]" accesskey="c">Artikel</a></li><li id="ca-talk"><a href="/wiki/Diskussion:Sillimanit" rel="discussion" title="Diskussion zum Seiteninhalt [t]" accesskey="t">Diskussion</a></li></ul>
 		
 	</div>
 </nav>
 
-			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation" 
+			<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation" 
 	 >
 	<input type="checkbox" class="vector-menu-checkbox" aria-labelledby="p-variants-label" />
 	<h3 id="p-variants-label" class="vector-menu-heading">
-		<span>Variants</span>
+		<span>Varianten</span>
 	</h3>
 	<div class="vector-menu-content">
 		<ul class="vector-menu-content-list"></ul>
@@ -252,24 +507,22 @@ Transclusion expansion time report (%,ms,calls,template)
 
 		</div>
 		<div id="right-navigation">
-			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu vector-menu-tabs" aria-labelledby="p-views-label" role="navigation" 
+			<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu vector-menu-tabs" aria-labelledby="p-views-label" role="navigation" 
 	 >
 	<h3 id="p-views-label" class="vector-menu-heading">
-		<span>Views</span>
+		<span>Ansichten</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="ca-view" class="selected"><a href="/wiki/Gneiss">Read</a></li><li id="ca-edit"><a href="/w/index.php?title=Gneiss&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history"><a href="/w/index.php?title=Gneiss&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected"><a href="/wiki/Sillimanit">Lesen</a></li><li id="ca-ve-edit"><a href="/w/index.php?title=Sillimanit&amp;veaction=edit" title="Diese Seite mit dem VisualEditor bearbeiten [v]" accesskey="v">Bearbeiten</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=Sillimanit&amp;action=edit" title="Diese Seite bearbeiten [e]" accesskey="e">Quelltext bearbeiten</a></li><li id="ca-history"><a href="/w/index.php?title=Sillimanit&amp;action=history" title="Frühere Versionen dieser Seite [h]" accesskey="h">Versionsgeschichte</a></li></ul>
 		
 	</div>
 </nav>
 
-			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation" 
+			<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation" 
 	 >
 	<input type="checkbox" class="vector-menu-checkbox" aria-labelledby="p-cactions-label" />
 	<h3 id="p-cactions-label" class="vector-menu-heading">
-		<span>More</span>
+		<span>Weitere</span>
 	</h3>
 	<div class="vector-menu-content">
 		<ul class="vector-menu-content-list"></ul>
@@ -279,14 +532,14 @@ Transclusion expansion time report (%,ms,calls,template)
 
 			<div id="p-search" role="search" >
 	<h3 >
-		<label for="searchInput">Search</label>
+		<label for="searchInput">Suche</label>
 	</h3>
 	<form action="/w/index.php" id="searchform">
 		<div id="simpleSearch" data-search-loc="header-navigation">
-			<input type="search" name="search" placeholder="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
-			<input type="hidden" name="title" value="Special:Search"/>
-			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
-			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+			<input type="search" name="search" placeholder="Wikipedia durchsuchen" autocapitalize="sentences" title="Durchsuche die Wikipedia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Spezial:Suche"/>
+			<input type="submit" name="fulltext" value="Suchen" title="Suche nach Seiten, die diesen Text enthalten" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Artikel" title="Gehe direkt zu der Seite mit genau diesem Namen, falls sie vorhanden ist." id="searchButton" class="searchButton"/>
 		</div>
 	</form>
 </div>
@@ -296,75 +549,69 @@ Transclusion expansion time report (%,ms,calls,template)
 	
 <div id="mw-panel">
 	<div id="p-logo" role="banner">
-		<a class="mw-wiki-logo" href="/wiki/Main_Page"
-			title="Visit the main page"></a>
+		<a class="mw-wiki-logo" href="/wiki/Wikipedia:Hauptseite"
+			title="Hauptseite"></a>
 	</div>
-	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation" 
+	<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation" 
 	 >
 	<h3 id="p-navigation-label" class="vector-menu-heading">
 		<span>Navigation</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Articles related to current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x">Random article</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works">About Wikipedia</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact us</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation">Donate</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description"><a href="/wiki/Wikipedia:Hauptseite" title="Hauptseite besuchen [z]" accesskey="z">Hauptseite</a></li><li id="n-topics"><a href="/wiki/Portal:Wikipedia_nach_Themen">Themenportale</a></li><li id="n-randompage"><a href="/wiki/Spezial:Zuf%C3%A4llige_Seite" title="Zufällige Seite aufrufen [x]" accesskey="x">Zufälliger Artikel</a></li></ul>
 		
 	</div>
 </nav>
 
-	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-interaction" class="mw-portlet mw-portlet-interaction vector-menu vector-menu-portal portal" aria-labelledby="p-interaction-label" role="navigation" 
+	<nav id="p-Mitmachen" class="mw-portlet mw-portlet-Mitmachen vector-menu vector-menu-portal portal" aria-labelledby="p-Mitmachen-label" role="navigation" 
 	 >
-	<h3 id="p-interaction-label" class="vector-menu-heading">
-		<span>Contribute</span>
+	<h3 id="p-Mitmachen-label" class="vector-menu-heading">
+		<span>Mitmachen</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-introduction"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia">Learn to edit</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r">Recent changes</a></li><li id="n-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Add images or other media for use on Wikipedia">Upload file</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="n-Artikel-verbessern"><a href="/wiki/Wikipedia:Beteiligen">Artikel verbessern</a></li><li id="n-Neuerartikel"><a href="/wiki/Hilfe:Neuen_Artikel_anlegen">Neuen Artikel anlegen</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Autorenportal" title="Info-Zentrum über Beteiligungsmöglichkeiten">Autorenportal</a></li><li id="n-help"><a href="/wiki/Hilfe:%C3%9Cbersicht" title="Übersicht über Hilfeseiten">Hilfe</a></li><li id="n-recentchanges"><a href="/wiki/Spezial:Letzte_%C3%84nderungen" title="Liste der letzten Änderungen in Wikipedia [r]" accesskey="r">Letzte Änderungen</a></li><li id="n-contact"><a href="/wiki/Wikipedia:Kontakt" title="Kontaktmöglichkeiten">Kontakt</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_de.wikipedia.org&amp;uselang=de" title="Unterstütze uns">Spenden</a></li></ul>
 		
 	</div>
 </nav>
-<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
 <nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation" 
 	 >
 	<h3 id="p-tb-label" class="vector-menu-heading">
-		<span>Tools</span>
+		<span>Werkzeuge</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Gneiss" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Gneiss" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Gneiss&amp;oldid=1017140619" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Gneiss&amp;action=info" title="More information about this page">Page information</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Gneiss&amp;id=1017140619&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q166409" title="Structured data on this page hosted by Wikidata [g]" accesskey="g">Wikidata item</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="/wiki/Spezial:Linkliste/Sillimanit" title="Liste aller Seiten, die hierher verlinken [j]" accesskey="j">Links auf diese Seite</a></li><li id="t-recentchangeslinked"><a href="/wiki/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Sillimanit" rel="nofollow" title="Letzte Änderungen an Seiten, die von hier verlinkt sind [k]" accesskey="k">Änderungen an verlinkten Seiten</a></li><li id="t-specialpages"><a href="/wiki/Spezial:Spezialseiten" title="Liste aller Spezialseiten [q]" accesskey="q">Spezialseiten</a></li><li id="t-permalink"><a href="/w/index.php?title=Sillimanit&amp;oldid=211858085" title="Dauerhafter Link zu dieser Seitenversion">Permanenter Link</a></li><li id="t-info"><a href="/w/index.php?title=Sillimanit&amp;action=info" title="Weitere Informationen über diese Seite">Seiten­informationen</a></li><li id="t-cite"><a href="/w/index.php?title=Spezial:Zitierhilfe&amp;page=Sillimanit&amp;id=211858085&amp;wpFormIdentifier=titleform" title="Hinweise, wie diese Seite zitiert werden kann">Artikel zitieren</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q119632" title="Link zum verbundenen Objekt im Datenrepositorium [g]" accesskey="g">Wikidata-Datenobjekt</a></li></ul>
 		
 	</div>
 </nav>
-<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
 <nav id="p-coll-print_export" class="mw-portlet mw-portlet-coll-print_export vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation" 
 	 >
 	<h3 id="p-coll-print_export-label" class="vector-menu-heading">
-		<span>Print/export</span>
+		<span>Drucken/­exportieren</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Gneiss&amp;action=show-download-screen" title="Download this page as a PDF file">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Gneiss&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book"><a href="/w/index.php?title=Spezial:Buch&amp;bookcmd=book_creator&amp;referer=Sillimanit">Buch erstellen</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Spezial:DownloadAsPdf&amp;page=Sillimanit&amp;action=show-download-screen">Als PDF herunterladen</a></li><li id="t-print"><a href="/w/index.php?title=Sillimanit&amp;printable=yes" title="Druckansicht dieser Seite [p]" accesskey="p">Druckversion</a></li></ul>
 		
 	</div>
 </nav>
-<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
 <nav id="p-wikibase-otherprojects" class="mw-portlet mw-portlet-wikibase-otherprojects vector-menu vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" role="navigation" 
 	 >
 	<h3 id="p-wikibase-otherprojects-label" class="vector-menu-heading">
-		<span>In other projects</span>
+		<span>In anderen Projekten</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Gneiss" hreflang="en">Wikimedia Commons</a></li></ul>
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Sillimanite" hreflang="en">Commons</a></li></ul>
 		
 	</div>
 </nav>
 
-	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
-<nav id="p-lang" class="mw-portlet mw-portlet-lang vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation" 
+	<nav id="p-lang" class="mw-portlet mw-portlet-lang vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation" 
 	 >
 	<h3 id="p-lang-label" class="vector-menu-heading">
-		<span>Languages</span>
+		<span>In anderen Sprachen</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D8%A7%D9%8A%D8%B3_(%D8%B5%D8%AE%D8%B1)" title="نايس (صخر) – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-ast"><a href="https://ast.wikipedia.org/wiki/Gneis" title="Gneis – Asturian" lang="ast" hreflang="ast" class="interlanguage-link-target">Asturianu</a></li><li class="interlanguage-link interwiki-az"><a href="https://az.wikipedia.org/wiki/Qneys" title="Qneys – Azerbaijani" lang="az" hreflang="az" class="interlanguage-link-target">Azərbaycanca</a></li><li class="interlanguage-link interwiki-ba"><a href="https://ba.wikipedia.org/wiki/%D0%93%D0%BD%D0%B5%D0%B9%D1%81" title="Гнейс – Bashkir" lang="ba" hreflang="ba" class="interlanguage-link-target">Башҡортса</a></li><li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/%D0%93%D0%BD%D0%B5%D0%B9%D1%81" title="Гнейс – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target">Беларуская</a></li><li class="interlanguage-link interwiki-be-x-old"><a href="https://be-tarask.wikipedia.org/wiki/%D0%93%D0%BD%D1%8D%D0%B9%D1%81" title="Гнэйс – Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target">Беларуская (тарашкевіца)‎</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%93%D0%BD%D0%B0%D0%B9%D1%81" title="Гнайс – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Gnajs" title="Gnajs – Bosnian" lang="bs" hreflang="bs" class="interlanguage-link-target">Bosanski</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Gneis" title="Gneis – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Rula_(hornina)" title="Rula (hornina) – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Gnejs" title="Gnejs – Danish" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Gneis" title="Gneis – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Gneiss" title="Gneiss – Estonian" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%93%CE%BD%CE%B5%CF%8D%CF%83%CE%B9%CE%BF%CF%82" title="Γνεύσιος – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Gneis" title="Gneis – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Gnejso" title="Gnejso – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Gneiss" title="Gneiss – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%DA%AF%D9%86%DB%8C%D8%B3" title="گنیس – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Gneiss" title="Gneiss – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ga"><a href="https://ga.wikipedia.org/wiki/Naghas" title="Naghas – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target">Gaeilge</a></li><li class="interlanguage-link interwiki-gd"><a href="https://gd.wikipedia.org/wiki/Gneiss" title="Gneiss – Scottish Gaelic" lang="gd" hreflang="gd" class="interlanguage-link-target">Gàidhlig</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Gneis" title="Gneis – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%ED%8E%B8%EB%A7%88%EC%95%94" title="편마암 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%B3%D5%B6%D5%A5%D5%B5%D5%BD" title="Գնեյս – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Gnajs" title="Gnajs – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-io"><a href="https://io.wikipedia.org/wiki/Gneiso" title="Gneiso – Ido" lang="io" hreflang="io" class="interlanguage-link-target">Ido</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Gneis" title="Gneis – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Gneis" title="Gneis – Icelandic" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Gneiss" title="Gneiss – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%92%D7%A0%D7%99%D7%99%D7%A1" title="גנייס – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/%E1%83%92%E1%83%9C%E1%83%90%E1%83%98%E1%83%A1%E1%83%98" title="გნაისი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target">ქართული</a></li><li class="interlanguage-link interwiki-csb"><a href="https://csb.wikipedia.org/wiki/Gnejs" title="Gnejs – Kashubian" lang="csb" hreflang="csb" class="interlanguage-link-target">Kaszëbsczi</a></li><li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/%D0%93%D0%BD%D0%B5%D0%B9%D1%81" title="Гнейс – Kazakh" lang="kk" hreflang="kk" class="interlanguage-link-target">Қазақша</a></li><li class="interlanguage-link interwiki-sw"><a href="https://sw.wikipedia.org/wiki/Gneiss" title="Gneiss – Swahili" lang="sw" hreflang="sw" class="interlanguage-link-target">Kiswahili</a></li><li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/%D0%93%D0%BD%D0%B5%D0%B9%D1%81" title="Гнейс – Kyrgyz" lang="ky" hreflang="ky" class="interlanguage-link-target">Кыргызча</a></li><li class="interlanguage-link interwiki-la"><a href="https://la.wikipedia.org/wiki/Gneissum" title="Gneissum – Latin" lang="la" hreflang="la" class="interlanguage-link-target">Latina</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Gneiss" title="Gneiss – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-lb"><a href="https://lb.wikipedia.org/wiki/Gneis" title="Gneis – Luxembourgish" lang="lb" hreflang="lb" class="interlanguage-link-target">Lëtzebuergesch</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Gneisas" title="Gneisas – Lithuanian" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Gneisz" title="Gneisz – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%93%D0%BD%D0%B0%D1%98%D1%81" title="Гнајс – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%A8%E0%B4%AF%E0%B5%8D%E0%B4%B8%E0%B5%8D" title="നയ്സ് – Malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Gneis" title="Gneis – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E7%89%87%E9%BA%BB%E5%B2%A9" title="片麻岩 – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Gneis" title="Gneis – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Gneis" title="Gneis – Norwegian Nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-uz"><a href="https://uz.wikipedia.org/wiki/Gneys" title="Gneys – Uzbek" lang="uz" hreflang="uz" class="interlanguage-link-target">Oʻzbekcha/ўзбекча</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Gnejs" title="Gnejs – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Gnaisse" title="Gnaisse – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Gnais" title="Gnais – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-rue"><a href="https://rue.wikipedia.org/wiki/%D0%93%D0%BD%D0%B0%D0%B9%D1%81" title="Гнайс – Rusyn" lang="rue" hreflang="rue" class="interlanguage-link-target">Русиньскый</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%BD%D0%B5%D0%B9%D1%81" title="Гнейс – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Gneiss" title="Gneiss – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target">Simple English</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Rula" title="Rula – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Gnajs" title="Gnajs – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%93%D0%BD%D0%B0%D1%98%D1%81" title="Гнајс – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Gnajs" title="Gnajs – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Gneissi" title="Gneissi – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Gnejs" title="Gnejs – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B4%E0%B8%99%E0%B9%84%E0%B8%99%E0%B8%AA%E0%B9%8C" title="หินไนส์ – Thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li><li class="interlanguage-link interwiki-tcy"><a href="https://tcy.wikipedia.org/wiki/%E0%B2%A8%E0%B3%88%E0%B2%B8%E0%B3%8D_%E0%B2%B6%E0%B2%BF%E0%B2%B2%E0%B3%86" title="ನೈಸ್ ಶಿಲೆ – Tulu" lang="tcy" hreflang="tcy" class="interlanguage-link-target">ತುಳು</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Gnays" title="Gnays – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BD%D0%B5%D0%B9%D1%81" title="Гнейс – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Gneis" title="Gneis – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-wuu"><a href="https://wuu.wikipedia.org/wiki/%E7%89%87%E9%BA%BB%E5%B2%A9" title="片麻岩 – Wu Chinese" lang="wuu" hreflang="wuu" class="interlanguage-link-target">吴语</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%89%87%E9%BA%BB%E5%B2%A9" title="片麻岩 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li></ul>
-		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q166409#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/%D0%A1%D1%96%D0%BB%D1%96%D0%BC%D0%B0%D0%BD%D1%96%D1%82" title="Сіліманіт – Belarussisch" lang="be" hreflang="be" class="interlanguage-link-target">Беларуская</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Sil%C2%B7limanita" title="Sil·limanita – Katalanisch" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Sillimanit" title="Sillimanit – Tschechisch" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Sillimanite" title="Sillimanite – Englisch" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Sillimanita" title="Sillimanita – Spanisch" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Sillimanita" title="Sillimanita – Baskisch" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%B3%DB%8C%D9%84%DB%8C%D9%85%D8%A7%D9%86%DB%8C%D8%AA" title="سیلیمانیت – Persisch" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Sillimanite" title="Sillimanite – Französisch" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%9C%D7%99%D7%9E%D7%A0%D7%99%D7%98" title="סילימניט – Hebräisch" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A5%80%E0%A4%AE%E0%A5%88%E0%A4%A8%E0%A4%BE%E0%A4%87%E0%A4%9F" title="सिलीमैनाइट – Hindi" lang="hi" hreflang="hi" class="interlanguage-link-target">हिन्दी</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Sillimanit" title="Sillimanit – Kroatisch" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Szillimanit" title="Szillimanit – Ungarisch" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Silimanit" title="Silimanit – Indonesisch" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Sillimanite" title="Sillimanite – Italienisch" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E7%8F%AA%E7%B7%9A%E7%9F%B3" title="珪線石 – Japanisch" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BB%D0%BB%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D1%82" title="Силлиманит – Kasachisch" lang="kk" hreflang="kk" class="interlanguage-link-target">Қазақша</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EA%B7%9C%EC%84%A0%EC%84%9D" title="규선석 – Koreanisch" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Silimanitas" title="Silimanitas – Litauisch" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Sillimaniet" title="Sillimaniet – Niederländisch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Sillimanitt" title="Sillimanitt – Norwegisch (Nynorsk)" lang="nn" hreflang="nn" class="interlanguage-link-target">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Sillimanit" title="Sillimanit – Polnisch" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Sillimanite" title="Sillimanite – Portugiesisch" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Silimanit" title="Silimanit – Rumänisch" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BB%D0%BB%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D1%82" title="Силлиманит – Russisch" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Silimanit" title="Silimanit – Serbokroatisch" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Sillimanit" title="Sillimanit – Slowakisch" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Sillimanit" title="Sillimanit – Schwedisch" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BB%D0%BB%D1%96%D0%BC%D0%B0%D0%BD%D1%96%D1%82" title="Силліманіт – Ukrainisch" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-uz"><a href="https://uz.wikipedia.org/wiki/Sillimanit" title="Sillimanit – Usbekisch" lang="uz" hreflang="uz" class="interlanguage-link-target">Oʻzbekcha/ўзбекча</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Sillimanit" title="Sillimanit – Vietnamesisch" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%9F%BD%E7%B7%9A%E7%9F%B3" title="矽線石 – Chinesisch" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q119632#sitelinks-wikipedia" title="Links auf Artikel in anderen Sprachen bearbeiten" class="wbc-editpage">Links bearbeiten</a></span></div>
 	</div>
 </nav>
 
@@ -373,20 +620,20 @@ Transclusion expansion time report (%,ms,calls,template)
 </div>
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info" >
-	<li id="footer-info-lastmod"> This page was last edited on 11 April 2021, at 02:03<span class="anonymous-show">&#160;(UTC)</span>.</li>
-	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
-additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+	<li id="footer-info-lastmod"> Diese Seite wurde zuletzt am 11. Mai 2021 um 23:22 Uhr bearbeitet.</li>
+	<li id="footer-info-copyright"><div id="footer-info-copyright-stats" class="noprint"><a class="external" href="https://pageviews.toolforge.org/?pages=Sillimanit&amp;project=de.wikipedia.org" rel="nofollow">Abrufstatistik</a> · <a class="external" href=" https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Sillimanit?uselang=de" rel="nofollow">Autoren</a> </div><div id="footer-info-copyright-separator"><br /></div><div id="footer-info-copyright-info">
+Der Text ist unter der Lizenz <a class="internal" href="https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported">„Creative Commons Attribution/Share Alike“</a> verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den <a class="internal" href="https://foundation.wikimedia.org/wiki/Terms_of_Use/de">Nutzungsbedingungen</a> und der <a class="internal" href="https://meta.wikimedia.org/wiki/Privacy_policy/de">Datenschutzrichtlinie</a> einverstanden.<br />
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.</div></li>
 </ul>
 
 	<ul id="footer-places" >
-	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
-	<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
-	<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
-	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
-	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Gneiss&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
-	<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
-	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
-	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/de" class="extiw" title="m:Privacy policy/de">Datenschutz</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:%C3%9Cber_Wikipedia" title="Wikipedia:Über Wikipedia">Über Wikipedia</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Impressum" title="Wikipedia:Impressum">Impressum</a></li>
+	<li id="footer-places-mobileview"><a href="//de.m.wikipedia.org/w/index.php?title=Sillimanit&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile Ansicht</a></li>
+	<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Entwickler</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/de.wikipedia.org">Statistiken</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Stellungnahme zu Cookies</a></li>
 </ul>
 
 	<ul id="footer-icons" class="noprint">
@@ -397,7 +644,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </footer>
 
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.590","walltime":"0.786","ppvisitednodes":{"value":1830,"limit":1000000},"postexpandincludesize":{"value":20090,"limit":2097152},"templateargumentsize":{"value":2744,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":15761,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  712.190      1 -total"," 24.28%  172.911      1 Template:Lang"," 14.21%  101.210      3 Template:ISBN","  8.92%   63.519      1 Template:Cite_book","  8.53%   60.763      3 Template:Catalog_lookup_link","  8.13%   57.884      1 Template:Reflist","  7.86%   55.994      1 Template:Commons_category","  7.08%   50.439      1 Template:Short_description","  6.63%   47.249      1 Template:Sister_project","  6.50%   46.263      1 Template:Authority_control"]},"scribunto":{"limitreport-timeusage":{"value":"0.332","limit":"10.000"},"limitreport-memusage":{"value":19864952,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n  [\"CITEREFChisholm1911\"] = 1,\n  [\"CITEREFMarshak2013\"] = 1,\n}\ntemplate_list = table#1 {\n  [\"Authority control\"] = 1,\n  [\"Circa\"] = 1,\n  [\"Cite EB1911\"] = 1,\n  [\"Cite NIE\"] = 1,\n  [\"Cite book\"] = 1,\n  [\"Commons category\"] = 1,\n  [\"Doi\"] = 1,\n  [\"Harvnb\"] = 1,\n  [\"IPA-de\"] = 1,\n  [\"IPAc-en\"] = 1,\n  [\"ISBN\"] = 3,\n  [\"Infobox rock\"] = 1,\n  [\"Lang\"] = 1,\n  [\"Lang-de\"] = 1,\n  [\"Other uses\"] = 1,\n  [\"Reflist\"] = 1,\n  [\"Short description\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw1395","timestamp":"20210412151535","ttl":2592000,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Gneiss","url":"https:\/\/en.wikipedia.org\/wiki\/Gneiss","sameAs":"http:\/\/www.wikidata.org\/entity\/Q166409","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q166409","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-01-25T00:00:43Z","dateModified":"2021-04-11T02:03:06Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/60\/Gneiss.jpg","headline":"common and widely distributed type of rock"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":240,"wgHostname":"mw1325"});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.278","walltime":"0.385","ppvisitednodes":{"value":1561,"limit":1000000},"postexpandincludesize":{"value":17777,"limit":2097152},"templateargumentsize":{"value":5698,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5312,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  306.609      1 -total"," 25.93%   79.491      1 Vorlage:Infobox_Mineral"," 24.06%   73.760      1 Vorlage:Commonscat"," 23.71%   72.700      3 Vorlage:Literatur"," 22.44%   68.795      1 Vorlage:Wikidata-Registrierung"," 18.73%   57.435      1 Vorlage:Raumgruppe","  7.04%   21.600     17 Vorlage:Str_find","  4.72%   14.457      1 Vorlage:Raumgruppe/Anzeige","  2.76%    8.476      1 Vorlage:\u0026quot;","  1.16%    3.549      2 Vorlage:Str_trim"]},"scribunto":{"limitreport-timeusage":{"value":"0.076","limit":"10.000"},"limitreport-memusage":{"value":2448907,"limit":52428800}},"cachereport":{"origin":"mw1367","timestamp":"20210525054731","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Sillimanit","url":"https:\/\/de.wikipedia.org\/wiki\/Sillimanit","sameAs":"http:\/\/www.wikidata.org\/entity\/Q119632","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q119632","author":{"@type":"Organization","name":"Autoren der Wikimedia-Projekte"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-02-23T04:22:31Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dc\/Sillimanite-k302a.jpg","headline":"Mineral, Alumosilikat"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":176,"wgHostname":"mw1352"});});</script>
 </body></html>
