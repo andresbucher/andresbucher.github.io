@@ -48,7 +48,7 @@
 }
 @media (max-width : 420px) {
     #img {
-        background-size: contain;
+        background-size: cover;
       }
     
     
