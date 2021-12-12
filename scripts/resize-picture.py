@@ -3,8 +3,6 @@ from tkinter import filedialog
 from PIL import Image
 from resizeimage import resizeimage
 import glob
-import cv2
-import os
 
 root = tk.Tk() 
 root.withdraw() 

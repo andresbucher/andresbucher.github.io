@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="manderindlistyle.css">
+<html>
+    <head>
+        <title>Citrus reticulata</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    </head>
+    <body class="body", class = "wrap">
+        <div>
+            <div class="png">
+                <img id = img1 src="mandarine1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 id="title">Anually slice-variation of <em>Citrus reticulata</em></h1>
+                <hr>
+                <h2>input slice-number</h2>
+                <form class="lists" id="form">
+                    <input type="text" name="slices" id="input0" value="">
+                    <input type="submit" value="add number of slices">
+                </form>
+
+                <hr>
+                <h2><u>statistics</u></h2>
+                <h4>total number of slices:</h4>
+                <div id="sum_of_slices"></div>
+                <h4>median:</h4>
+                <div id="median_of_slices"></div>
+                <h4>mean:</h4>
+                <div id="mean_of_slices"></div>
+                <h4>standard deviation</h4>
+                <div id="stab_of_slices"></div>
+                <h4>probability density function (PDF)</h4>
+                <canvas id="myChart" ></canvas>
+                <div id="test"></div>
+                <hr>
+            </div>
+        </div>
+        
+
+        <script>
+            let arraylist = [];
+            var PDFArr = [];
+            const labelarray = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+            let endpoint = "http://boesiger.internet-box.ch";
+
+            function getManderinliSlices() {
+                var http = new XMLHttpRequest();
+                http.open("GET", endpoint + "/data", false);
+                http.send();
+                console.log(http.responseText);
+                return JSON.parse(http.responseText);
+            }
+            
+            let form = document.getElementById("form");
+            form.addEventListener("submit", (event) => {
+                event.preventDefault();
+                const slice = parseInt(document.getElementById("input0").value);
+                if (slice >= 5 && slice <= 15) {
+                    let http = new XMLHttpRequest();
+                    http.open("POST", endpoint + "/update");
+                    http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                    let data = new URLSearchParams(new FormData(form));
+                    http.send(data);
+                    http.onload = function () { showManderinliSlices(); };
+                }
+                else {
+                    alert("don't cheat!")
+                }
+            });
+            
+            function showManderinliSlices() {
+                let slices = getManderinliSlices();
+                arraylist = slices;
+                count1(labelarray, arraylist);
+                median(arraylist);
+                mean(arraylist);
+                stab(arraylist);
+                sum(arraylist);
+                updatediagram();
+                console.log(slices);
+                document.getElementById("input0").value = "";
+            }
+
+
+            function sum(ray){
+                var sum = ray.length;
+                document.getElementById('sum_of_slices').innerHTML = sum;
+            }
+
+            function median(ray){
+                ray.sort(function(a,b){
+                    return a-b;
+                });
+                var half = Math.floor(ray.length / 2);
+                
+                if (ray.length % 2) {
+                    med = ray[half];
+                    document.getElementById('median_of_slices').innerHTML = med;
+                }
+                else {
+                    med = (ray[half - 1] + ray[half]) / 2.0;
+                    document.getElementById('median_of_slices').innerHTML = med;
+                }
+                    
+            }
+
+            function mean(ray) {
+                var mean1 = (ray.reduce((a, b) => a + b) / ray.length).toFixed(2);
+                document.getElementById('mean_of_slices').innerHTML = mean1;
+            }
+
+            function stab(array) {
+                const n = array.length
+                const mean = array.reduce((a, b) => a + b) / n
+                stav = Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n).toFixed(2);
+                document.getElementById('stab_of_slices').innerHTML = stav;
+            }
+
+            function count1(ray1, ray2) {
+                PDFArr = [];
+                x = 0;
+                for (var i = 0; i < ray1.length; i++){
+                    for (var j = 0; j < ray2.length; j++){
+                        if (ray1[i] == ray2[j]) {
+                            x += 1;
+                        }
+                    }
+                    PDFArr.push(x);
+                    x = 0;
+                }
+            }
+
+
+
+            function updatediagram(){
+                const ctx = document.getElementById('myChart').getContext('2d');
+                const myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labelarray,
+                        datasets: [{
+                            barPercentage: "flex",
+                            skipNull: true,
+                            label: '# of slices',
+                            data: PDFArr,
+                            backgroundColor: [ 
+                            'rgba(255, 0, 0)',
+                            'rgba(255, 123, 0)',
+                            'rgba(255, 251, 0)',
+                            'rgba(187, 255, 0)',
+                            'rgba(51, 255, 0)',
+                            'rgba(0, 255, 234)',
+                            'rgba(0, 132, 255)',
+                            'rgba(76, 0, 255)',
+                            'rgba(174, 0, 255)',
+                            'rgba(255, 0, 191)',
+                            'rgba(255, 0, 21)'
+                            ],
+                            borderColor: [
+                            'rgba(255, 0, 0)',
+                            'rgba(255, 123, 0)',
+                            'rgba(255, 251, 0)',
+                            'rgba(187, 255, 0)',
+                            'rgba(51, 255, 0)',
+                            'rgba(0, 255, 234)',
+                            'rgba(0, 132, 255)',
+                            'rgba(76, 0, 255)',
+                            'rgba(174, 0, 255)',
+                            'rgba(255, 0, 191)',
+                            'rgba(255, 0, 21)'
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            }
+
+            showManderinliSlices();
+        </script>        
+    </body>
+</html>
