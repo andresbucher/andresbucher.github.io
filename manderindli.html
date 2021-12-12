@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="UTF-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
     </head>
     <body class="body", class = "wrap">
         <div>
@@ -36,6 +37,7 @@
                 <canvas id="myChart" ></canvas>
                 <div id="test"></div>
                 <hr>
+                <div id="box0"></div>
             </div>
         </div>
         
@@ -83,6 +85,28 @@
                 }
             });
             
+            function boxplotfunction(ray) {
+                var boxplot = {
+                x: "boxplot",
+                y: ray,
+                name: "slices",
+                marker: {color: '#FF851B'},
+                type: "box"
+                };  
+                
+                var layout = {
+                    yaxis: {
+                        title: "Anzahl Schnitze", 
+                        zeroline: false
+                    },
+                };
+                var boxdata = [boxplot];
+                boxplotid = document.getElementById("box0");
+                Plotly.newPlot(boxplotid, boxdata);
+            }
+
+
+            
             function showManderinliSlices() {
                 let slices = getManderinliSlices();
                 arraylist = slices;
@@ -91,12 +115,13 @@
                 mean(arraylist);
                 stab(arraylist);
                 sum(arraylist);
+                boxplotfunction(arraylist);
                 updatediagram();
                 console.log(slices);
                 document.getElementById("input0").value = "";
             }
 
-
+            
             function sum(ray){
                 var sum = ray.length;
                 document.getElementById('sum_of_slices').innerHTML = sum;
