@@ -131,10 +131,10 @@
                 return sum;
             }
 
-            function totalsli() {
-                var X1 = parseFloat(mean(arraylist)); 
-                var X2 = parseInt(sum(arraylist));
-                X3 = X1 * X2;
+            function totalsli(ray) {
+                for (var i = 0; i < ray.length; i++){
+                    X3 += ray[i];
+                }
                 document.getElementById("totalslices").innerHTML = X3;
             }
             "totalslices"
