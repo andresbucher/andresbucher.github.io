@@ -25,8 +25,6 @@ function getManderinliSlices() {
 
         } else { // show the result
             state["all_slices"] = JSON.parse(request.responseText);
-            console.log("got data")
-            console.log(state["all_slices"]);
             update_stats();
             if(dom_has_loaded == true) {
                 draw_stats();
@@ -161,13 +159,20 @@ function draw_plots() {
     document.getElementById("input0").value = "";
 }
 
+function fetch_updates() {
+    setInterval(function(){
+        getManderinliSlices();
+        //console.log("fetched new data...");
+    }, 10000);
+}
+
 document.onreadystatechange = function () {
     if (document.readyState == "complete") {
-
+        
         dom_has_loaded = true;
         
         let form = document.getElementById("form");
-
+        
         form.addEventListener("submit", (event) => {
             event.preventDefault();
             const slice = parseInt(document.getElementById("input0").value);
@@ -178,7 +183,6 @@ document.onreadystatechange = function () {
                 let data = new URLSearchParams(new FormData(form));
                 http.send(data);
                 http.onload = function () { 
-                    update_stats();
                     getManderinliSlices();
                     document.getElementById("input0").value = ""; 
                 };
@@ -188,11 +192,9 @@ document.onreadystatechange = function () {
             }
         });
 
-        // TODO: Add while loop to get data from server
-        /*while (true) {
-            getManderinliSlices();
-            time.sleep(5s);
-        }*/
+        fetch_updates();
+
+        console.log("got to end");
     }
 }
 
