@@ -158,7 +158,6 @@ function update_stats() {
 function draw_plots() {    
     draw_boxplot();
     draw_bar_diagram();
-
     document.getElementById("input0").value = "";
 }
 
@@ -179,7 +178,9 @@ document.onreadystatechange = function () {
                 let data = new URLSearchParams(new FormData(form));
                 http.send(data);
                 http.onload = function () { 
-                    update_stats(); 
+                    update_stats();
+                    getManderinliSlices();
+                    document.getElementById("input0").value = ""; 
                 };
             }
             else {
