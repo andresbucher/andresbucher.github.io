@@ -12,7 +12,7 @@ let state = {
     bar_plot_array: null
 };
 
-function getManderinliSlices() {
+function get_data_form_server() {
     var request = new XMLHttpRequest();
     request.open("GET", endpoint + "/data", true);
     request.send();
@@ -26,20 +26,21 @@ function getManderinliSlices() {
         } else { // show the result
             state["all_slices"] = JSON.parse(request.responseText);
             update_stats();
-            if(dom_has_loaded == true) {
-                draw_stats();
-                draw_plots();
-            }
+            update_dom();
         }
     }
 }
 
-function draw_stats(){
-    document.getElementById('sum_of_fruits').innerHTML = state["sum"];
-    document.getElementById("total_slices").innerHTML = state["totalsli"];
-    document.getElementById('median_of_slices').innerHTML = state["median"];
-    document.getElementById('mean_of_slices').innerHTML = state["mean"];
-    document.getElementById('stab_of_slices').innerHTML =  state["stdv"];
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function update_dom() {
+    while (dom_has_loaded == false) {
+        await sleep(500);
+    }
+    draw_stats();
+    draw_plots();
 }
 
 function sum(){
@@ -127,7 +128,7 @@ function draw_boxplot() {
 function draw_bar_diagram(){
     ray0 = labelarray;
     ray1 = state["bar_plot_array"];
-    console.log(state["bar_plot_array"])
+    //console.log(state["bar_plot_array"])
     var data = [
         {
             x: ray0,
@@ -153,17 +154,27 @@ function update_stats() {
     count_bins_for_barplot();
 }
 
-function draw_plots() {    
+function draw_stats(){
+    document.getElementById('sum_of_fruits').innerHTML = state["sum"];
+    document.getElementById("total_slices").innerHTML = state["totalsli"];
+    document.getElementById('median_of_slices').innerHTML = state["median"];
+    document.getElementById('mean_of_slices').innerHTML = state["mean"];
+    document.getElementById('stab_of_slices').innerHTML =  state["stdv"];
+}
+
+function draw_plots() {
     draw_boxplot();
     draw_bar_diagram();
+}
+
+function clear_form_field() {
     document.getElementById("input0").value = "";
 }
 
 function fetch_updates() {
     setInterval(function(){
-        getManderinliSlices();
-        //console.log("fetched new data...");
-    }, 10000);
+        get_data_form_server();
+    }, 1000);
 }
 
 document.onreadystatechange = function () {
@@ -183,8 +194,8 @@ document.onreadystatechange = function () {
                 let data = new URLSearchParams(new FormData(form));
                 http.send(data);
                 http.onload = function () { 
-                    getManderinliSlices();
-                    document.getElementById("input0").value = ""; 
+                    get_data_form_server();
+                    clear_form_field();
                 };
             }
             else {
@@ -193,9 +204,7 @@ document.onreadystatechange = function () {
         });
 
         fetch_updates();
-
-        console.log("got to end");
     }
 }
 
-getManderinliSlices();
+get_data_form_server();

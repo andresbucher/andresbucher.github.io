@@ -72,6 +72,29 @@ body {
     white-space:nowrap;
 }
 
+#form input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #c2c2c2;
+}
+
+#form input#input0 {
+  padding:  6px 10px 8px;
+}
+
+#form input.submit-buttom {
+  background-color:  #ffb732;
+  border: none;
+  border: 1px solid #e59400;
+  border-bottom: 3px solid #e59400;
+}
+
+#form input.submit-buttom:active {
+  padding-bottom: 7px;
+  border-bottom: 1px solid #e59400;
+}
+
 #chartdiv {
   width : 100%;
   height : 400px;
@@ -80,6 +103,7 @@ body {
 
 .chart {
   width: 100%;
+  border:  1px solid #e2e2e2;
 }
 
 .footer-wrapper {
