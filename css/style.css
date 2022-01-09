@@ -334,6 +334,9 @@ ul.aboutme{
     font-weight: normal;
 }
 
+.tangerinedata {
+    padding: 0 30% 0 30%;
+}
 /* Handy style */
 @media only screen and (max-width: 600px){
     html{
