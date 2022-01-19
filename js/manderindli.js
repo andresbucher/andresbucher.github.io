@@ -171,11 +171,6 @@ function clear_form_field() {
     document.getElementById("input0").value = "";
 }
 
-function fetch_updates() {
-    setInterval(function(){
-        get_data_form_server();
-    }, 1000);
-}
 
 document.onreadystatechange = function () {
     if (document.readyState == "complete") {
@@ -202,8 +197,6 @@ document.onreadystatechange = function () {
                 alert("don't cheat!")
             }
         });
-
-        fetch_updates();
     }
 }
 
