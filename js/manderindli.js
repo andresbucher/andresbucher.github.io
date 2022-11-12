@@ -1,3 +1,6 @@
+
+
+
 const labelarray = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 const endpoint = "https://boesiger.internet-box.ch/manderinli";
 let dom_has_loaded = false;
@@ -194,7 +197,7 @@ document.onreadystatechange = function () {
                 };
             }
             else {
-                alert("don't cheat!")
+                alert("schick mir es foti, süscht glaubis ned lol")
             }
         });
     }
