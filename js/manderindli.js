@@ -1,8 +1,17 @@
+async function getSlices(db) {
+    const slices = collection(db, 'slices');
+    const slices_data = await getDocs(slices);
+    const sliceList = slices_data.docs.map(doc => doc.data());
+    console.log(sliceList);
+    return sliceList;
+}
+
+getSlices(db);
 
 
-
+/*
 const labelarray = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-const endpoint = "https://boesiger.internet-box.ch/manderinli";
+
 let dom_has_loaded = false;
 
 let state = {
@@ -15,36 +24,7 @@ let state = {
     bar_plot_array: null
 };
 
-function get_data_form_server() {
-    var request = new XMLHttpRequest();
-    request.open("GET", endpoint + "/data", true);
-    request.send();
 
-    request.onload = function() {
-        if (request.status != 200) { // analyze HTTP status of the response
-            console.log(`Error ${request.status}: ${request.statusText}`); // e.g. 404: Not Found
-
-            // TODO: Show error on Frontend if got error from server
-
-        } else { // show the result
-            state["all_slices"] = JSON.parse(request.responseText);
-            update_stats();
-            update_dom();
-        }
-    }
-}
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-async function update_dom() {
-    while (dom_has_loaded == false) {
-        await sleep(500);
-    }
-    draw_stats();
-    draw_plots();
-}
 
 function sum(){
     ray = state["all_slices"];
@@ -186,15 +166,13 @@ document.onreadystatechange = function () {
             event.preventDefault();
             const slice = parseInt(document.getElementById("input0").value);
             if (slice >= 5 && slice <= 15) {
-                let http = new XMLHttpRequest();
-                http.open("POST", endpoint + "/update", true);
-                http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-                let data = new URLSearchParams(new FormData(form));
-                http.send(data);
-                http.onload = function () { 
-                    get_data_form_server();
-                    clear_form_field();
-                };
+                
+                database push
+
+
+
+
+
             }
             else {
                 alert("schick mir es foti, süscht glaubis ned lol")
@@ -203,4 +181,4 @@ document.onreadystatechange = function () {
     }
 }
 
-get_data_form_server();
+*/
