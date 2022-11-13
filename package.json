@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "andresbucher.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/andresbucher/andresbucher.github.io/issues"
   },
-  "homepage": "https://github.com/andresbucher/andresbucher.github.io#readme"
+  "homepage": "https://github.com/andresbucher/andresbucher.github.io#readme",
+  "dependencies": {
+    "firebase-admin": "^11.2.1"
+  }
 }
