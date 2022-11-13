@@ -1,13 +1,54 @@
-async function getSlices(db) {
-    const slices = collection(db, 'slices');
-    const slices_data = await getDocs(slices);
-    const sliceList = slices_data.docs.map(doc => doc.data());
-    console.log(sliceList);
-    return sliceList;
+import { getSlicesFromFirebase, addNewSliceToFirebase } from "./firebase.js";
+
+export async function add(amount) {
+    if (amount > 0) {
+        await addNewSliceToFirebase(amount);
+    } else {
+        console.log("invalid amount " + amount);
+    }
 }
 
-getSlices(db);
+export async function getSumOfFruits() {
+    const sliceList = await getSlicesFromFirebase();
+    return sliceList.length;
+}
 
+export async function getTotalSlices() {
+    const sliceList = await getSlicesFromFirebase();
+    let total = 0;
+    for (let i = 0; i < sliceList.length; i++) {
+        total += sliceList[i].amount;
+    }
+    return total;
+}
+
+export async function getMedian() {
+    const data = await getSlicesFromFirebase();
+    const amounts = data.map((slice) => slice.amount);
+    const sortedAmounts = amounts.sort((a, b) => a - b);
+    const middle = Math.floor(sortedAmounts.length / 2);
+    const isEven = sortedAmounts.length % 2 === 0;
+    const median = isEven ? (sortedAmounts[middle] + sortedAmounts[middle - 1]) / 2 : sortedAmounts[middle];
+    console.log("Median: " + median);
+    return median;
+}
+
+export async function getMean() {
+    const data = await getSlicesFromFirebase();
+    const amounts = data.map((slice) => slice.amount);
+    const sum = amounts.reduce((a, b) => a + b, 0);
+    const mean = sum / amounts.length;
+    console.log("Mean: " + mean);
+    return mean;
+}
+
+export async function getStabOfSlices() {
+    const data = await getSlicesFromFirebase();
+    const amounts = data.map((slice) => slice.amount);
+    const stab = amounts.reduce((a, b) => a + b, 0);
+    console.log("Stab: " + stab);
+    return stab;
+}
 
 /*
 const labelarray = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
