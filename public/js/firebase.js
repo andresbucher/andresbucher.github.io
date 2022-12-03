@@ -18,6 +18,7 @@ export async function getSlicesFromFirebase() {
     const slices = collection(db, "slices");
     const slices_data = await getDocs(slices);
     const sliceList = slices_data.docs.map((doc) => doc.data());
+    console.log(typeof sliceList, "FIREBASE LIST");
     return sliceList;
 }
 

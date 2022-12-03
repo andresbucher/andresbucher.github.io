@@ -3,6 +3,7 @@ import { getSlicesFromFirebase, addNewSliceToFirebase } from "./firebase.js";
 import Plotly from "../../node_modules/plotly.js-dist";
 import { doc } from "firebase/firestore/lite";
 
+var database_list = [];
 
 export async function add(amount) {
     if (amount > 0 && amount < 16) {
@@ -12,24 +13,31 @@ export async function add(amount) {
     }
 };
 
+
+export async function get_list_from_firebase() {
+    const object = await getSlicesFromFirebase();
+    const sliceObject = object.map((slice) => slice.amount);
+    database_list = database_list.concat(sliceObject);
+    return database_list;
+};
+
 export async function getSumOfFruits() {
-    const sliceList = await getSlicesFromFirebase();
-    return sliceList.length;
+    var slicelist = database_list;
+    return slicelist.length;
 };
 
 export async function getTotalSlices() {
-    const sliceList = await getSlicesFromFirebase();
+    var slicelist = database_list;
     let total = 0;
-    for (let i = 0; i < sliceList.length; i++) {
-        total += sliceList[i].amount;
+    for (let i = 0; i < slicelist.length; i++) {
+        total += slicelist[i];
     }
     return total;
 };
 
 export async function getMedian() {
-    const data = await getSlicesFromFirebase();
-    const amounts = data.map((slice) => slice.amount);
-    const sortedAmounts = amounts.sort((a, b) => a - b);
+    var slicelist = database_list;
+    const sortedAmounts = slicelist.sort((a, b) => a - b);
     const middle = Math.floor(sortedAmounts.length / 2);
     const isEven = sortedAmounts.length % 2 === 0;
     const median = isEven ? (sortedAmounts[middle] + sortedAmounts[middle - 1]) / 2 : sortedAmounts[middle];
@@ -37,37 +45,34 @@ export async function getMedian() {
 };
 
 export async function getMean() {
-    const data = await getSlicesFromFirebase();
-    const amounts = data.map((slice) => slice.amount);
-    const sum = amounts.reduce((a, b) => a + b, 0);
-    const mean = sum / amounts.length;
+    var slicelist = database_list;
+    const sum = slicelist.reduce((a, b) => a + b, 0);
+    const mean = sum / slicelist.length;
     let rounded_mean = mean.toFixed(2)
     return rounded_mean;
 };
 
 export async function getStabOfSlices() {
-    const data = await getSlicesFromFirebase();
-    const amounts = data.map((slice) => slice.amount);
-    const n = amounts.length;
-    const mean = amounts.reduce((a, b) => a + b) / n;
-    var stab = Math.sqrt(amounts.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n)
+    var slicelist = database_list;
+    const n = slicelist.length;
+    const mean = slicelist.reduce((a, b) => a + b) / n;
+    var stab = Math.sqrt(slicelist.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n)
     let rounded_stab = stab.toFixed(2);
     return rounded_stab;
 };
 
 export async function count_bins_for_barplot() {
+    var slicelist = database_list;
     const labelarray = [6,7,8,9,10,11,12,13,14,15];
     var xx = 0;
     var yy = 0;
     const ray0 = labelarray;
-    const ray1 = await getSlicesFromFirebase();
-    const amounts = ray1.map((slice) => slice.amount);
     var bar_plot_array = [];
     const zz = parseInt(await getSumOfFruits());
 
     for (var i = 0; i < ray0.length; i++){
-        for (var j = 0; j < amounts.length; j++){
-            if (ray0[i] == amounts[j]) {
+        for (var j = 0; j < slicelist.length; j++){
+            if (ray0[i] == slicelist[j]) {
                 xx += 1;
             };
         };
@@ -82,7 +87,6 @@ export async function draw_bar_diagram() {
     const labelarray = [6,7,8,9,10,11,12,13,14,15];
     var ray0 = labelarray;
     var ray1 = await count_bins_for_barplot();
-    console.log(ray1, "RAY1");
     var data = [{
             x: ray0,
             y: ray1,
@@ -102,11 +106,10 @@ export async function draw_bar_diagram() {
 };
 
 export async function draw_boxplot() {
-    var ray = await getSlicesFromFirebase();
-    const amounts = ray.map((slice) => slice.amount);
+    var slicelist = database_list;
     var data = [{
     x: "boxplot",
-    y: amounts,
+    y: slicelist,
     name: "segments",
     marker: {color: '#FF851B'},
     type: "box"
