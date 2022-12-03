@@ -118,10 +118,10 @@ body {
   padding: 20px 0 30px;
 }
 
-@media (max-width : 420px) {    
+@media (max-width : 810px) {    
   .content {
-    width: auto;
-    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
     margin: 30px auto 50px auto;
   }
 }

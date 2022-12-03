@@ -21,7 +21,8 @@
     "dependencies": {
         "firebase": "^9.14.0",
         "firebase-admin": "^11.2.1",
-        "plotly": "^1.0.6"
+        "plotly": "^1.0.6",
+        "plotly.js-dist": "^2.16.3"
     },
     "devDependencies": {
         "webpack": "^5.75.0",
