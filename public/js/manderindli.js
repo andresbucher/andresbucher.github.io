@@ -1,4 +1,9 @@
+import { async } from "@firebase/util";
 import { getSlicesFromFirebase, addNewSliceToFirebase } from "./firebase.js";
+
+const labelarray = [6,7,8,9,10,11,12,13,14,15];
+var xx = 0;
+var yy = 0;
 
 export async function add(amount) {
     if (amount > 0) {
@@ -6,12 +11,12 @@ export async function add(amount) {
     } else {
         console.log("invalid amount " + amount);
     }
-}
+};
 
 export async function getSumOfFruits() {
     const sliceList = await getSlicesFromFirebase();
     return sliceList.length;
-}
+};
 
 export async function getTotalSlices() {
     const sliceList = await getSlicesFromFirebase();
@@ -20,7 +25,7 @@ export async function getTotalSlices() {
         total += sliceList[i].amount;
     }
     return total;
-}
+};
 
 export async function getMedian() {
     const data = await getSlicesFromFirebase();
@@ -29,107 +34,45 @@ export async function getMedian() {
     const middle = Math.floor(sortedAmounts.length / 2);
     const isEven = sortedAmounts.length % 2 === 0;
     const median = isEven ? (sortedAmounts[middle] + sortedAmounts[middle - 1]) / 2 : sortedAmounts[middle];
-    console.log("Median: " + median);
     return median;
-}
+};
 
 export async function getMean() {
     const data = await getSlicesFromFirebase();
     const amounts = data.map((slice) => slice.amount);
     const sum = amounts.reduce((a, b) => a + b, 0);
     const mean = sum / amounts.length;
-    console.log("Mean: " + mean);
     return mean;
-}
+};
 
 export async function getStabOfSlices() {
     const data = await getSlicesFromFirebase();
     const amounts = data.map((slice) => slice.amount);
     const stab = amounts.reduce((a, b) => a + b, 0);
-    console.log("Stab: " + stab);
     return stab;
-}
-
-/*
-const labelarray = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-
-let dom_has_loaded = false;
-
-let state = {
-    all_slices : null,
-    sum: null,
-    totalsli: null,
-    median: null,
-    mean: null,
-    stdv: null,
-    bar_plot_array: null
 };
 
-
-
-function sum(){
-    ray = state["all_slices"];
-    state["sum"] = ray.length;
-}
-
-function totalsli() {
-    ray = state["all_slices"];
-    var total = 0;
-    for (var i = 0; i < ray.length; i++){
-        total += ray[i];
-    }
-    state["totalsli"] = total;
-}
-
-function median(){
-    ray = state["all_slices"];
-    ray.sort(function(a,b){
-        return a-b;
-    });
-    var half = Math.floor(ray.length / 2);
-    
-    if (ray.length % 2) {
-        med = ray[half];
-    }
-    else {
-        med = (ray[half - 1] + ray[half]) / 2.0;
-    }
-    state["median"] = med;
-}
-
-function mean() {
-    ray = state["all_slices"];
-    state["mean"] = (ray.reduce((a, b) => a + b) / ray.length).toFixed(2);
-}
-
-function stab() {
-    ray = state["all_slices"];
-    const n = ray.length;
-    const mean = ray.reduce((a, b) => a + b) / n;
-    state["stdv"] = Math.sqrt(ray.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n).toFixed(2);
-}
-
-function count_bins_for_barplot() {
-    ray0 = labelarray;
-    ray1 = state["all_slices"];
-    bar_plot_array = [];
-    x = 0;
+export async function count_bins_for_barplot() {
+    const ray0 = labelarray;
+    const ray1 = await getSlicesFromFirebase();
+    let bar_plot_array = [2,1];
+    const zz = await getSumOfFruits();
     for (var i = 0; i < ray0.length; i++){
         for (var j = 0; j < ray1.length; j++){
             if (ray0[i] == ray1[j]) {
-                x += 1;
+                xx += 1;
             }
         }
-        y = x / state["sum"];
-        bar_plot_array.push(y);
-        x = 0;
-        y = 0;
+        yy = xx / +(zz);
+        console.log(yy);
+        bar_plot_array.push(yy);
     }
-    state["bar_plot_array"] = bar_plot_array;
-}
+    console.log(bar_plot_array);
+    return bar_plot_array;
+};
 
-function draw_boxplot() {
-    ray = state["all_slices"];
+export async function draw_boxplot() {
+    ray = await getSlicesFromFirebase();
     var boxplot = {
     x: "boxplot",
     y: ray,
@@ -144,10 +87,12 @@ function draw_boxplot() {
             zeroline: false
         },
     };
-    var boxdata = [boxplot];
-    boxplotid = document.getElementById("plot-02-boxplot");
-    Plotly.newPlot(boxplotid, boxdata);
-}
+    const boxplotid = document.getElementById("plot-02-boxplot").innerHTML;
+    Plotly.newPlot('plot-02-boxplot', boxplotid, boxplot);
+};
+
+/* QQQQQQQQQQQQQQQQQQQQ */
+
 
 function draw_bar_diagram(){
     ray0 = labelarray;
@@ -185,41 +130,3 @@ function draw_stats(){
     document.getElementById('mean_of_slices').innerHTML = state["mean"];
     document.getElementById('stab_of_slices').innerHTML =  state["stdv"];
 }
-
-function draw_plots() {
-    draw_boxplot();
-    draw_bar_diagram();
-}
-
-function clear_form_field() {
-    document.getElementById("input0").value = "";
-}
-
-
-document.onreadystatechange = function () {
-    if (document.readyState == "complete") {
-        
-        dom_has_loaded = true;
-        
-        let form = document.getElementById("form");
-        
-        form.addEventListener("submit", (event) => {
-            event.preventDefault();
-            const slice = parseInt(document.getElementById("input0").value);
-            if (slice >= 5 && slice <= 15) {
-                
-                database push
-
-
-
-
-
-            }
-            else {
-                alert("schick mir es foti, süscht glaubis ned lol")
-            }
-        });
-    }
-}
-
-*/

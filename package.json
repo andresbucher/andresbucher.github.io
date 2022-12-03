@@ -20,7 +20,8 @@
     "homepage": "https://github.com/andresbucher/andresbucher.github.io#readme",
     "dependencies": {
         "firebase": "^9.14.0",
-        "firebase-admin": "^11.2.1"
+        "firebase-admin": "^11.2.1",
+        "plotly": "^1.0.6"
     },
     "devDependencies": {
         "webpack": "^5.75.0",
