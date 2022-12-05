@@ -18,6 +18,10 @@ export async function getSlicesFromFirebase() {
     const slices = collection(db, "slices");
     const slices_data = await getDocs(slices);
     const sliceList = slices_data.docs.map((doc) => doc.data());
+<<<<<<< HEAD
+=======
+    console.log("Git got updated");
+>>>>>>> 9470d867dd5f727062ffb458a196c3a607e7bc3c
     return sliceList;
 }
 
