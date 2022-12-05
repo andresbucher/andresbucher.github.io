@@ -17,11 +17,7 @@ export async function add(amount) {
 export async function get_list_from_firebase() {
     const object = await getSlicesFromFirebase();
     const sliceObject = object.map((slice) => slice.amount);
-<<<<<<< HEAD
     database_list = [];
-=======
-    var database_list = [];
->>>>>>> 9470d867dd5f727062ffb458a196c3a607e7bc3c
     database_list = database_list.concat(sliceObject);
 };
 
