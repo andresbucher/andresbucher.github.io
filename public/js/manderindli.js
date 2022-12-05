@@ -3,8 +3,6 @@ import { getSlicesFromFirebase, addNewSliceToFirebase } from "./firebase.js";
 import Plotly from "../../node_modules/plotly.js-dist";
 import { doc } from "firebase/firestore/lite";
 
-var database_list = [];
-
 export async function add(amount) {
     if (amount > 0 && amount < 16) {
         await addNewSliceToFirebase(amount);
@@ -17,7 +15,7 @@ export async function add(amount) {
 export async function get_list_from_firebase() {
     const object = await getSlicesFromFirebase();
     const sliceObject = object.map((slice) => slice.amount);
-    database_list = [];
+    database_list.length = 0;
     database_list = database_list.concat(sliceObject);
 };
 
@@ -125,3 +123,5 @@ export async function draw_boxplot() {
     var config = {responsive: true}
     Plotly.newPlot('plot-02-boxplot', data, layout, config);
 };
+
+var database_list = [];
