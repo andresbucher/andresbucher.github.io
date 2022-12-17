@@ -61,7 +61,7 @@ export async function getStabOfSlices() {
 
 export async function count_bins_for_barplot() {
     var slicelist = database_list;
-    const labelarray = [6,7,8,9,10,11,12,13,14,15];
+    const labelarray = [5,6,7,8,9,10,11,12,13,14,15];
     var xx = 0;
     var yy = 0;
     const ray0 = labelarray;
@@ -82,7 +82,7 @@ export async function count_bins_for_barplot() {
 };
 
 export async function draw_bar_diagram() {
-    const labelarray = [6,7,8,9,10,11,12,13,14,15];
+    const labelarray = [5,6,7,8,9,10,11,12,13,14,15];
     var ray0 = labelarray;
     var ray1 = await count_bins_for_barplot();
     var data = [{
