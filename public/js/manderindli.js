@@ -85,6 +85,7 @@ export async function draw_bar_diagram() {
     const labelarray = [5,6,7,8,9,10,11,12,13,14,15];
     var ray0 = labelarray;
     var ray1 = await count_bins_for_barplot();
+    console.log(labelarray);
     var data = [{
             x: ray0,
             y: ray1,
