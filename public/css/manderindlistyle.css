@@ -1,6 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+h1 {
+    font-size: 35px;
+    color: black;
+}
+h2 {
+    font-size: 25px;
+    padding-top: 18px;
+}
+h3 {
+    font-size: 20px;
+} 
+p {
+    word-break: break-word;
+    color: black;
+}
+a {
+    color: black;
+}
+
+html{
+  font-size: 18px;
+  font-family: 'Martel', serif;
+  word-break: break-word;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
 body {
     text-align: left;
     background-color: #f2f2f2;
+    margin-top: 0;
+}
+
+.main{
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.tab-wrapper {
+  width: 100%;
+  height: auto;
+  position: sticky;
+}
+
+.tab {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  transform: translateZ(0);
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+  white-space: nowrap;
+  position: relative;
+  box-shadow: 0 0 2px black;
+  top: 0;
+  width: 100%;
+  background-color: #dcffdc;
+}
+.tab::-webkit-scrollbar {
+  display: none;
+}
+.tablinks {
+  display: inline-block;
+  padding: 8px;
+  background: none;
+  color: black;
+  text-decoration: none;
+}
+.tablinks:hover {
+  background-color: #dcffdc;
+}
+.active {
+  text-decoration: underline;
+  color: black;
+}
+
+* {box-sizing:border-box}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.share img {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    margin: 0;
 }
 
 .wrap {
@@ -118,11 +245,73 @@ body {
   padding: 20px 0 30px;
 }
 
-@media (max-width : 810px) {    
+@media (max-width : 810px) {
+  html{
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
   .content {
     width: 100%;
     overflow: hidden;
     margin: 30px auto 50px auto;
+  }
+
+  .tab-wrapper::before, .tab-wrapper::after {
+    content: '';
+    pointer-events: none;
+    z-index: 8;
+    width: 125px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  .tab-wrapper::before {
+      background: linear-gradient(to right, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 500%);
+      right: 0;
+  }
+  .tab-wrapper::after {
+      background: linear-gradient(to left, rgba(27,16,14,0) 0%,  rgba(27,16,14,0.5) 500%);
+      left: 0;
+  }
+  .tab {
+      box-shadow: 0 0 1px black;
+  }
+
+  .hidebuttonindex {
+  font-size: 25px;
+  border-left: 0;
+  border-right: 0;
+  }
+  .hideinfoindex {
+      margin: 5%;
+  }
+  h3 {
+  font-size: 24px;
+  }
+  p {
+  font-size: 18px;
+  }
+  .tab {
+  font-size: 20px;
+  }
+  .wholetable {
+      height: 500px;
+  }
+  .flex-container{    
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
+  img.profile-pic {
+      max-width: 50%;
+      border-radius: 100%;
   }
 }
 
